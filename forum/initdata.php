@@ -22,7 +22,7 @@
 // being overwritten when IP.Board is updated
 if ( is_file( dirname( __FILE__ ) . '/constants.php' ) )
 {
-	require_once( dirname( __FILE__ ) . '/constants.php' );/*noLibHook*/
+	require_once( dirname( __FILE__ ) . '/constants.php' );
 }
 
 if ( @function_exists( 'memory_get_usage' ) )
