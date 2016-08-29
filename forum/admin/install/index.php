@@ -21,7 +21,7 @@ define( 'IPB_THIS_SCRIPT', 'admin' );
 define( 'IPS_IS_UPGRADER', FALSE );
 define( 'IPS_IS_INSTALLER', TRUE );
 
-require_once( '../../initdata.php' );/*noLibHook*/
+require_once( '../../initdata.php' );
 
 $_SERVER['REMOTE_ADDR'] = '127.0.0.1';
 
