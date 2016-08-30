@@ -1,2 +1,2 @@
-Metin2 game perforce revision: 50050
+Metin2 game perforce revision: 38250
 root@:/usr/src/metin2source/game/src
