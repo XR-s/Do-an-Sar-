@@ -1,0 +1,8 @@
+say_title ( "Devler Diyarýndan Tugyis Tabelasý " ) 
+say ( "Uriel'in çýraðý Chaegirab, Yýlan " ) 
+say ( "Vadisindeki Dev Savasçýlarý inceliyor." ) 
+say ( "Bu dev savasçýlar karþý konulmaz güçleriyle" ) 
+say ( "tanýnýyorlar. Bu hayaletlerden Chaegirab'a 30" ) 
+say ( "Tugyis Tabelasý getirmen gerekiyor." ) 
+say_item_vnum ( 30166 ) 
+say_reward ( "Þimdiye kadar " .. pc . getqf ( "collect_count" ) .. " tabela topladýn." ) 

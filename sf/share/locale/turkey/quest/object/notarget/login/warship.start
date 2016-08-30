@@ -1,0 +1,10 @@
+if pc . get_map_index ( ) == 356 then if game . get_event_flag ( "warship" ) == 0 and not pc . is_gm ( ) then 
+if pc . get_empire ( ) == 1 then 
+pc . warp ( 469300 , 964200 ) 
+elseif pc . get_empire ( ) == 2 then 
+pc . warp ( 55700 , 157900 ) 
+elseif pc . get_empire ( ) == 3 then 
+pc . warp ( 969600 , 278400 ) 
+end 
+end 
+ return end 

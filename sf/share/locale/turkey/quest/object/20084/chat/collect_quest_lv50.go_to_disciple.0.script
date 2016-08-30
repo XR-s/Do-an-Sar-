@@ -1,0 +1,4 @@
+say ( mob_name ( 20084 ) ) 
+say ( "You are GM, OK" ) 
+pc . setqf ( "duration" , get_time ( ) - 1 ) 
+return 

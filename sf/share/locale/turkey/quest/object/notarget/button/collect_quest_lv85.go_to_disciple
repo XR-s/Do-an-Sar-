@@ -1,0 +1,7 @@
+say_title ( "Kýzýl Orman'dan Kýr. Hayalet Aðacý Dalý " ) 
+say ( "Chaegirab Kýzýl Orman'ý inceliyor." ) 
+say ( "Orada deðiþik güçlere sahip büyük aðaçlar var." ) 
+say ( "Chaegirab'ýn Kýr. Hayalet Aðacý Dalý'na ihtiyacý var." ) 
+say ( "Onun için  40 adet topla." ) 
+say_item_vnum ( 30167 ) 
+say_reward ( " Zaten topladýðýn " .. pc . getqf ( "collect_count" ) .. " dal var." ) 

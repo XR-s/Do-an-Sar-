@@ -1,0 +1,4 @@
+if npc . get_race ( ) == 365 or npc . get_race ( ) == 636 or npc . get_race ( ) == 637 then 
+pc . give_item2 ( 30220 , 1 ) 
+send_letter ( "Jinunggy'nin ruh taþýný buldun." ) 
+end 

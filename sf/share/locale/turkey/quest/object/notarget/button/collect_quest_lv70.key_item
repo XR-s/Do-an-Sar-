@@ -1,0 +1,13 @@
+if pc . count_item ( 30224 ) > 0 then 
+say_title ( "Gyimokun Ruh Taþý " ) 
+say ( "Sonunda Gyimokun Ruh Taþýný buldun! Onu " ) 
+say ( "biyolog Chaegirab'a götür. Seni bekliyor." ) 
+return 
+end 
+say_title ( "Gyimokun Ruh Taþý " ) 
+say ( "" ) 
+say ( "Uriel'in çýraðý, Chaegirab'ýn incemelesi için," ) 
+say ( "Hayalet Orman'dan 25 tane Zelkova Dalý topladýn," ) 
+say ( "geriye Hayalet aðaçlardan alýnacak Ruh Taþý kaldý." ) 
+say_item_vnum ( 30224 ) 
+say ( "Onu temin edip, Chaegirab'a götür." ) 

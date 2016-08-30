@@ -1,0 +1,71 @@
+if get_time ( ) > pc . getqf ( "duration" ) then 
+if pc . count_item ( 30168 ) > 0 then 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Ah, bir tane bulmuþsun." ) 
+say ( "Biraz bekle de kontrol edeyim..." ) 
+pc . remove_item ( 30168 , 1 ) 
+if pc . is_gm ( ) then 
+pc . setqf ( "duration" , get_time ( ) + 2 ) 
+else 
+if game . get_event_flag ( "iade" ) == 1 then 
+pc . setqf ( "duration" , get_time ( ) + 60 * 45 * 1 ) 
+else 
+pc . setqf ( "duration" , get_time ( ) + 60 * 59 * 1 ) 
+end 
+end 
+wait ( ) 
+local pass_percent 
+if pc . is_gm ( ) then 
+pass_percent = 100 
+else 
+if pc . getf ( "collect_quest_luck" , "drink_drug" ) == 0 then 
+pass_percent = 40 
+else 
+pass_percent = 80 
+end 
+end 
+local s = number ( 1 , 100 ) 
+if s <= pass_percent then 
+if pc . getqf ( "collect_count" ) < 49 and not pc . is_gm ( ) then 
+local index = pc . getqf ( "collect_count" ) + 1 
+pc . setqf ( "collect_count" , index ) 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Ah! Bu not en iyi kalite! Hemen araþtýrmaya" ) 
+say ( "baþlayacaðým. Ancak " .. 50 - pc . getqf ( "collect_count" ) .. " tane daha" ) 
+say ( "lazým. Lütfen bulmaya çalýþ!" ) 
+say ( "Ve zamana ihtiyacým olduðunu unutma. Yarýna kadar" ) 
+say ( "baþka bir not inceleyemem." ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+return 
+end 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Bütün notlarý topladýn!" ) 
+say ( "Þimdi Liderlerin Ruh Taþý'na ihtiyacým var." ) 
+say ( "Bana sadece bir tane getir." ) 
+say ( "Araþtýrmamý bu sayede bitirmiþ olacaðým." ) 
+pc . setqf ( "collect_count" , 0 ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+pc . setqf ( "duration" , 0 ) 
+set_state ( "key_item" ) 
+return 
+else 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Üzgünüm ama bu notlar sahte." ) 
+say ( "Daha sonra baþka bir tane getir." ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+return 
+end 
+else 
+say_title ( "Chaegirab:" ) 
+say ( "" .. item_name ( 30168 ) .. " bulduðunda tekrar gel." ) 
+return 
+end 
+else 
+say_title ( "Chaegirab:" ) 
+say ( "Üzgünüm." ) 
+say ( "Son getirdiðin not üzerindeki incelemem " ) 
+say ( "henüz bitmedi." ) 
+say ( "Sonra gelsen olur mu?" ) 
+say ( "" ) 
+return 
+end 

@@ -1,0 +1,29 @@
+if pc . count_item ( 80007 ) < 1 then 
+say_title ( "Hey " .. pc . get_name ( ) .. "." ) 
+say ( "Envanterinde bar bulunamadý. " ) 
+end 
+say_title ( "Hey " .. pc . get_name ( ) .. "." ) 
+say ( "400.000.000 yang enavanterine çýkartacaksýn." ) 
+say ( "Emin misin?" ) 
+local s = select ( "Evet " , "Hayýr " ) 
+if s == 1 then 
+local kalan = pc . count_item ( 80007 ) 
+if kalan <= 0 then 
+say_title ( "Hey " .. pc . get_name ( ) .. "." ) 
+say ( "Envanterinde bar bulunamadý. " ) 
+elseif kalan >= 0 then 
+local anlikyang = pc . get_gold ( ) 
+local barmiktari = 4e+08 
+local maxyang = 2e+09 
+if anlikyang + barmiktari >= maxyang then 
+say_title ( "Kontrol:" ) 
+say ( "" ) 
+say ( "2.000.000.000'dan fazla yang olacaðý için çýkartýlamadý. " ) 
+else 
+say_reward ( "Envanterine baþarýyla çýkartýldý." ) 
+pc . change_money ( barmiktari ) 
+pc . removeitem ( "80007" , 1 ) 
+end 
+end 
+else 
+end 

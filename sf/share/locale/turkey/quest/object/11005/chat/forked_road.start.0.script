@@ -1,0 +1,30 @@
+if game . get_event_flag ( "threeway_war" ) == 0 then 
+say ( locale . forked_man_say_cant ) 
+else 
+say ( locale . forked_man_say ) 
+local s = select ( locale . forked_enter , locale . forked_no_enter ) 
+if s == 1 then 
+local limit = math . min ( game . get_event_flag ( "threeway_war_level" ) , 30 ) 
+if pc . get_level ( ) < limit then 
+say ( "Ýmparatorluk savaþýna girmek için " .. limit .. "" ) 
+say ( "level üzerinde olman gerekiyor." ) 
+return 
+end 
+local canJoin = false 
+if ( pc . getempire ( ) == 1 and game . get_event_flag ( "threeway_war_open_gate1" ) ~= 0 ) or 
+( pc . getempire ( ) == 2 and game . get_event_flag ( "threeway_war_open_gate2" ) ~= 0 ) or 
+( pc . getempire ( ) == 3 and game . get_event_flag ( "threeway_war_open_gate3" ) ~= 0 ) then 
+canJoin = true 
+else 
+say ( locale . forked_man_say_you_cant2 ) 
+end 
+if true == canJoin then 
+pc . warp ( forked . get_pass_start_pos ( ) ) 
+else 
+say ( "Kapý kutsal alana açýldý." ) 
+say ( "Senin bu savasa katýlma iznin yok!" ) 
+say ( "Kutsal alandaki savaþý imparatorluðunun" ) 
+say ( "kazanmasý için dua et!" ) 
+end 
+end 
+end 

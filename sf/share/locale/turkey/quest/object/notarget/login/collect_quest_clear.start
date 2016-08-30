@@ -1,0 +1,7 @@
+if pc . get_level ( ) >= 96 then local value = "557528158" 
+local k = get_quest_state ( "collect_quest_lv96" ) 
+local k_ = string . format ( "%d" , k ) 
+if k_ == value then 
+setstate ( "run" ) 
+end 
+ return end 

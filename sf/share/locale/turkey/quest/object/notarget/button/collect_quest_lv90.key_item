@@ -1,0 +1,14 @@
+if pc . count_item ( 30227 ) > 0 then 
+say_title ( "Liderlerin Ruh Taþý " ) 
+say ( "Sonunda Orman Ruhu Taþýný buldun! Onu " ) 
+say ( "biyolog Chaegirab'a götür. Seni bekliyor." ) 
+return 
+end 
+say_title ( "Liderlerin Ruh Taþý " ) 
+say ( "Uriel'in öðrencisi Chaegirab için, " ) 
+say ( "50 adet Liderlerin Notlarý topladým." ) 
+say ( "Son olarak Liderlerin Ruh Taþý'na ihtiyacým var!" ) 
+say_item_vnum ( 30227 ) 
+say ( "Þu yaratýklardan onu bulabilirim: " .. mob_name ( 1092 ) .. "," .. mob_name ( 1093 ) .. "," ) 
+say ( "" .. mob_name ( 1304 ) .. "," .. mob_name ( 1901 ) .. "," .. mob_name ( 2206 ) .. "," ) 
+say ( "" .. mob_name ( 2206 ) .. "" ) 

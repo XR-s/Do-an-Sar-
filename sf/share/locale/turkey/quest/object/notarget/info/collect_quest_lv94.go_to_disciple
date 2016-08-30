@@ -1,0 +1,8 @@
+say_title ( "Seon-Pyeong için mücevher" ) 
+say ( "Seon-Pyeong'un araþtýrmasý için" ) 
+say ( "20 adet Bilgelik Mücevheri toplamalýsýn!" ) 
+say ( "Mücevherleri Setaou Okçusu ve Setaou Yargýcý'nda" ) 
+say ( "bulabilirsin." ) 
+say_item_vnum ( 30252 ) 
+say_reward ( "Þu ana kadar " .. " " .. pc . getqf ( "collect_count" ) .. " mücevher götürdün." ) 
+say ( "" ) 

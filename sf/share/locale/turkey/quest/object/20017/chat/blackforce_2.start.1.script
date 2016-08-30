@@ -1,0 +1,21 @@
+ayarlar = blackforce_2 . ayarlar ( ) 
+toplar_ = ayarlar . toplar alinacakTop , verilecekTop , istenenTop , verilecekToplar = toplar_ [ 1 ] , toplar_ [ 3 ] , toplar_ [ 2 ] , toplar_ [ 4 ] 
+baslik = ayarlar . baslik_1 pencere_bir = ayarlar . konusma_penceresi_3 pencere_iki = ayarlar . bekle kabul = ayarlar . konusma_kabul eksik = ayarlar . eksik sure_gecsin = ayarlar . konusma_red sure = ayarlar . sure mevcut = pc . count_item ( alinacakTop ) 
+say_title ( baslik ) 
+say2 ( pencere_bir ) 
+wait ( ) 
+if pc . getqf ( "top_kontrol" ) - get_time ( ) > 0 then 
+say_title ( baslik ) 
+say ( sure_gecsin ) 
+return 
+end 
+say_title ( baslik ) 
+say ( pencere_iki ) 
+if mevcut > istenenTop then 
+say2 ( kabul ) 
+pc . give_item2 ( verilecekTop , verilecekToplar ) 
+pc . setqf ( "top_kontrol" , get_time ( ) + sure ) 
+pc . remove_item ( alinacakTop , istenenTop ) 
+else 
+say2 ( eksik ) 
+end 

@@ -1,0 +1,5 @@
+local a = number ( 1 , 200 ) 
+if a <= 5 and pc . count_item ( 30252 ) == 0 then 
+pc . give_item2 ( 30252 , 1 ) 
+send_letter ( "Bilgelik Mücevheri buldun." ) 
+end 

@@ -1,0 +1,29 @@
+if game . get_event_flag ( "sertifika_drop" ) == 1 and not npc . is_pc ( ) then if npc . get_level ( ) > pc . get_level ( ) - 10 then 
+local s = number ( 1 , 16 ) 
+if s == 1 then 
+notice ( "" .. item_name ( 52701 ) .. " buldum! " ) 
+game . drop_item_with_ownership ( "52701" , 1 ) 
+elseif s == 2 then 
+notice ( "" .. item_name ( 52702 ) .. " buldum! " ) 
+game . drop_item_with_ownership ( "52702" , 1 ) 
+elseif s == 3 then 
+notice ( "" .. item_name ( 52703 ) .. " buldum! " ) 
+game . drop_item_with_ownership ( "52203" , 1 ) 
+elseif s == 4 then 
+notice ( "" .. item_name ( 52704 ) .. " buldum! " ) 
+game . drop_item_with_ownership ( "52704" , 1 ) 
+elseif s == 5 then 
+notice ( "" .. item_name ( 52705 ) .. " buldum! " ) 
+game . drop_item_with_ownership ( "52705" , 1 ) 
+elseif s == 6 then 
+notice ( "" .. item_name ( 52706 ) .. " buldum! " ) 
+game . drop_item_with_ownership ( "52706" , 1 ) 
+elseif s == 7 then 
+notice ( "" .. item_name ( 52707 ) .. " buldum! " ) 
+game . drop_item_with_ownership ( "52707" , 1 ) 
+elseif s == 8 then 
+notice ( "" .. item_name ( 52708 ) .. " buldum! " ) 
+game . drop_item_with_ownership ( "52708" , 1 ) 
+end 
+end 
+ return end 

@@ -1,0 +1,5 @@
+send_letter ( "Chaegirab'ýn ödülü " ) 
+local v = find_npc_by_vnum ( 20018 ) 
+if v ~= 0 then 
+target . vid ( "__TARGET__" , v , "Baek-go" ) 
+end 

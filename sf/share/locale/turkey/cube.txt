@@ -1,0 +1,185 @@
+#??????		
+section		
+npc	20018	
+item	50721	1
+reward	50801	1
+percent	100	
+end		
+		
+#?????		
+section		
+npc	20018	
+item	50722	1
+reward	50802	1
+percent	100	
+end		
+		
+#????		
+section		
+npc	20018	
+item	50723	1
+reward	50803	100
+percent	100	
+end		
+		
+#???????		
+section		
+npc	20018	
+item	50724	1
+reward	50804	100
+percent	100	
+end	
+
+#??????		
+section		
+npc	20017	
+item	50721	1
+reward	50801	1
+percent	100	
+end		
+		
+#?????		
+section		
+npc	20017	
+item	50722	1
+reward	50802	1
+percent	100	
+end		
+
+#????		
+section		
+npc	20017	
+item	50723	1
+reward	50803	100
+percent	100	
+end
+
+#???????		
+section		
+npc	20017	
+item	50724	1
+reward	50804	100
+percent	100	
+end		
+
+#?????		
+section		
+npc	20017	
+item	50801	1
+item	50725	1
+reward	50813	1
+percent	100	
+end		
+
+#???		
+section		
+npc	20017	
+item	50802	1
+item	50725	1
+reward	50814	1
+percent	100	
+end		
+
+#???		
+section		
+npc	20017	
+item	50803	100
+item	50726	1
+reward	50815	100
+percent	100	
+end
+	
+#??????		
+section		
+npc	20022	
+item	50721	1
+reward	50801	1
+percent	100	
+end		
+		
+#?????		
+section		
+npc	20022	
+item	50722	1
+reward	50802	1
+percent	100	
+end		
+		
+#????		
+section		
+npc	20022	
+item	50723	1
+reward	50803	100
+percent	100	
+end		
+		
+#???????		
+section		
+npc	20022	
+item	50724	1
+reward	50804	100
+percent	100	
+end		
+		
+#?????		
+section		
+npc	20022	
+item	50801	1
+item	50725	1
+reward	50813	1
+percent	100	
+end		
+		
+#???		
+section		
+npc	20022	
+item	50802	1
+item	50725	1
+reward	50814	1
+percent	100	
+end		
+		
+#???		
+section		
+npc	20022	
+item	50803	100
+item	50726	1
+reward	50815	100
+percent	100	
+end		
+		
+#??????		
+section		
+npc	20022	
+item	50813	1
+item	50727	1
+reward	50817	1
+percent	100	
+end		
+		
+#????		
+section		
+npc	20022	
+item	50814	1
+item	50727	1
+reward	50818	1
+percent	100	
+end		
+		
+#????		
+section		
+npc	20022	
+item	50815	100
+item	50728	1
+reward	50819	1
+percent	100	
+end		
+		
+#????		
+section		
+npc	20022	
+item	50815	100
+item	50728	1
+reward	50820	1
+percent	100	
+end		

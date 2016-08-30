@@ -1,0 +1,47 @@
+#적상액						
+section						
+	item_vnum	50821				
+	apply_type	CRITICAL_PCT				
+	apply_value	20	20	20	20	20
+	apply_duration	600	600	600	600	600
+end						
+						
+#홍상액						
+section						
+	item_vnum	50822				
+	apply_type	PENETRATE_PCT				
+	apply_value	20	20	20	20	20
+	apply_duration	600	600	600	600	600
+end						
+						
+#황상액						
+section						
+	item_vnum	50823				
+	apply_type	ATTACK_SPEED				
+	apply_value	8	8	8	8	8
+	apply_duration	600	600	600	600	600
+end						
+						
+#녹상액						
+section						
+	item_vnum	50824				
+	apply_type	RESIST_MAGIC				
+	apply_value	12	12	12	20	20
+	apply_duration	600	600	600	600	600
+end						
+
+#청상액						
+section						
+	item_vnum	50825				
+	apply_type	ATT_BONUS				
+	apply_value	120	120	120	120	120
+	apply_duration	600	600	600	600	600
+end						
+
+#백상액						
+section						
+	item_vnum	50826				
+	apply_type	DEF_BONUS				
+	apply_value	100	100	100	200	200
+	apply_duration	600	600	600	600	600
+end

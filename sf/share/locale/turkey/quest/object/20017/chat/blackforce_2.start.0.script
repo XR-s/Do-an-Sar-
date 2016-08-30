@@ -1,0 +1,6 @@
+ayarlar = blackforce_2 . ayarlar ( ) 
+toplar_ = ayarlar . toplar alinacakTop , verilecekTop = toplar_ [ 1 ] , toplar_ [ 2 ] 
+baslik = ayarlar . baslik_2 pencere_bir = ayarlar . konusma_penceresi pencere_iki = ayarlar . konusma_penceresi_2 say_title ( baslik ) 
+say2 ( pencere_bir ) 
+say2 ( pencere_iki ) 
+pc . setqf ( "kontrol_qff" , 1 ) 

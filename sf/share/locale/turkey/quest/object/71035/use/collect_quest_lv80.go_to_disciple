@@ -1,0 +1,18 @@
+if get_time ( ) < pc . getqf ( "duration" ) then 
+say ( "Mucize suyu kullanamazsin" ) 
+return 
+end 
+if pc . getqf ( "drink_drug" ) == 1 then 
+say ( "Zaten kullandin." ) 
+return 
+end 
+if pc . count_item ( 30166 ) == 0 then 
+say_title ( "Chaegirab:" ) 
+say ( "" ) 
+say ( "Savasçý hayaletlerini düzenlediðin sürece," ) 
+say ( "mucize suyu kullanabilirsin." ) 
+say ( "" ) 
+return 
+end 
+item . remove ( ) 
+pc . setqf ( "drink_drug" , 1 ) 

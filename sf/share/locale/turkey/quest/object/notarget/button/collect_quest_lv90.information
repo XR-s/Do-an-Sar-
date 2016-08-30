@@ -1,0 +1,4 @@
+say_title ( "Chaegirab'ýn isteði" ) 
+say ( "Uriel'in öðrencisi Chaegirab seni" ) 
+say ( "arýyor. Yanýna git ve ne istediðini öðren." ) 
+say ( "" ) 

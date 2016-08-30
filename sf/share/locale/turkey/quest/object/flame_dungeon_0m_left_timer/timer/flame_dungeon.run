@@ -1,0 +1,4 @@
+local setting = flame_dungeon . setting ( ) 
+notice_multiline ( "Size ayýrýlan süre doldu.10 Saniye[ENTER]içinde kale'nin kapýlarý sizin için açýlacak." , d . notice ) 
+notice_multiline ( "10 Saniye içinde herkes ýþýnlanacak." , d . notice ) 
+timer ( "exit_dungeon" , 10 ) 

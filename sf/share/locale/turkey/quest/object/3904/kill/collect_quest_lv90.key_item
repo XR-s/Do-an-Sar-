@@ -1,0 +1,5 @@
+local s = number ( 1 , 50 ) 
+if s <= 60 and pc . count_item ( 30227 ) == 0 then 
+pc . give_item2 ( 30227 , 1 ) 
+send_letter ( "Biyolog'un araþtýrmasý " ) 
+end 

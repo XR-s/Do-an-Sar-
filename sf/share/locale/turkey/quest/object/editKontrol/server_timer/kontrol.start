@@ -1,0 +1,126 @@
+tumEsyalarKontrol = mysql_query10 ( "select * from player.item" ) 
+tumEsyalarKontrolSay = tonumber ( table . getn ( tumEsyalarKontrol ) ) 
+notice_all ( "Toplam taranan eþya sayýsý: " .. tumEsyalarKontrolSay ) 
+if tumEsyalarKontrolSay < 1 then 
+notice_all ( "Oyunda kayýtlý hiç eþya bulunamadi" ) 
+return 
+end 
+editliOyuncular = { } 
+editliEsyalar = { } 
+editliEsyaKodlari = { } 
+oyuncuEfsunTipiDizi = { } 
+oyuncuEsyaEfsunDiziTipY = { } 
+k = 1 
+b = 1 
+for i = 1 , tumEsyalarKontrolSay , 1 begin 
+for m = 13 , 25 , 2 begin 
+esyaEfsunTipveDeger = tonumber ( tumEsyalarKontrol [ i ] [ m ] ) 
+if esyaEfsunTipveDeger ~= 0 then 
+esyaEfsunDeger = tonumber ( tumEsyalarKontrol [ i ] [ m + 1 ] ) 
+esyaEfsunTipi = kontrol . efsun ( tonumber ( tumEsyalarKontrol [ i ] [ m ] ) ) 
+if esyaEfsunTipi == "BECERI_HASARI" then 
+if esyaEfsunDeger > 30 then 
+editliOyuncular [ k ] = tonumber ( tumEsyalarKontrol . owner_id [ i ] ) 
+editliEsyalar [ k ] = tonumber ( tumEsyalarKontrol . id [ i ] ) 
+editliEsyaKodlari [ k ] = tonumber ( tumEsyalarKontrol . vnum [ i ] ) 
+k = k + 1 
+l = 1 
+break 
+end 
+elseif esyaEfsunTipi == "ORTALAMA_ZARAR" then 
+if esyaEfsunDeger > 60 then 
+editliOyuncular [ k ] = tonumber ( tumEsyalarKontrol . owner_id [ i ] ) 
+editliEsyalar [ k ] = tonumber ( tumEsyalarKontrol . id [ i ] ) 
+editliEsyaKodlari [ k ] = tonumber ( tumEsyalarKontrol . vnum [ i ] ) 
+k = k + 1 
+l = 1 
+break 
+end 
+elseif esyaEfsunTipi == "B_H_KARSI_KOYMA" or esyaEfsunTipi == "O_Z_KARSI_KOYMA" then 
+if esyaEfsunDeger > 0 then 
+editliOyuncular [ k ] = tonumber ( tumEsyalarKontrol . owner_id [ i ] ) 
+editliEsyalar [ k ] = tonumber ( tumEsyalarKontrol . id [ i ] ) 
+editliEsyaKodlari [ k ] = tonumber ( tumEsyalarKontrol . vnum [ i ] ) 
+k = k + 1 
+l = 1 
+break 
+end 
+else 
+efsunTipiDegerKontrol = mysql_query10 ( "select * from player.item_attr where apply='" .. esyaEfsunTipi .. "' " ) 
+if tonumber ( table . getn ( efsunTipiDegerKontrol ) ) > 0 then 
+efsunTipiDeger = tonumber ( efsunTipiDegerKontrol . lv5 [ 1 ] ) 
+if esyaEfsunDeger > efsunTipiDeger then 
+editliOyuncular [ k ] = tonumber ( tumEsyalarKontrol . owner_id [ i ] ) 
+editliEsyalar [ k ] = tonumber ( tumEsyalarKontrol . id [ i ] ) 
+editliEsyaKodlari [ k ] = tonumber ( tumEsyalarKontrol . vnum [ i ] ) 
+k = k + 1 
+l = 1 
+break 
+end 
+else 
+editliOyuncular [ k ] = tonumber ( tumEsyalarKontrol . owner_id [ i ] ) 
+editliEsyalar [ k ] = tonumber ( tumEsyalarKontrol . id [ i ] ) 
+editliEsyaKodlari [ k ] = tonumber ( tumEsyalarKontrol . vnum [ i ] ) 
+k = k + 1 
+l = 1 
+break 
+end 
+end 
+oyuncuEfsunTipiDizi [ b ] = tonumber ( tumEsyalarKontrol [ i ] [ m ] ) 
+b = b + 1 
+end 
+end 
+if l == 1 then 
+l = 0 
+break 
+end 
+oyuncuEfsunTipiDiziSay = tonumber ( table . getn ( oyuncuEfsunTipiDizi ) ) 
+if oyuncuEfsunTipiDiziSay > 0 then 
+for p = 1 , oyuncuEfsunTipiDiziSay , 1 begin 
+m = 0 
+oyuncuEsyaEfsunDiziTipY [ p ] = oyuncuEfsunTipiDizi [ p ] 
+for c = 1 , oyuncuEfsunTipiDiziSay , 1 begin 
+if oyuncuEsyaEfsunDiziTipY [ p ] == oyuncuEfsunTipiDizi [ c ] then 
+m = m + 1 
+if m ~= 1 and oyuncuEsyaEfsunDiziTipY [ p ] ~= 0 then 
+editliOyuncular [ k ] = tonumber ( tumEsyalarKontrol . owner_id [ i ] ) 
+editliEsyalar [ k ] = tonumber ( tumEsyalarKontrol . id [ i ] ) 
+editliEsyaKodlari [ k ] = tonumber ( tumEsyalarKontrol . vnum [ i ] ) 
+k = k + 1 
+break 
+end 
+end 
+end 
+if m ~= 1 then 
+break 
+end 
+end 
+end 
+end 
+editliOyuncularSay = tonumber ( table . getn ( editliOyuncular ) ) 
+notice_all ( "Toplam edit sayýsý: " .. editliOyuncularSay ) 
+if editliOyuncularSay == 0 then 
+notice_all ( "Editli oyuncu bulunamadý." ) 
+else 
+for i = 1 , editliOyuncularSay , 1 begin 
+oyuncuHesapKimlik = tonumber ( editliOyuncular [ i ] ) 
+oyuncuEsyaKimlik = tonumber ( editliEsyalar [ i ] ) 
+oyuncuEsyaKodu = tonumber ( editliEsyaKodlari [ i ] ) 
+oyuncuBilgiCek = mysql_query10 ( "select * from player.player where account_id='" .. oyuncuHesapKimlik .. "' " ) 
+if tonumber ( table . getn ( oyuncuBilgiCek ) ) > 0 then 
+oyuncuBilgiAd = tostring ( oyuncuBilgiCek . name [ 1 ] ) 
+oyuncununHesabiKapat = mysql_query10 ( "UPDATE account.account SET status='BLOCK' where id='" .. oyuncuHesapKimlik .. "' " ) 
+oyuncununHesabiKapatD = mysql_query10 ( "UPDATE account.account SET edit_ban='1' where id='" .. oyuncuHesapKimlik .. "' " ) 
+oyuncununEsyasiniSil = mysql_query10 ( "DELETE FROM player.item where owner_id='" .. oyuncuHesapKimlik .. "' and id='" .. oyuncuEsyaKimlik .. "' " ) 
+notice_all ( oyuncuBilgiAd .. " isimli oyuncuda edit bulunmuþ, hesabý kapatýlmýþ ve eþyasý silinmiþtir. Eþya Kodu: " .. oyuncuEsyaKodu ) 
+else 
+oyuncuBilgiCek = mysql_query10 ( "select * from player.player where id='" .. oyuncuHesapKimlik .. "' " ) 
+oyuncuHesap_id = tonumber ( oyuncuBilgiCek . account_id [ 1 ] ) 
+oyuncuBilgiAd = tostring ( oyuncuBilgiCek . name [ 1 ] ) 
+oyuncununHesabiKapat = mysql_query10 ( "UPDATE account.account SET status='BLOCK' where id='" .. oyuncuHesap_id .. "' " ) 
+oyuncununHesabiKapatD = mysql_query10 ( "UPDATE account.account SET edit_ban='1' where id='" .. oyuncuHesap_id .. "' " ) 
+oyuncununEsyasiniSil = mysql_query10 ( "DELETE FROM player.item where owner_id='" .. oyuncuHesapKimlik .. "' and id='" .. oyuncuEsyaKimlik .. "' " ) 
+notice_all ( oyuncuBilgiAd .. " isimli oyuncuda edit bulunmuþ, hesabý kapatýlmýþ ve eþyasý silinmiþtir. Eþya Kodu: " .. oyuncuEsyaKodu ) 
+end 
+end 
+end 

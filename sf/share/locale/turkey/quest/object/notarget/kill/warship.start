@@ -1,0 +1,26 @@
+if game . get_event_flag ( "warship" ) == 1 and pc . get_map_index ( ) == 356 then if npc . is_pc ( ) then 
+if npc . empire ~= pc . empire then 
+warship . flagekle ( ) 
+if game . get_event_flag ( "warship" ) == 1 then 
+local bul = mysql_query10 ( "SELECT * FROM player.warship" ) 
+local shinsoo = tonumber ( bul . kirmizi [ 1 ] ) 
+local chunjo = tonumber ( bul . sari [ 1 ] ) 
+local jinno = tonumber ( bul . mavi [ 1 ] ) 
+local limit = game . get_event_flag ( "warshiplimit" ) 
+if shinsoo >= limit then 
+local bayrak = "Shinsoo" 
+warship . kazanan ( bayrak , 1 ) 
+elseif chunjo >= limit then 
+local bayrak = "Chunjo" 
+warship . kazanan ( bayrak , 2 ) 
+elseif jinno >= limit then 
+local bayrak = "Jinno" 
+warship . kazanan ( bayrak , 3 ) 
+else 
+return 
+end 
+else 
+end 
+end 
+end 
+ return end 

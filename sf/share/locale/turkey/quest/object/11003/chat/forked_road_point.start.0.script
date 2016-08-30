@@ -1,0 +1,25 @@
+if game . get_event_flag ( "threeway_war" ) == 0 then 
+say ( "Ýmparatorluk Savaþý aktif deðil. " ) 
+say ( "Ýmparatorluk Savaþýný açman gerek. " ) 
+else 
+say ( " Ýmparatorluk Savaþý puan sýnýrý seç. " ) 
+local sinir = select ( " 50 " , " 100 " , " 150 " , " 200 " , " 250 " , " Vazgeç " ) 
+if sinir == 6 then 
+return 
+elseif sinir == 1 then 
+say ( " Puan sýnýrý 50 yapýldý. " ) 
+game . set_event_flag ( "3yolsinir" , 50 ) 
+elseif sinir == 2 then 
+say ( " Puan sýnýrý 100 yapýldý. " ) 
+game . set_event_flag ( "3yolsinir" , 100 ) 
+elseif sinir == 3 then 
+say ( " Puan sýnýrý 150 yapýldý. " ) 
+game . set_event_flag ( "3yolsinir" , 150 ) 
+elseif sinir == 4 then 
+say ( " Puan sýnýrý 200 yapýldý. " ) 
+game . set_event_flag ( "3yolsinir" , 200 ) 
+elseif sinir == 5 then 
+say ( " Puan sýnýrý 250 yapýldý. " ) 
+game . set_event_flag ( "3yolsinir" , 250 ) 
+end 
+end 

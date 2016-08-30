@@ -1,0 +1,24 @@
+quest itemsil begin
+	state start begin
+		when 9006.take begin
+		local kod = item.get_vnum()
+		local adet = item.get_count()
+		say_title("Ýtem Sil ")
+		say("Merhaba "..pc.get_name().."")
+		say("Demek item silmek istiyorsun. ")
+		say_item_vnum(kod)
+		say("Sürüklediðin Ýtem "..item_name(kod).." "..adet.."x")
+			
+		say("Silmek Ýstiyor musun ? ")
+		say(" ")
+			
+		local s = select("Evet", "Hayýr")
+		if s == 2 then
+		syschat("Pekala sen bilirsin.Ýtemini silmedim. ")
+		else
+		pc.remove_item(kod,adet)
+		syschat("Envanterinden "..adet.." adet "..item_name(kod).." silindi. ")
+			end
+		end
+	end
+end

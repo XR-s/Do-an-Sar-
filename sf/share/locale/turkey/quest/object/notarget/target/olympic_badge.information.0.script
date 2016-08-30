@@ -1,0 +1,30 @@
+target . delete ( "__TARGET__" ) 
+say ( "" ) 
+say_title ( mob_name ( 20017 ) ) 
+say ( gameforge . olympic_badge . _020_say ) 
+say ( gameforge . olympic_badge . _030_say ) 
+wait ( ) 
+say ( "" ) 
+say_title ( mob_name ( 20017 ) ) 
+say ( gameforge . olympic_badge . _040_say ) 
+say ( gameforge . olympic_badge . _050_say ) 
+local s = select ( locale . yes , locale . no ) 
+if 2 == s then 
+say ( gameforge . olympic_badge . _140_say ) 
+local a = select ( locale . yes , locale . no ) 
+if 2 == a then 
+say_title ( mob_name ( 20017 ) ) 
+say ( gameforge . olympic_badge . _150_say ) 
+say ( "" ) 
+return 
+end 
+say ( "" ) 
+say_title ( mob_name ( 20017 ) ) 
+say ( gameforge . olympic_badge . _160_say ) 
+set_state ( "__GIVEUP__" ) 
+return 
+end 
+say ( "" ) 
+say_title ( mob_name ( 20017 ) ) 
+say ( gameforge . olympic_badge . _170_say ) 
+set_state ( "step1" ) 

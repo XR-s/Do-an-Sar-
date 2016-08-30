@@ -1,0 +1,6 @@
+say_title ( "Chaegirab'ın isteği" ) 
+say ( "" ) 
+say ( "Uriel'in öğrencisi Biyolog Chaegirab'ın" ) 
+say ( "acil olarak yardımına ihtiyacı var." ) 
+say ( "Haydi, onun yanına git ve yardım et." ) 
+say ( "" ) 

@@ -1,0 +1,7 @@
+if npc . get_race ( ) == 731 or npc . get_race ( ) == 732 or npc . get_race ( ) == 733 or npc . get_race ( ) == 734 or npc . get_race ( ) == 735 or npc . get_race ( ) == 736 or npc . get_race ( ) == 737 then 
+local s = number ( 1 , 300 ) 
+if s == 1 then 
+pc . give_item2 ( 30221 , 1 ) 
+send_letter ( "Gizli mezhebin tapýnaðýnýn ruh taþý'ný buldun." ) 
+end 
+end 

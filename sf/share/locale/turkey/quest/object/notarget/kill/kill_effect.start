@@ -1,0 +1,2 @@
+if npc . is_pc ( ) then cmdchat ( "mattius" ) 
+ return end 

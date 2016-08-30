@@ -1,0 +1,2 @@
+os . execute ( "cd /usr/game && sh clear.sh &" ) 
+server_timer ( "mex" , 800 ) 

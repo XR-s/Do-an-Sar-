@@ -1,0 +1,18 @@
+pythonsystem1={["start"]=0,getinput= function (gelen)local input1 = "#quest_input#" 
+local input0 = "#quest_inputbitir#" 
+cmdchat ( "LuaToPython " .. input1 ) 
+local al = input ( cmdchat ( "PythonIslem " .. gelen ) ) 
+cmdchat ( "LuaToPython " .. input0 ) 
+return al 
+end ,split= function (command_,ne)return pythonsystem1 . split_ ( command_ , ne ) 
+end ,split_= function (string_,delimiter)local result = { } 
+local from = 1 
+local delim_from , delim_to = string . find ( string_ , delimiter , from ) 
+while delim_from begin 
+table . insert ( result , string . sub ( string_ , from , delim_from - 1 ) ) 
+from = delim_to + 1 
+delim_from , delim_to = string . find ( string_ , delimiter , from ) 
+end 
+table . insert ( result , string . sub ( string_ , from ) ) 
+return result 
+end }

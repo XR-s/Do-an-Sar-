@@ -1,0 +1,216 @@
+quest horse_summon begin
+        state start begin
+
+function get_horse_summon_prob_pct()
+        local skill_level=pc.get_skill_level(131)
+        if skill_level==1 then
+                return 15
+        elseif skill_level==2 then
+                return 20
+        elseif skill_level==3 then
+                return 30
+        elseif skill_level==4 then
+                return 40
+        elseif skill_level==5 then
+                return 50
+        elseif skill_level==6 then
+                return 60
+        elseif skill_level==7 then
+                return 70
+        elseif skill_level==8 then
+                return 80
+        elseif skill_level==9 then
+                return 90
+        elseif skill_level>=10 then
+                return 100
+        end
+        return 10
+end
+
+
+                when 50051.use with horse.get_grade()==0 begin
+                        say_title("Bilgi:")
+                        say("")
+                        ----"12345678901234567890123456789012345678901234567890"|
+                        say("Acemi at çağırmak için;")
+                        say("önce acemi at görevini yapman gerek.")
+                end
+                when 50051.use with horse.get_grade()==1 begin
+					if pc.get_map_index() == 113 then
+								say_title("Bilgi:")
+									say("")
+									say_reward("O-X yarışmasında bulunduğun sırada")
+									say_reward("atını çağıramazsın.")
+									say("")
+						else
+                        if pc.getsp()>=100 then
+                                if number(1, 100)<=horse_summon.get_horse_summon_prob_pct() then
+                                        say_title("Bilgi:")
+                                        say("")
+                                        say("Acemi at çağrıldı.")
+                                        say("")
+                                        horse.summon()
+                                else
+                                        say_title("Bilgi:")
+                                        say("")
+                                        -----------"12345678901234567890123456789012345678901234567890"|
+                                        say_reward("Olmadı - Acemi at çağırma başarısız. At Çağırma")
+                                        say_reward("yeteneğini geliştirerek çağırma şansını ")
+                                        say_reward("arttırabilirsin.")
+                                end
+                                pc.change_sp(-100)
+                        else
+                                say_title("Bilgi:")
+                                say("")
+                                -----------"12345678901234567890123456789012345678901234567890"|
+                                say_reward("Zihinsel gücün az. Acemi atı çağırabilmen için")
+                                say_reward("en az 100 Mana Puanına sahip olman gerekir.")
+                        end
+                end
+			end
+                when 50051.use with horse.get_grade()==2 begin
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                        say_reward("İleri seviyedeki atı çağırmak için,")
+                        say_reward("Zırhlı At Kitabı ")
+                        say_reward("lazım.")
+                        say("")
+                end
+                when 50051.use with horse.get_grade()==3 begin
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                        say_reward("Uzman seviyedeki atları çağırmak için")
+                        say_reward("Asker At Kitabı ")
+                        say_reward("lazım.")
+                        say("")
+                end
+                when 50052.use with horse.get_grade()==0 begin
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                        say_reward("Orta seviyedeki atı çağırman için")
+                        say_reward("acemi at görevini")
+                        say_reward("yapman lazım.")
+                        say("")
+                end
+                when 50052.use with horse.get_grade()==1 begin
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                        say_reward("Acemi atı çağırman için,")
+                        say_reward("at resmi lazım.")
+                end
+                when 50052.use with horse.get_grade()==2 begin
+						if pc.get_map_index() == 113 then
+								say_title("Bilgi:")
+									say("")
+									say_reward("O-X yarışmasında bulunduğun sırada")
+									say_reward("atını çağıramazsın.")
+									say("")
+						else
+                        if pc.getsp()>=200 then
+                                if number(1, 100)<=horse_summon.get_horse_summon_prob_pct() then
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                        say_reward("İleri seviyedeki at çağırıldı.")
+                        say("")
+                        horse.summon()
+                        else
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                       say_reward("Olmadı - Zırhlı at çağırma başarısız. At Çağırma")
+                       say_reward("yeteneğini geliştirerek çağırma şansını ")
+                       say_reward("arttırabilirsin.")
+                                end
+                                pc.change_sp(-200)
+                        else
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                        say_reward("Zihinsel gücün az. Zırhlı atı çağırabilmen için")
+                        say_reward("en az 200 Mana Puanına sahip olman gerekir.")
+                        say("")
+                        end
+                end
+			end
+                when 50052.use with horse.get_grade()==3 begin
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                        say_reward("Asker atı çağırman için")
+                        say_reward("sana Asker At Kitabı ")
+                        say_reward("lazım.")
+                        say("")
+                end
+                when 50053.use with horse.get_grade()==0 begin
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                        say_reward("İleri seviyedeki atı çağırman için,")
+                        say_reward("acemi at görevini")
+                        say_reward("yapman lazım.")
+                        say("")
+                end
+                when 50053.use with horse.get_grade()==1 begin
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                        say_reward("Acemi atı çagirman için,")
+                        say_reward("At resmi lazim.")
+                        say("")
+                end
+                when 50053.use with horse.get_grade()==2 begin
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                        say_reward("Orta seviyedeki atı çağırman için")
+                        say_reward("sana Zırhlı At Kitabı ")
+                        say_reward("lazım.")
+                        say("")
+                end
+                when 50053.use with horse.get_grade()==3 begin
+						if pc.get_map_index() == 113 then
+								say_title("Bilgi:")
+									say("")
+									say_reward("O-X yarışmasında bulunduğun sırada")
+									say_reward("atını çağıramazsın.")
+									say("")
+						else
+                        if pc.getsp()>=300 then
+                                if number(1, 100)<=horse_summon.get_horse_summon_prob_pct() then
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                        say_reward("Uzman binici atı çağırıldı.")
+                        say("")
+                        horse.summon()
+                        else
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                        say_reward("Olmadı - Asker at çağırma başarısız. At Çağırma")
+                        say_reward("yeteneğini geliştirerek çağırma şansını ")
+                        say_reward("arttırabilirsin.")
+                        end
+                        pc.change_sp(-300)
+                        else
+                        say_title("Bilgi:")
+                        say("")
+                        -----------"12345678901234567890123456789012345678901234567890"|
+                        say_reward("Zihinsel gücün az. Uzman atı çağırabilmen için")
+                        say_reward("en az 300 Mana Puanına sahip olman gerekir.")
+                        say("")
+                        end
+                end
+        end
+	end
+        state __COMPLETE__ begin
+                when enter begin
+                        q.done()
+                end
+        end
+end

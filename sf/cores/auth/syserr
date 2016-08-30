@@ -1,0 +1,7 @@
+SYSERR: Apr 17 23:35:56 :: pid_init: 
+Start of pid: 901
+
+SYSERR: Apr 18 00:03:45 :: hupsig: SIGHUP, SIGINT, SIGTERM signal has been received. shutting down.
+SYSERR: Apr 18 00:03:46 :: pid_deinit: 
+End of pid
+

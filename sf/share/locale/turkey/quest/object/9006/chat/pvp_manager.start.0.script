@@ -1,0 +1,6 @@
+say ( "Haritaya gitmek istiyor musun?" ) 
+say ( "" ) 
+local a = select ( locale . yes , locale . no ) 
+if a == 1 then 
+pc . warp ( 6598400 , 6589800 ) 
+end 

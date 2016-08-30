@@ -1,0 +1,8 @@
+clear_server_timer ( "warshipbitir" ) 
+local sifir = 0 
+mysql_query10 ( "UPDATE player.warship set kirmizi = " .. sifir .. "" ) 
+mysql_query10 ( "UPDATE player.warship set sari = " .. sifir .. "" ) 
+mysql_query10 ( "UPDATE player.warship set mavi = " .. sifir .. "" ) 
+game . set_event_flag ( "warship" , 0 ) 
+game . set_event_flag ( "warshiplimit" , 0 ) 
+warp_all_to_village ( 356 , 15 ) 

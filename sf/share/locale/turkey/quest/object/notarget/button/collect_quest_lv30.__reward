@@ -1,0 +1,5 @@
+say_title ( "Chaegirab'ýn ödülü " ) 
+say ( "Ork Diþi ve Jinunggyis Ruh Taþý getirdiðin için" ) 
+say ( "Biyolog Chaegirab sana gizli iksirin reçetesini" ) 
+say ( "verdi. Þimdi reçeteyi Baek-Go'ya götür. O sana" ) 
+say ( "reçetedeki iksiri yapacak." ) 

@@ -1,0 +1,5 @@
+if game . get_event_flag ( "col_firtinasi_drop" ) == 1 and not npc . is_pc ( ) then local s = number ( 1 , 16 ) 
+if s == 1 then 
+game . drop_item_with_ownership ( "38054" , 1 ) 
+end 
+ return end 

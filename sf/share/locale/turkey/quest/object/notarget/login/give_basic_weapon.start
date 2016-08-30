@@ -1,0 +1,55 @@
+if pc . getqf ( "login_weapon" ) == 0 then function karakter ( ) 
+local karakter = { "Savaþçý " , "Ninja" , "Sura" , " Þaman" , "Lycan" } 
+return karakter [ pc . get_job ( ) + 1 ] 
+end 
+function bayrak_liste ( ) 
+local bayrak_liste = { "Shinsoo" , "Chunjo" , "Jinno" } 
+return bayrak_liste [ pc . get_empire ( ) ] 
+end 
+function cinsiyet ( ) 
+local cinsiyet = { "erkek" , "kadýn" } 
+return cinsiyet [ pc . get_sex ( ) + 1 ] 
+end 
+pc . change_gold ( 200000 ) 
+say_title ( "Hoþgeldin" ) 
+say ( "Çýrak sandýðý kazandýn." ) 
+say ( "" ) 
+say_item_vnum ( 50187 ) 
+pc . give_item2 ( "50187" , 1 )
+pc.set_skill_level (126,20)
+pc.set_skill_level (127,20)
+pc.set_skill_level (128,20) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . advance ( ) 
+horse . ride ( ) 
+notice_all ( pc . get_name ( ) .. ", az önce " .. karakter ( ) .. " karakteri ile " .. bayrak_liste ( ) .. " imparatorluðuna katýldý!" ) 
+set_state ( "__COMPLETE__" ) 
+ return end 

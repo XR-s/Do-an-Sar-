@@ -1,0 +1,41 @@
+local saat = os . date ( "%H" ) 
+if tonumber ( saat ) == 25 then 
+if game . get_event_flag ( "vs_ac" ) == 0 then 
+game . set_event_flag ( "pvp_minlevel" , 40 ) 
+game . set_event_flag ( "pvp_maxlevel" , 99 ) 
+game . set_event_flag ( "pvp_price_count" , 25 ) 
+game . set_event_flag ( "pvp_price_vnum" , 50011 ) 
+pvp_manager . open_registrations ( ) 
+game . set_event_flag ( "vs_ac" , 1 ) 
+server_timer ( "vs_kayit" , 10 * 60 ) 
+notice_all ( "Turnuva Kayýtlarý 10 Dakika Sonra Kapanacak." ) 
+end 
+else 
+game . set_event_flag ( "vs_ac" , 0 ) 
+end 
+if pc . get_map_index ( ) == 28 and ( pvp_attenders == nil or pvp_attenders [ pvp_manager . get_my_attender_id ( ) ] == nil or ( pvp_attenders [ pvp_manager . get_my_attender_id ( ) ] . fight_mode ~= 1 and pvp_attenders [ pvp_manager . get_my_attender_id ( ) ] . fight_mode ~= 2 ) ) then if pvp_attenders == nil then 
+pvp_manager . guard_check_position ( ) 
+timer ( "pvp_guard_1" , 10 ) 
+return 
+end 
+if pvp_attenders [ pvp_manager . get_my_attender_id ( ) ] == nil then 
+pvp_manager . guard_check_position ( ) 
+timer ( "pvp_guard_1" , 10 ) 
+return 
+end 
+if pvp_attenders [ pvp_manager . get_my_attender_id ( ) ] . fight_mode ~= 1 and pvp_attenders [ pvp_manager . get_my_attender_id ( ) ] . fight_mode ~= 2 then 
+pvp_manager . guard_check_position ( ) 
+timer ( "pvp_guard_1" , 10 ) 
+end 
+ return end if pc . get_map_index ( ) == 28 and game . get_event_flag ( "pvp" ) == 2 and pvp_manager . get_fight_mode ( ) == 1 then affect . add ( apply . MOV_SPEED , - 10000 , 2 ) 
+affect . add_collect ( apply . HP_REGEN , 5000 , 30 ) 
+affect . add_collect ( apply . SP_REGEN , 5000 , 30 ) 
+pvp_manager . set_fight_mode ( 2 ) 
+if arena [ pvp_manager . get_arena ( ) ] [ 3 ] == 2 then 
+arena [ pvp_manager . get_arena ( ) ] [ 5 ] = 30 
+loop_timer ( "fight_start_countdown" , 1 ) 
+else 
+timer ( "partner_timeout" , 40 ) 
+end 
+arena [ pvp_manager . get_arena ( ) ] [ 3 ] = 2 
+ return end 

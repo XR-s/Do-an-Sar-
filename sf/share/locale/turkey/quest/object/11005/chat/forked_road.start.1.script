@@ -1,0 +1,35 @@
+local s = select ( "Ýmparatorluk Savaþýný baþlat" , "Ýmparatorluk Savaþýný bitir" ) ; 
+if s == 1 then 
+forked . purge_all_monsters ( ) 
+forked . initforked ( ) 
+game . set_event_flag ( "threeway_war" , 1 ) 
+game . set_event_flag ( "threeway_war_dead_count" , 25 ) 
+if true == is_test_server ( ) then 
+game . set_event_flag ( "threeway_war_kill_count" , 5 ) 
+else 
+game . set_event_flag ( "threeway_war_kill_count" , 250 ) 
+end 
+game . set_event_flag ( "threeway_war_boss_count" , 5 ) 
+game . set_event_flag ( "threeway_war_open_gate1" , 1 ) 
+game . set_event_flag ( "threeway_war_open_gate2" , 1 ) 
+game . set_event_flag ( "threeway_war_open_gate3" , 1 ) 
+say ( "Ýmparatorluk Savaþý baþladý." ) 
+say ( "" ) 
+wait ( ) 
+regen_in_map ( forked . getpassmapindexbyempire ( 1 ) , forked . getpasspathbyempire ( 1 ) .. "regen.txt" ) 
+regen_in_map ( forked . getpassmapindexbyempire ( 1 ) , forked . getpasspathbyempire ( 1 ) .. "npc.txt" ) 
+regen_in_map ( forked . getpassmapindexbyempire ( 2 ) , forked . getpasspathbyempire ( 2 ) .. "regen.txt" ) 
+regen_in_map ( forked . getpassmapindexbyempire ( 2 ) , forked . getpasspathbyempire ( 2 ) .. "npc.txt" ) 
+regen_in_map ( forked . getpassmapindexbyempire ( 3 ) , forked . getpasspathbyempire ( 3 ) .. "regen.txt" ) 
+regen_in_map ( forked . getpassmapindexbyempire ( 3 ) , forked . getpasspathbyempire ( 3 ) .. "npc.txt" ) 
+notice_all ( "Ýmparatorluðun savaþý baþlýyor." ) 
+notice_all ( "Katýlmak istiyorsanýz, Savaþ Sorumlusu ile konuþun." ) 
+elseif 2 == s then 
+game . set_event_flag ( "threeway_war" , 0 ) 
+notice_all ( "Ýmparatorluk savaþý bitiyor." ) 
+forked . purge_all_monsters ( ) 
+warp_all_to_village ( forked . getsungzimapindex ( ) , 1 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 1 ) , 1 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 2 ) , 1 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 3 ) , 1 ) 
+end 

@@ -1,0 +1,24 @@
+if pc . level < 120 then 
+say_reward ( "" ) 
+say ( "Uzgunum " .. pc . get_name ( ) .. "." ) 
+say ( "Seviyen yeterli deðil!" ) 
+say ( "105.Seviyeye ulasman gerekiyor." ) 
+return 
+end 
+say_reward ( "" ) 
+say ( "Merhaba " .. pc . get_name ( ) .. "." ) 
+say ( "Oluler Magarasina gitmek istiyor musun?" ) 
+local item = select ( "Evet" , "Hayir" ) 
+if item == 2 then 
+elseif item == 1 then 
+if pc . count_item ( 27991 ) < 50 then 
+say_reward ( "" ) 
+say ( "Uzgunum " .. pc . get_name ( ) .. "." ) 
+say ( "Yeterli esyaya sahip degilsin." ) 
+say ( "50 adet Su Tasý gerekiyor." ) 
+say ( "" ) 
+else 
+pc . warp ( 883900 , 1.4501e+06 ) 
+pc . remove_item ( "27991" , 50 ) 
+end 
+end 

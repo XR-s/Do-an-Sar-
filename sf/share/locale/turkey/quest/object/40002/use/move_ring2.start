@@ -1,0 +1,30 @@
+if pc . level < 30 then 
+say_title ( "Þebnem Yüzüðü:" ) 
+say ( "" ) 
+say ( "level'in 30 olmadan bu yüzüðü kullanamassýn!!" ) 
+say ( "" ) 
+return 
+end 
+if pc . getqf ( "sebnem" ) == 0 then 
+if pc . getqf ( "lolipop" ) == 1 or pc . getqf ( "maxmiasad" ) == 1 or pc . getqf ( "maxmiasae" ) == 1 or pc . getqf ( "maxmiasaf" ) == 1 or pc . getqf ( "maxmiasag" ) == 1 or pc . getqf ( "maxmiasah" ) == 1 then 
+chat ( " Kullaným dýþý " ) 
+else 
+chat ( " Metin2 - Þebnem Etkisi Açýk " ) 
+affect . add_collect ( apply . DEF_GRADE_BONUS , 270 , 60 * 60 * 24 * 365 * 60 ) 
+affect . add_collect ( apply . ATT_GRADE_BONUS , 170 , 60 * 60 * 24 * 365 * 60 ) 
+affect . add_collect ( apply . RESIST_MAGIC , 20 , 60 * 60 * 24 * 365 * 60 ) 
+affect . add_collect ( apply . ATT_SPEED , 11 , 60 * 60 * 24 * 365 * 60 ) 
+affect . add_collect ( apply . CRITICAL_PCT , 30 , 60 * 60 * 24 * 365 * 60 ) 
+affect . add_collect ( apply . PENETRATE_PCT , 30 , 60 * 60 * 24 * 365 * 60 ) 
+pc . setqf ( "sebnem" , 1 ) 
+end 
+elseif pc . getqf ( "sebnem" ) == 1 then 
+chat ( " Metin2 - Þebnem Etkisi Kapalý " ) 
+affect . remove_collect ( apply . DEF_GRADE_BONUS , 270 , 60 * 60 * 24 * 365 * 60 ) 
+affect . remove_collect ( apply . ATT_GRADE_BONUS , 170 , 60 * 60 * 24 * 365 * 60 ) 
+affect . remove_collect ( apply . RESIST_MAGIC , 20 , 60 * 60 * 24 * 365 * 60 ) 
+affect . remove_collect ( apply . ATT_SPEED , 11 , 60 * 60 * 24 * 365 * 60 ) 
+affect . remove_collect ( apply . CRITICAL_PCT , 30 , 60 * 60 * 24 * 365 * 60 ) 
+affect . remove_collect ( apply . PENETRATE_PCT , 30 , 60 * 60 * 24 * 365 * 60 ) 
+pc . setqf ( "sebnem" , 0 ) 
+end 

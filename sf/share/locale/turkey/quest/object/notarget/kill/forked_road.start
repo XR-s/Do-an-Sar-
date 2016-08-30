@@ -1,0 +1,25 @@
+if npc . get_race ( ) == 1306 and forked . issungzimapindex ( pc . get_map_index ( ) ) == true then 
+game . drop_item ( 50089 , 1 ) 
+say ( "Kutsal alana giden kapý açýlmadan " ) 
+say ( "önce savaþa katýlamazsýn!" ) 
+say ( "Kutsal alanda imparatorluðunun " ) 
+say ( "kazanmasý için dua et!" ) 
+say ( "" ) 
+end 
+if npc . get_race ( ) == 1902 and forked . issungzimapindex ( pc . get_map_index ( ) ) == true then 
+if 0 == game . get_event_flag ( "threeway_war" ) then 
+return 
+end 
+local remainBossCount = game . get_event_flag ( "threeway_war_boss_count" ) - 1 
+game . set_event_flag ( "threeway_war_boss_count" , remainBossCount ) 
+if remainBossCount > 1 then 
+return 
+end 
+game . set_event_flag ( "threeway_war" , 0 ) 
+local nation = { "Shinsoo" , "Chunjo" , "Jinno" } 
+notice_all ( "Ýmparatorluk savaþýnýn galibi " .. nation [ pc . getempire ( ) ] ) 
+warp_all_to_village ( forked . getsungzimapindex ( ) , 30 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 1 ) , 30 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 2 ) , 30 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 3 ) , 30 ) 
+end 

@@ -1,0 +1,57 @@
+if get_time ( ) > pc . getqf ( "duration" ) then 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Ah, bir dal bulmuþsun!" ) 
+say ( "Biraz bekle de kontrol edeyim..." ) 
+pc . remove_item ( 30165 , 1 ) 
+pc . setqf ( "duration" , get_time ( ) + 1 ) 
+wait ( ) 
+local pass_percent 
+if pc . is_gm ( ) then 
+pass_percent = 100 
+else 
+if pc . getf ( "collect_quest_luck" , "drink_drug" ) == 0 then 
+pass_percent = 40 
+else 
+pass_percent = 80 
+end 
+end 
+local s = number ( 1 , 100 ) 
+if s <= pass_percent then 
+if pc . getqf ( "collect_count" ) < 24 and not pc . is_gm ( ) then 
+local index = pc . getqf ( "collect_count" ) + 1 
+pc . setqf ( "collect_count" , index ) 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Ah! Bu Zelkova Dalý en iyi kalite! Hemen " ) 
+say ( "araþtýrmaya baþlayacaðým. Ancak " .. 25 - pc . getqf ( "collect_count" ) .. " tane daha" ) 
+say ( "lazým. Lütfen bulmaya çalýþ!" ) 
+say ( "Ve zamana ihtiyacým olduðunu unutma. Yarýna kadar" ) 
+say ( "baþka bir Zelkova Dalý inceleyemem." ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+return 
+end 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "25 dalýn tamamýný topladýn. Geriye sadece " ) 
+say ( "hayalet agaçlardan alýnacak ruh taþý kaldý." ) 
+say ( "Bu anahtar vazifesi görecek." ) 
+say ( "Ruh taþý hayalet aðaçlardan elde edilebilir." ) 
+say ( "Benim için bir tane temin edebilir misin?" ) 
+pc . setqf ( "collect_count" , 0 ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+pc . setqf ( "duration" , 0 ) 
+set_state ( "key_item" ) 
+return 
+else 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Hm, bu dal ince ve yanýk. Korkarým pek iþime" ) 
+say ( "yaramaz. Bana baþka bir tane getir!" ) 
+say ( "Yine de bununla deney yapmayý deneyeceðim. Yarýna" ) 
+say ( "kadar baþka dal inceleyemem." ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+return 
+end 
+else 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Getirdiðin dalýn analizi henüz bitmedi." ) 
+say ( "Diðerini daha sonra getirebilir misin?" ) 
+return 
+end 

@@ -1,0 +1,15 @@
+if pc . get_level ( ) >= 30 then if pc . getqf ( "drink_drug" ) == 1 then 
+say ( "Zaten kullandın." ) 
+say ( "" ) 
+return 
+else 
+if pc . countitem ( 76020 ) > 0 then 
+pc . remove_item ( "76020" , 1 ) 
+elseif pc . countitem ( 71035 ) > 0 then 
+pc . remove_item ( "71035" , 1 ) 
+elseif pc . countitem ( 39023 ) > 0 then 
+pc . remove_item ( "39023" , 1 ) 
+end 
+pc . setqf ( "drink_drug" , 1 ) 
+end 
+ return end 

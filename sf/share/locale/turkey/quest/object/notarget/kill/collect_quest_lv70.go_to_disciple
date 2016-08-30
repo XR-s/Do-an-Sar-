@@ -1,0 +1,7 @@
+if npc . get_race ( ) == 2302 or npc . get_race ( ) == 2303 or 2304 then 
+local s = number ( 1 , 200 ) 
+if s == 1 then 
+pc . give_item2 ( 30165 ) 
+send_letter ( "Zelkova Dalý buldun" ) 
+end 
+end 

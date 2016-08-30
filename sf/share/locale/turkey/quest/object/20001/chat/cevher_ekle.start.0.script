@@ -1,0 +1,6 @@
+say_reward ( "Merhaba. " .. pc . name .. "" ) 
+say ( "Demeki itemlerine cevher eklemek istiyordun." ) 
+say ( "Asaðýdaki Ýtemlere Tek Ekleyebilirm." ) 
+say ( "KOLYE , BÝLEZÝK , KÜPE , KEMER" ) 
+say ( "Cevher eklemek istediðin itemi üstüme sürüklemen yeterli." ) 
+say ( "" ) 

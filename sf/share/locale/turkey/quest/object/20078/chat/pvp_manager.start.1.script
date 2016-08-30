@@ -1,0 +1,8 @@
+say_title ( "PvP Turnuvasý : " ) 
+say ( "" ) 
+say ( "Bölgeyi temizlemek istiyor musun?" ) 
+say ( "" ) 
+local temizle = select ( locale . yes , locale . no ) 
+if temizle == 1 then 
+warp_all_to_village ( 28 , 10 ) 
+end 

@@ -1,0 +1,4 @@
+cmdchat ( "KillRotReich " .. pc . getqf ( "empire1" ) ) 
+cmdchat ( "KillGelbReich " .. pc . getqf ( "empire2" ) ) 
+cmdchat ( "KillBlauReich " .. pc . getqf ( "empire3" ) ) 
+cmdchat ( "KillMob " .. pc . getqf ( "mob" ) ) 

@@ -1,0 +1,5 @@
+local s = number ( 1 , 150 ) 
+if s == 1 then 
+pc . give_item2 ( 30220 , 1 ) 
+send_letter ( "Biyolog'un araþtýrmasý " ) 
+end 

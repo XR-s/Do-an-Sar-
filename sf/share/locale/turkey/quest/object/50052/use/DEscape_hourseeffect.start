@@ -1,0 +1,6 @@
+if get_time ( ) <= pc . getqf ( "15saniye" ) then 
+syschat ( "<System> 15 saniye gecmeden atini Cagiramassin!" ) 
+else 
+pc . setqf ( "15saniye" , get_time ( ) + 15 ) 
+cmdchat ( "DEscapeZirhliAt" ) 
+end 

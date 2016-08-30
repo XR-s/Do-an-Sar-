@@ -1,0 +1,66 @@
+if get_time ( ) > pc . getqf ( "duration" ) then 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Ah, bir tane bulmuþsun." ) 
+say ( "Biraz bekle de kontrol edeyim..." ) 
+pc . remove_item ( 30050 , 1 ) 
+pc . setqf ( "duration" , get_time ( ) + 1 ) 
+wait ( ) 
+local pass_percent 
+if pc . is_gm ( ) then 
+pass_percent = 100 
+else 
+if pc . getf ( "collect_quest_luck" , "drink_drug" ) == 0 then 
+pass_percent = 40 
+else 
+pass_percent = 80 
+end 
+end 
+local s = number ( 1 , 100 ) 
+if s <= pass_percent then 
+if pc . getqf ( "collect_count" ) < 19 and not pc . is_gm ( ) then 
+local index = pc . getqf ( "collect_count" ) + 1 
+pc . setqf ( "collect_count" , index ) 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Ah! Bu Buz Topu en iyi kalite! Hemen " ) 
+say ( "araþtýrmaya baþlayacaðým. Ancak " .. 20 - pc . getqf ( "collect_count" ) .. " tane daha" ) 
+say ( "lazým. Lütfen bulmaya çalýþ!" ) 
+say ( "Ve zamana ihtiyacým olduðunu unutma. Yarýna kadar" ) 
+say ( "baþka bir Buz Topu inceleyemem." ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+return 
+end 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "" ) 
+say ( "20 tane buz topunun hepsini topladýn!" ) 
+say ( "Yalnýz biþey eksik; buz ruhu'nun" ) 
+say ( "ruh taþý, o bizim anahtarýmýz." ) 
+say ( "Bu ruh taþýný " ) 
+say ( "buz canavarlarýndan alabilirsin." ) 
+say ( "Bunu yapabilir misin?" ) 
+say ( "" ) 
+pc . setqf ( "collect_count" , 0 ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+pc . setqf ( "duration" , 0 ) 
+set_state ( "key_item" ) 
+return 
+else 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "" ) 
+say ( "Hmm......" ) 
+say ( "Kusura bakma, ama bu buz topunu kullanamam.." ) 
+say ( "Bu kýrýk." ) 
+say ( "Bir tane daha getirir misin?" ) 
+say ( "" ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+return 
+end 
+else 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "" ) 
+say ( "Kusura Bakma..." ) 
+say ( "Son Buz topunu, daha" ) 
+say ( "incelemedim....." ) 
+say ( "Sonra bir daha gelir misin?" ) 
+say ( "" ) 
+return 
+end 

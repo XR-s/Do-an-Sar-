@@ -1,0 +1,66 @@
+if get_time ( ) > pc . getqf ( "duration" ) then 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Ah, bir dal bulmuþsun!" ) 
+say ( "Biraz bekle de kontrol edeyim..." ) 
+pc . remove_item ( 30167 , 1 ) 
+if pc . is_gm ( ) then 
+pc . setqf ( "duration" , get_time ( ) + 2 ) 
+else 
+if game . get_event_flag ( "iade" ) == 1 then 
+pc . setqf ( "duration" , get_time ( ) + 60 * 59 * 1 ) 
+else 
+pc . setqf ( "duration" , get_time ( ) + 60 * 59 * 1 ) 
+end 
+end 
+wait ( ) 
+local pass_percent 
+if pc . is_gm ( ) then 
+pass_percent = 100 
+else 
+if pc . getf ( "collect_quest_luck" , "drink_drug" ) == 0 then 
+pass_percent = 40 
+else 
+pass_percent = 80 
+end 
+end 
+local s = number ( 1 , 100 ) 
+if s <= pass_percent then 
+if pc . getqf ( "collect_count" ) < 39 and not pc . is_gm ( ) then 
+local index = pc . getqf ( "collect_count" ) + 1 
+pc . setqf ( "collect_count" , index ) 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Ah! Bu dal en iyi kalite! Hemen araþtýrmaya" ) 
+say ( "baþlayacaðým. Ancak " .. 40 - pc . getqf ( "collect_count" ) .. " tane daha" ) 
+say ( "lazým. Lütfen bulmaya çalýþ!" ) 
+say ( "Ve zamana ihtiyacým olduðunu unutma. Yarýna kadar" ) 
+say ( "baþka bir Kýr. Hayalet Aðacý Dalý inceleyemem." ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+return 
+end 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Bütün dallarý topladýn!" ) 
+say ( "Þimdi bana Orman Ruhu Taþý'ný getirmelisin." ) 
+say ( "Yapabilirsin deðil mi?" ) 
+say ( "Orman Ruhu Taþý'ný, Kýrmýzý " ) 
+say ( "Hayalet Aðaçlardan alabilirsin." ) 
+pc . setqf ( "collect_count" , 0 ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+pc . setqf ( "duration" , 0 ) 
+set_state ( "key_item" ) 
+return 
+else 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Hm, bu dal ince ve yanýk. Korkarým pek iþime" ) 
+say ( "yaramaz. Bana baþka bir tane getir!" ) 
+say ( "Yine de bununla deney yapmayý deneyeceðim. Yarýna" ) 
+say ( "kadar baþka dal inceleyemem." ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+return 
+end 
+else 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Üzgünüm..." ) 
+say ( "Önceki getirdiðin dalý hâlâ " ) 
+say ( "inceliyorum. Sonra tekrar gelsen olur mu?" ) 
+return 
+end 

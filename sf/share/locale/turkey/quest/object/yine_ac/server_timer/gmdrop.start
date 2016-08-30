@@ -1,0 +1,5 @@
+command ( "priv 0 1 300 1000" ) 
+command ( "priv 0 2 300 1000" ) 
+command ( "priv 0 4 300 1000" ) 
+clear_server_timer ( "yine_ac" ) 
+server_timer ( "drop_ac" , 86400 ) 

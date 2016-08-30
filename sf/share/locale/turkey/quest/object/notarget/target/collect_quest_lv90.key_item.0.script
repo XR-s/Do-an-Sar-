@@ -1,0 +1,16 @@
+target . delete ( "__TARGET__" ) 
+if pc . count_item ( 30227 ) > 0 then 
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "Ah! Ýyi çalýþma. Teþekkür ederim sayende" ) 
+say ( "araþtýrmalarýmý tamamladým!" ) 
+say ( "Ödül olarak sana bu gizli reçeteyi veriyorum." ) 
+say ( "Baek-Go senin için iksiri yapacak. Tekrar" ) 
+say ( "teþekkürler ve iyi günler!" ) 
+pc . remove_item ( 30227 , 1 ) 
+set_state ( "__reward" ) 
+else 
+say ( "Chaegirab" ) 
+say ( "" .. item_name ( 30227 ) .. " bulduðunda tekrar gel!" ) 
+say ( "" ) 
+return 
+end 

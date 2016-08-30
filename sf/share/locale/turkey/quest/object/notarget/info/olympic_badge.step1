@@ -1,0 +1,4 @@
+if pc . level >= 30 then say ( "" ) 
+say ( gameforge . olympic_badge . _180_say ) 
+say ( "" ) 
+ return end 

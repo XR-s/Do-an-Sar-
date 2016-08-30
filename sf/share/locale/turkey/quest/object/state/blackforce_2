@@ -1,0 +1,45 @@
+blackforce_2={["start"]=0,ayarlar= function ()local futbol_topu = { } 
+futbol_topu . toplar = { 50096 , 10 , 50265 , 1 } 
+futbol_topu . sure = 86400 
+futbol_topu . baslik_1 = "Futbol ateþi" 
+futbol_topu . konusma_penceresi = "Merhaba ben kesinlikle büyük futbol fanatiðiyim. Futbol'un bir ölüm kalým meselesi olduðunu düþünüyorum. Biz erkekler bu oyunun hakkýný vermeliyiz. Kýz gibi oynayanlara yer yok! " 
+futbol_topu . konusma_penceresi_2 = "Hayatýnda bir kere bile gol atamayan adamlar tanýyorum ben! Bunlarýn çaresi ne aslýnda biliyor musun? Büyülü toplar! Büyülü top ne mi? Tabii ki altýna bezenmiþ futboldaki mükemmelliðin sahadaki adý! Bana 10 adet Futbol topu getirir isen, sana Altýn top verebilirim." 
+futbol_topu . baslik_2 = "Bir futbol!" 
+futbol_topu . bekle = "Biraz bekle..." 
+futbol_topu . konusma_penceresi_3 = "Birazdan sana altýn top yapacaðým..." 
+futbol_topu . konusma_kabul = "Ah! Ýþte futbol toplarý! Bekle birazdan seninle toplarý takas edeceðiz. " 
+futbol_topu . konusma_red = "Biraz bekle! Bu kadar topu nereye götüreceksin? Dinlenmelisin.Bu iþin esasý kondisyonda saklýdýr.Git ve yarýn tekrar gel." 
+futbol_topu . eksik = "Yeterli top yok." 
+return futbol_topu 
+end ,baslik= function ()say_title ( "" .. mob_name ( npc . get_race ( ) ) .. ":" ) 
+say ( ) 
+end ,say2= function (str,dx)local maxl , actl , pat = dx or 50 , 0 , "(.-)(%[.-%])()" 
+local result , nb , lastPos , outp = { } , 0 , 0 , "" 
+local function bere ( stx ) 
+for le in string . gfind ( stx , "((%S+)%s*)" ) begin 
+if actl + string . len ( le ) > maxl then 
+outp = outp .. "[ENTER]" 
+actl = 0 
+end 
+outp = outp .. le 
+actl = actl + string . len ( le ) 
+end 
+end 
+for part , dos , pos in string . gfind ( str , pat ) begin 
+if part ~= "" then 
+bere ( part ) 
+end 
+outp = outp .. dos 
+lastPos = pos 
+end 
+bere ( string . sub ( str , lastPos ) ) 
+say ( outp ) 
+say ( ) 
+end ,kontrol= function ()mevcut = pc . getqf ( "kontrol_qff" ) 
+event = game . get_event_flag ( "new_football_2014_event" ) 
+if mevcut == 0 and event == 1 then 
+return true 
+elseif mevcut == 1 and event == 1 then 
+return false 
+end 
+end }

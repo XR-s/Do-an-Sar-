@@ -1,0 +1,62 @@
+say_title ( "Iþýnlanma Yüzüðü " ) 
+say ( "Nereye gitmek istiyorsun?" ) 
+local s = select ( "Köyler" , "Orman Bölgeleri" , "Örümcek Zindaný " , "Sürgün Maðarasý " , "Diðer Bölgeler" , "Kapat " ) 
+if s == 1 then 
+say_title ( "Iþýnlanma Yüzüðü " ) 
+local ss = select ( "Kýrmýzý (1.Köy)" , "Kýrmýzý (2.Köy)" , "Sarý (1.Köy)" , "Sarý (2.Köy)" , "Mavi (1.Köy)" , "Mavi (2.Köy)" , "Vazgeç " ) 
+if ss == 1 then 
+pc . warp ( 474300 , 954800 ) 
+elseif ss == 2 then 
+pc . warp ( 360800 , 877600 ) 
+elseif ss == 3 then 
+pc . warp ( 63800 , 166400 ) 
+elseif ss == 4 then 
+pc . warp ( 138500 , 234900 ) 
+elseif ss == 5 then 
+pc . warp ( 959800 , 268400 ) 
+elseif ss == 6 then 
+pc . warp ( 873100 , 242600 ) 
+end 
+elseif s == 2 then 
+say_title ( "Iþýnlanma Yüzüðü " ) 
+local sss = select ( "Hayalet Orman" , "Kýzýl Orman Baþlangýcý " , "Kýzýl Orman Sonu" , "Vazgeç " ) 
+if sss == 1 then 
+pc . warp ( 288700 , 5700 ) 
+elseif sss == 2 then 
+pc . warp ( 1.1199e+06 , 70800 ) 
+elseif sss == 3 then 
+pc . warp ( 1.1181e+06 , 8600 ) 
+end 
+elseif s == 3 then 
+say_title ( "Iþýnlanma Yüzüðü " ) 
+local zindan = select ( "Örümcek Zindaný 1. Kat Baþý " , "Örümcek Zindaný 2. Kat Sonu" , "Vazgeç " ) 
+if zindan == 1 then 
+pc . warp ( 59800 , 497300 ) 
+elseif zindan == 2 then 
+pc . warp ( 704100 , 521900 ) 
+end 
+elseif s == 4 then 
+say_title ( "Iþýnlanma Yüzüðü " ) 
+say ( "Sürgün Maðarasý giriþine ýþýnlanýyorsun..." ) 
+wait ( ) 
+pc . warp ( 284400 , 810700 ) 
+elseif s == 5 then 
+say_title ( "Iþýnlanma Yüzüðü " ) 
+local sssssss = select ( "Seungryong Vadisi" , "Sohan Daðý " , "Yongbi Çölü " , "Doyyumhwan" , "Devler Diyarý " , "Þeytan Kulesi" , "Þeytan Mezarlýðý " , "Vazgeç " ) 
+if sssssss == 1 then 
+pc . warp ( 336000 , 755600 ) 
+elseif sssssss == 2 then 
+pc . warp ( 436400 , 215600 ) 
+elseif sssssss == 3 then 
+pc . warp ( 296800 , 547400 ) 
+elseif sssssss == 4 then 
+pc . warp ( 600800 , 687400 ) 
+elseif sssssss == 5 then 
+pc . warp ( 829900 , 763300 ) 
+elseif sssssss == 6 then 
+pc . warp ( 590500 , 110500 ) 
+elseif sssssss == 7 then 
+pc . warp ( 591100 , 99300 ) 
+end 
+elseif s == 7 then 
+end 

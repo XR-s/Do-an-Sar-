@@ -1,0 +1,5 @@
+if game . get_event_flag ( "threeway_war" ) == 0 then game . set_event_flag ( "3yolkirmizi" , 0 ) 
+game . set_event_flag ( "3yolsari" , 0 ) 
+game . set_event_flag ( "3yolmavi" , 0 ) 
+game . set_event_flag ( "3yolsinir" , 0 ) 
+ return end 

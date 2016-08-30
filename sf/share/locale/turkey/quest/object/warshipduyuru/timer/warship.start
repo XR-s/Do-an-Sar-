@@ -1,0 +1,5 @@
+if game . get_event_flag ( "warship" ) == 1 then 
+warship . duyuru ( ) 
+else 
+cleartimer ( "warshipduyuru" ) 
+end 

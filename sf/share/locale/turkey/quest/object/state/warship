@@ -1,0 +1,31 @@
+warship={["start"]=0,kazanan= function (bayrak,id)notice_all ( "Gemi savaþýný " .. bayrak .. " Ýmparatorluðu kazandý! " ) 
+server_timer ( "warshipbitir" , 3 , 356 ) 
+mysql_query10 ( "UPDATE player.warship set kazanan = " .. id .. "" ) 
+end ,duyuru= function ()local bul = mysql_query10 ( "SELECT * FROM player.warship" ) 
+local kirmizi = tonumber ( bul . kirmizi [ 1 ] ) 
+local sari = tonumber ( bul . sari [ 1 ] ) 
+local mavi = tonumber ( bul . mavi [ 1 ] ) 
+notice_in_map ( "Shinsoo : " .. kirmizi .. " , Chunjo : " .. sari .. " , Jinno : " .. mavi .. " " , 356 ) 
+end ,flagekle= function ()local tablocek = { 
+[ 0 ] = { "" } , 
+[ 1 ] = { "kirmizi" } , 
+[ 2 ] = { "sari" } , 
+[ 3 ] = { "mavi" } , 
+} 
+local tabloisim = tablocek [ pc . get_empire ( ) ] [ 1 ] 
+local aq 
+local bul = mysql_query10 ( "SELECT * FROM player.warship" ) 
+if pc . get_empire ( ) == 1 then 
+local aq = tonumber ( bul . kirmizi [ 1 ] ) 
+local artir = aq + 1 
+mysql_query10 ( "UPDATE player.warship set " .. tabloisim .. " = " .. artir .. "" ) 
+elseif pc . get_empire ( ) == 2 then 
+local aq = tonumber ( bul . sari [ 1 ] ) 
+local artir = aq + 1 
+mysql_query10 ( "UPDATE player.warship set " .. tabloisim .. " = " .. artir .. "" ) 
+elseif pc . get_empire ( ) == 3 then 
+local aq = tonumber ( bul . mavi [ 1 ] ) 
+local artir = aq + 1 
+mysql_query10 ( "UPDATE player.warship set " .. tabloisim .. " = " .. artir .. "" ) 
+end 
+end }

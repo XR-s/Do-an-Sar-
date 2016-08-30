@@ -1,0 +1,73 @@
+if get_time ( ) > pc . getqf ( "duration" ) then 
+if pc . count_item ( 30252 ) > 0 then 
+say_title ( "Seon-Pyeong" ) 
+say ( "Bir mücevher mi buldun? Harikasýn! Bir dakika" ) 
+say ( "bekle, bundan emin olmam lazým..." ) 
+say ( "" ) 
+pc . remove_item ( 30252 , 1 ) 
+if pc . is_gm ( ) then 
+pc . setqf ( "duration" , get_time ( ) + 2 ) 
+else 
+if game . get_event_flag ( "iade" ) == 1 then 
+pc . setqf ( "duration" , get_time ( ) + 60 * 59 * 2 ) 
+else 
+pc . setqf ( "duration" , get_time ( ) + 60 * 59 * 2 ) 
+end 
+end 
+wait ( ) 
+local pass_percent 
+if pc . is_gm ( ) then 
+pass_percent = 100 
+else 
+if pc . setf ( "collect_quest_luck" , "drink_drug" ) == 0 then 
+pass_percent = 25 
+else 
+pass_percent = 50 
+end 
+end 
+local s = number ( 1 , 100 ) 
+if s <= pass_percent then 
+if pc . getqf ( "collect_count" ) < 19 and not pc . is_gm ( ) then 
+local index = pc . getqf ( "collect_count" ) + 1 
+pc . setqf ( "collect_count" , index ) 
+say_title ( "Seon-Pyeong:" ) 
+say ( "Harika! Bu mücevher tam istediðim gibi." ) 
+say ( "Þimdi bana " .. " " .. 20 - pc . getqf ( "collect_count" ) .. " tane daha getirmelisin." ) 
+say ( "Bol þanslar!" ) 
+say ( "" ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+return 
+end 
+say_title ( "Seon-Pyeong:" ) 
+say ( "Bu en sonuncu mücevherdi. Þimdi bana Beran-Setaou  " ) 
+say ( "Ruh Taþý gerekli. Eðer onu da getirirsen  " ) 
+say ( "araþtýrmamý tamamlayabilirim. Yalnýzca bir tane " ) 
+say ( "getirmelisin. Ruh taþýný Beran-Setaou ve " ) 
+say ( "Generallerde bulabilirsin." ) 
+pc . setqf ( "collect_count" , 0 ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+pc . setqf ( "duration" , 0 ) 
+set_state ( "drachenstein" ) 
+return 
+else 
+say_title ( "Seon-Pyeong:" ) 
+say ( "Üzgünüm ama bu mücevher zarar görmüþ." ) 
+say ( "Daha sonra baþka bir tane getir." ) 
+say ( "" ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+return 
+end 
+else 
+say_title ( "Seon-Pyeong:" ) 
+say ( "" .. item_name ( 30252 ) .. " bulduðunda tekrar gel." ) 
+return 
+end 
+else 
+say_title ( "Seon-Pyeong" ) 
+say ( "Üzgünüm." ) 
+say ( "Son getirdiðin mücevher üzerindeki incelemem " ) 
+say ( "henüz bitmedi." ) 
+say ( "Sonra gelsen olur mu?" ) 
+say ( "" ) 
+return 
+end 

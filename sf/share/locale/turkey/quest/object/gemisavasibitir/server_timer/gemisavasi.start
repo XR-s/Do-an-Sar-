@@ -1,0 +1,8 @@
+clear_server_timer ( "gemisavasibitir" ) 
+local sifir = 0 
+mysql_query10 ( "UPDATE player.gemisavasi set kirmizi = " .. sifir .. "" ) 
+mysql_query10 ( "UPDATE player.gemisavasi set sari = " .. sifir .. "" ) 
+mysql_query10 ( "UPDATE player.gemisavasi set mavi = " .. sifir .. "" ) 
+game . set_event_flag ( "gemisavasi" , 0 ) 
+game . set_event_flag ( "gemisavasilimit" , 0 ) 
+warp_all_to_village ( 356 , 15 ) 

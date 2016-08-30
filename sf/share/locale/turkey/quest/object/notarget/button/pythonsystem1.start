@@ -1,0 +1,11 @@
+local gelen = pythonsystem1 . getinput ( "PYTHONISLEM" ) 
+if gelen == "#hp_sp#" then 
+local vid = pythonsystem1 . getinput ( "PLAYER_VID" ) 
+local old_pc = pc . select ( vid ) 
+local hp = pc . get_hp ( ) 
+local max_hp = pc . get_max_hp ( ) 
+local mp = pc . get_sp ( ) 
+local max_mp = pc . get_max_sp ( ) 
+pc . select ( old_pc ) 
+cmdchat ( "LuaToPython #rakip_hp_sp#|" .. hp .. "|" .. max_hp .. "|" .. mp .. "|" .. max_mp ) 
+end 

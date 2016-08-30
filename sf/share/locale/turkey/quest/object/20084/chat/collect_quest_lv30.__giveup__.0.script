@@ -1,0 +1,8 @@
+say_title ( "Biyolog Chaegirab:" ) 
+say ( "" ) 
+say ( "Bir daha denemek istiyor musun?" ) 
+say ( "Hmm..çok iyi" ) 
+say ( "Çok beðendim ama, " ) 
+say ( "Lütfen bir daha dene." ) 
+say ( "Görüþmek üzere." ) 
+set_state ( "start" ) 

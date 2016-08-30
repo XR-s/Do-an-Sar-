@@ -1,0 +1,2 @@
+if pc . level >= 30 then send_letter ( gameforge . olympic_badge . _060_npcChat ) 
+ return end 

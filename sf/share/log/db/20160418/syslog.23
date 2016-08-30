@@ -1,0 +1,1712 @@
+SYSERR: Apr 17 23:35:51 :: pid_init: 
+Start of pid: 898
+
+Apr 17 23:35:51 :: CONFIG: NO_TXT
+Apr 17 23:35:51 :: connecting to MySQL server (player)
+Apr 17 23:35:51 :: CREATING DIRECT_SQL
+Apr 17 23:35:51 :: AsyncSQL: locale latin1
+Apr 17 23:35:51 :: CREATING MAIN_SQL
+Apr 17 23:35:51 :: AsyncSQL: locale latin1
+Apr 17 23:35:51 :: CREATING ASYNC_SQL
+Apr 17 23:35:51 :: AsyncSQL: locale latin1
+Apr 17 23:35:51 ::    OK
+Apr 17 23:35:51 :: connecting to MySQL server (account)
+Apr 17 23:35:51 :: CREATING DIRECT_SQL
+Apr 17 23:35:51 :: AsyncSQL: locale latin1
+Apr 17 23:35:51 :: CREATING MAIN_SQL
+Apr 17 23:35:51 :: AsyncSQL: locale latin1
+Apr 17 23:35:51 :: CREATING ASYNC_SQL
+Apr 17 23:35:51 :: AsyncSQL: locale latin1
+Apr 17 23:35:51 ::    OK
+Apr 17 23:35:51 :: connecting to MySQL server (common)
+Apr 17 23:35:51 :: CREATING DIRECT_SQL
+Apr 17 23:35:51 :: AsyncSQL: locale latin1
+Apr 17 23:35:51 :: CREATING MAIN_SQL
+Apr 17 23:35:51 :: AsyncSQL: locale latin1
+Apr 17 23:35:51 :: CREATING ASYNC_SQL
+Apr 17 23:35:51 :: AsyncSQL: locale latin1
+Apr 17 23:35:51 ::    OK
+Apr 17 23:35:51 :: connecting to MySQL server (hotbackup)
+Apr 17 23:35:51 :: CREATING DIRECT_SQL
+Apr 17 23:35:51 :: AsyncSQL: locale latin1
+Apr 17 23:35:51 :: CREATING MAIN_SQL
+Apr 17 23:35:51 :: AsyncSQL: locale latin1
+Apr 17 23:35:51 :: CREATING ASYNC_SQL
+Apr 17 23:35:51 :: AsyncSQL: locale latin1
+Apr 17 23:35:51 ::    OK
+Apr 17 23:35:51 :: ClientManager initialization.. 
+Apr 17 23:35:51 :: InitializeLocalization() - LoadLocaleTable(count:13)
+Apr 17 23:35:51 :: locale[UNKNOWN_KEY(SKILL_POWER_BY_LEVEL_TYPE0)] = 0 5 6 8 10 12 14 16 18 20 22 24
+Apr 17 23:35:51 :: locale[UNKNOWN_KEY(SKILL_POWER_BY_LEVEL_TYPE1)] = 0 5 6 8 10 12 14 16 18 20 22 24
+Apr 17 23:35:51 :: locale[UNKNOWN_KEY(SKILL_POWER_BY_LEVEL_TYPE2)] = 0 5 6 8 10 12 14 16 18 20 22 24
+Apr 17 23:35:51 :: locale[UNKNOWN_KEY(SKILL_POWER_BY_LEVEL_TYPE3)] = 0 5 6 8 10 12 14 16 18 20 22 24
+Apr 17 23:35:51 :: locale[UNKNOWN_KEY(SKILL_POWER_BY_LEVEL_TYPE4)] = 0 5 6 8 10 12 14 16 18 20 22 24
+Apr 17 23:35:51 :: locale[UNKNOWN_KEY(SKILL_POWER_BY_LEVEL_TYPE5)] = 0 5 6 8 10 12 14 16 18 20 22 24
+Apr 17 23:35:51 :: locale[UNKNOWN_KEY(SKILL_POWER_BY_LEVEL_TYPE6)] = 0 5 6 8 10 12 14 16 18 20 22 24
+Apr 17 23:35:51 :: locale[UNKNOWN_KEY(SKILL_POWER_BY_LEVEL_TYPE7)] = 0 5 6 8 10 12 14 16 18 20 22 24
+Apr 17 23:35:51 :: locale[LOCALE] = turkey
+Apr 17 23:35:51 :: Changed g_stLocale latin1 to euckr
+Apr 17 23:35:51 :: SetLocale start
+Apr 17 23:35:51 :: 	--mysql_set_character_set(latin5)
+Apr 17 23:35:51 :: 	--mysql_set_character_set(latin5)
+Apr 17 23:35:51 :: 	--mysql_set_character_set(latin5)
+Apr 17 23:35:51 :: 	--mysql_set_character_set(latin5)
+Apr 17 23:35:51 :: 	--mysql_set_character_set(latin5)
+Apr 17 23:35:51 :: 	--mysql_set_character_set(latin5)
+Apr 17 23:35:51 :: 	--mysql_set_character_set(latin5)
+Apr 17 23:35:51 :: 	--mysql_set_character_set(latin5)
+Apr 17 23:35:51 :: 	--mysql_set_character_set(latin5)
+Apr 17 23:35:51 :: End setlocale latin5
+Apr 17 23:35:51 :: locale[DB_NAME_COLUMN] = locale_name
+Apr 17 23:35:51 :: locale[UNKNOWN_KEY(SKILL_DAMAGE_BY_LEVEL_UNDER_90)] = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Apr 17 23:35:51 :: locale[UNKNOWN_KEY(SKILL_DAMAGE_BY_LEVEL_UNDER_45)] = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Apr 17 23:35:51 :: locale[UNKNOWN_KEY(SKILL_POWER_BY_LEVEL)] = 0 5 6 8 10 12 14 16 18 20 22 24
+Apr 17 23:35:51 :: GetParam 2000000000
+Apr 17 23:35:51 :: GetParam 2100000000
+Apr 17 23:35:51 :: ItemRange From File 2000000000 ~ 2100000000 
+Apr 17 23:35:51 :: ItemIDRange: Build: 2000000000 ~ 2100000000 start:2000000000
+Apr 17 23:35:51 ::  Init Success Start 2000000000 End 2100000000 Now 2000000000
+
+Apr 17 23:35:51 :: MOB_PROTO loading...
+Apr 17 23:35:51 :: CClientManager::InitializeMobTable:: 1390 mobs loaded.
+
+Apr 17 23:35:51 :: ITEM_PROTO loading...
+Apr 17 23:35:51 :: CClientManager::InitializeMobTable:: 21501 items loaded.
+
+Apr 17 23:35:51 :: SHOP: #1 items: 23
+Apr 17 23:35:51 :: SHOP: #2 items: 7
+Apr 17 23:35:51 :: SHOP: #3 items: 71
+Apr 17 23:35:51 :: SHOP: #4 items: 33
+Apr 17 23:35:51 :: SHOP: #7 items: 0
+Apr 17 23:35:51 :: SHOP: #8 items: 4
+Apr 17 23:35:51 :: SHOP: #9 items: 7
+Apr 17 23:35:51 :: SHOP: #10 items: 1
+Apr 17 23:35:51 :: SHOP: #11 items: 3
+Apr 17 23:35:51 :: SHOP: #13 items: 6
+Apr 17 23:35:51 :: SHOP: #9010 items: 80
+Apr 17 23:35:51 :: SHOP: #20300 items: 24
+Apr 17 23:35:51 :: SHOP: #20302 items: 24
+Apr 17 23:35:51 :: SHOP: #20304 items: 12
+Apr 17 23:35:51 :: SHOP: #20306 items: 24
+Apr 17 23:35:51 :: SHOP: #20320 items: 24
+Apr 17 23:35:51 :: SHOP: #20322 items: 24
+Apr 17 23:35:51 :: SHOP: #20324 items: 12
+Apr 17 23:35:51 :: SHOP: #20326 items: 24
+Apr 17 23:35:51 :: SHOP: #20340 items: 24
+Apr 17 23:35:51 :: SHOP: #20342 items: 24
+Apr 17 23:35:51 :: SHOP: #20344 items: 24
+Apr 17 23:35:51 :: SHOP: #20346 items: 24
+Apr 17 23:35:51 :: SHOP: #20359 items: 21
+Apr 17 23:35:51 :: SKILL: #1 삼연참 flag 3 point HP affect 0 cooldown 12
+Apr 17 23:35:51 :: SKILL: #2 팔방풍우 flag 3 point HP affect 0 cooldown 15
+Apr 17 23:35:51 :: SKILL: #3 전귀혼 flag 8 point ATT_SPEED affect 15 cooldown 63+90*k
+Apr 17 23:35:51 :: SKILL: #4 검경 flag 8 point ATT_GRADE affect 16 cooldown 33+50*k
+Apr 17 23:35:51 :: SKILL: #5 탄환격 flag 524419 point HP affect 0 cooldown 12
+Apr 17 23:35:51 :: SKILL: #16 기공참 flag 3 point HP affect 0 cooldown 15
+Apr 17 23:35:51 :: SKILL: #17 격산타우 flag 3 point HP affect 0 cooldown 15
+Apr 17 23:35:51 :: SKILL: #18 대진각 flag 8331 point HP affect 0 cooldown 25
+Apr 17 23:35:51 :: SKILL: #19 천근추 flag 8 point DEF_GRADE affect 17 cooldown 63+90*k
+Apr 17 23:35:51 :: SKILL: #20 검풍 flag 524419 point HP affect 0 cooldown 20
+Apr 17 23:35:51 :: SKILL: #31 암습 flag 3 point HP affect 0 cooldown 15
+Apr 17 23:35:51 :: SKILL: #32 궁신탄영 flag 3 point HP affect 0 cooldown 20
+Apr 17 23:35:51 :: SKILL: #33 차륜살 flag 1048579 point HP affect 0 cooldown 25
+Apr 17 23:35:51 :: SKILL: #34 은형법 flag 8 point NONE affect 19 cooldown 60
+Apr 17 23:35:51 :: SKILL: #35 산공분 flag 1048707 point HP affect 0 cooldown 25
+Apr 17 23:35:51 :: SKILL: #46 연사 flag 513 point HP affect 0 cooldown 15
+Apr 17 23:35:51 :: SKILL: #47 관격술 flag 513 point HP affect 0 cooldown 12
+Apr 17 23:35:51 :: SKILL: #48 화조파 flag 641 point HP affect 0 cooldown 25
+Apr 17 23:35:51 :: SKILL: #49 경공술 flag 8 point MOV_SPEED affect 18 cooldown 30+30*k
+Apr 17 23:35:51 :: SKILL: #50 독기궁 flag 1573505 point HP affect 0 cooldown 25
+Apr 17 23:35:51 :: SKILL: #61 쇄령지 flag 1027 point HP affect 0 cooldown 10
+Apr 17 23:35:51 :: SKILL: #62 용권파 flag 2187 point HP affect 0 cooldown 15
+Apr 17 23:35:51 :: SKILL: #63 귀검 flag 2097160 point ATT_GRADE affect 20 cooldown 0
+Apr 17 23:35:51 :: SKILL: #64 공포 flag 8 point DODGE affect 21 cooldown 100
+Apr 17 23:35:51 :: SKILL: #65 주마갑 flag 8 point DEF_GRADE affect 22 cooldown 33+140*k
+Apr 17 23:35:51 :: SKILL: #66 파법술 flag 262337 point HP affect 0 cooldown 12
+Apr 17 23:35:51 :: SKILL: #76 마령 flag 193 point HP affect 0 cooldown 7
+Apr 17 23:35:51 :: SKILL: #77 화염폭 flag 201 point HP affect 0 cooldown 12
+Apr 17 23:35:51 :: SKILL: #78 무영진 flag 2097345 point HP affect 0 cooldown 43+30*k
+Apr 17 23:35:51 :: SKILL: #79 흑신수호 flag 2097160 point DEF_GRADE affect 26 cooldown 63+120*k
+Apr 17 23:35:51 :: SKILL: #80 투속마령 flag 4289 point HP affect 0 cooldown 12
+Apr 17 23:35:51 :: SKILL: #81 마환격 flag 193 point HP affect 0 cooldown 24
+Apr 17 23:35:51 :: SKILL: #91 비파부 flag 193 point HP affect 0 cooldown 7
+Apr 17 23:35:51 :: SKILL: #92 용파산 flag 65537 point HP affect 0 cooldown 8
+Apr 17 23:35:51 :: SKILL: #93 패룡폭 flag 134283401 point HP affect 0 cooldown 20
+Apr 17 23:35:51 :: SKILL: #94 호신 flag 134217728 point RESIST_NORMAL affect 23 cooldown 10
+Apr 17 23:35:51 :: SKILL: #95 반사 flag 134217728 point REFLECT_MELEE affect 24 cooldown 10
+Apr 17 23:35:51 :: SKILL: #96 기천대공 flag 134217728 point CRITICAL affect 30 cooldown 10
+Apr 17 23:35:51 :: SKILL: #106 뇌전령 flag 129 point HP affect 0 cooldown 7
+Apr 17 23:35:51 :: SKILL: #107 벼락 flag 8321 point HP affect 0 cooldown 15
+Apr 17 23:35:51 :: SKILL: #108 폭뢰격 flag 1 point HP affect 0 cooldown 10
+Apr 17 23:35:51 :: SKILL: #109 정업인 flag 134348800 point HP affect 0 cooldown 10
+Apr 17 23:35:51 :: SKILL: #110 쾌속 flag 134217728 point MOV_SPEED affect 25 cooldown 10
+Apr 17 23:35:51 :: SKILL: #111 증력술 flag 134217728 point ATT_GRADE affect 31 cooldown 10
+Apr 17 23:35:51 :: SKILL: #121 통솔력 flag 4194304 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #122 연계기 flag 4194304 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #124 채광술 flag 4194304 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #125 변신 flag 4194304 point NONE affect 1 cooldown 
+Apr 17 23:35:51 :: SKILL: #126 신수어 flag 4194304 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #127 천조어 flag 4194304 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #128 진노어 flag 4194304 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #129 둔갑술 flag 4194304 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #130 승마 flag 4194304 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #131 말소환 flag 4194304 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #137 난무 flag 524291 point HP affect 0 cooldown 5-(4*k)
+Apr 17 23:35:51 :: SKILL: #138 돌격 flag 8388739 point HP affect 0 cooldown 15
+Apr 17 23:35:51 :: SKILL: #139 탈출 flag 524427 point HP affect 0 cooldown 20
+Apr 17 23:35:51 :: SKILL: #140 난무(활) flag 524801 point HP affect 0 cooldown 10
+Apr 17 23:35:51 :: SKILL: #151 용안 flag 0 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #152 용신의피 flag 0 point MAX_HP affect 0 cooldown 600
+Apr 17 23:35:51 :: SKILL: #153 용신의축복 flag 0 point MAX_SP affect 0 cooldown 600
+Apr 17 23:35:51 :: SKILL: #154 성휘갑 flag 0 point DEF_GRADE affect 0 cooldown 480
+Apr 17 23:35:51 :: SKILL: #155 가속화 flag 0 point MOV_SPEED affect 0 cooldown 480
+Apr 17 23:35:51 :: SKILL: #156 용신의분노 flag 8 point CRITICAL affect 0 cooldown 480
+Apr 17 23:35:51 :: SKILL: #157 주문술 flag 8 point CASTING_SPEED affect 0 cooldown 480
+Apr 17 23:35:51 :: SKILL: #158 길드이동 flag 8 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #159 공간의문 flag 8 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #160 가속화 flag 8 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #161 공간의문 flag 0 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #162 공간이동 flag 0 point NONE affect 0 cooldown 
+Apr 17 23:35:51 :: SKILL: #256 CRUSH200스킬 flag 524419 point HP affect 0 cooldown 2
+Apr 17 23:35:51 :: SKILL: #257 일반범위350스킬 flag 131 point HP affect 0 cooldown 5
+Apr 17 23:35:51 :: SKILL: #258 CRUSH300스킬 flag 524419 point HP affect 0 cooldown 7
+Apr 17 23:35:51 :: SKILL: #259 일반범위200스킬 flag 131 point HP affect 0 cooldown 9
+Apr 17 23:35:51 :: SKILL: #260 CURSH400스킬 flag 524419 point HP affect 0 cooldown 10
+Apr 17 23:35:51 :: SKILL: #261 독250스킬 flag 1048707 point HP affect 0 cooldown 9
+Apr 17 23:35:51 :: SKILL: #262 SLOW300스킬 flag 131 point HP affect 0 cooldown 12
+Apr 17 23:35:51 :: REFINE: id 1 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 2 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 3 cost 2500 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 4 cost 5000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 5 cost 10000 prob 75 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 6 cost 20000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 7 cost 30000 prob 65 mat1 30053 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 8 cost 45000 prob 60 mat1 30073 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 9 cost 75000 prob 55 mat1 30033 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 10 cost 1000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 11 cost 2000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 12 cost 4000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 13 cost 8000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 14 cost 13000 prob 75 mat1 30030 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 15 cost 20000 prob 70 mat1 30075 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 16 cost 40000 prob 65 mat1 30056 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 17 cost 70000 prob 60 mat1 30022 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 18 cost 120000 prob 55 mat1 30067 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 19 cost 1200 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 20 cost 2500 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 21 cost 5000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 22 cost 10000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 23 cost 20000 prob 75 mat1 30079 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 24 cost 30000 prob 70 mat1 30015 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 25 cost 45000 prob 65 mat1 30016 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 26 cost 90000 prob 60 mat1 30089 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 27 cost 150000 prob 55 mat1 30091 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 28 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 29 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 30 cost 2500 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 31 cost 5000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 32 cost 10000 prob 75 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 33 cost 20000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 34 cost 30000 prob 65 mat1 30034 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 35 cost 45000 prob 60 mat1 30011 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 36 cost 75000 prob 55 mat1 30035 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 37 cost 1000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 38 cost 2000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 39 cost 4000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 40 cost 8000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 41 cost 13000 prob 75 mat1 30052 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 42 cost 20000 prob 70 mat1 30046 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 43 cost 40000 prob 65 mat1 30045 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 44 cost 70000 prob 60 mat1 30025 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 45 cost 120000 prob 55 mat1 30058 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 46 cost 1200 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 47 cost 2500 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 48 cost 5000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 49 cost 10000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 50 cost 20000 prob 75 mat1 30083 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 51 cost 30000 prob 70 mat1 30060 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 52 cost 45000 prob 65 mat1 30061 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 53 cost 90000 prob 60 mat1 30088 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 54 cost 150000 prob 55 mat1 30019 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 55 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 56 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 57 cost 2500 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 58 cost 5000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 59 cost 10000 prob 75 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 60 cost 20000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 61 cost 30000 prob 65 mat1 30070 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 62 cost 45000 prob 60 mat1 30072 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 63 cost 75000 prob 55 mat1 30017 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 64 cost 1000 prob 55 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 65 cost 2000 prob 55 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 66 cost 4000 prob 55 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 67 cost 8000 prob 55 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 68 cost 13000 prob 49 mat1 30041 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 69 cost 20000 prob 38 mat1 30008 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 70 cost 40000 prob 25 mat1 30057 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 71 cost 70000 prob 18 mat1 30081 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 72 cost 120000 prob 7 mat1 30077 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 73 cost 1200 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 74 cost 2500 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 75 cost 5000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 76 cost 10000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 77 cost 20000 prob 75 mat1 30009 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 78 cost 30000 prob 70 mat1 30039 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 79 cost 45000 prob 65 mat1 30040 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 80 cost 90000 prob 60 mat1 30048 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 81 cost 150000 prob 55 mat1 30090 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 82 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 83 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 84 cost 2500 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 85 cost 5000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 86 cost 10000 prob 75 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 87 cost 20000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 88 cost 30000 prob 65 mat1 30031 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 89 cost 45000 prob 60 mat1 30032 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 90 cost 75000 prob 55 mat1 30033 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 91 cost 1000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 92 cost 2000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 93 cost 4000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 94 cost 8000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 95 cost 13000 prob 75 mat1 30008 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 96 cost 20000 prob 70 mat1 30075 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 97 cost 40000 prob 65 mat1 30006 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 98 cost 70000 prob 60 mat1 30022 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 99 cost 120000 prob 55 mat1 30067 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 100 cost 1200 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 101 cost 2500 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 102 cost 5000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 103 cost 10000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 104 cost 20000 prob 75 mat1 30079 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 105 cost 30000 prob 70 mat1 30015 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 106 cost 45000 prob 65 mat1 30086 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 107 cost 90000 prob 60 mat1 30050 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 108 cost 150000 prob 55 mat1 30091 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 109 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 110 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 111 cost 2500 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 112 cost 5000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 113 cost 10000 prob 60 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 114 cost 20000 prob 55 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 115 cost 30000 prob 50 mat1 30071 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 116 cost 45000 prob 45 mat1 30018 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 117 cost 75000 prob 40 mat1 30017 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 118 cost 1000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 119 cost 2000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 120 cost 4000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 121 cost 8000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 122 cost 13000 prob 75 mat1 30005 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 123 cost 20000 prob 70 mat1 30076 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 124 cost 40000 prob 65 mat1 30051 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 125 cost 70000 prob 60 mat1 30081 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 126 cost 120000 prob 55 mat1 30047 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 127 cost 1200 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 128 cost 2500 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 129 cost 5000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 130 cost 10000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 131 cost 20000 prob 75 mat1 30009 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 132 cost 30000 prob 70 mat1 30080 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 133 cost 45000 prob 65 mat1 30040 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 134 cost 90000 prob 60 mat1 30049 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 135 cost 150000 prob 55 mat1 30090 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 136 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 137 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 138 cost 2500 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 139 cost 5000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 140 cost 10000 prob 75 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 141 cost 20000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 142 cost 30000 prob 65 mat1 30038 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 143 cost 45000 prob 60 mat1 30023 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 144 cost 75000 prob 55 mat1 30074 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 145 cost 1000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 146 cost 2000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 147 cost 4000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 148 cost 8000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 149 cost 13000 prob 75 mat1 30007 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 150 cost 20000 prob 70 mat1 30078 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 151 cost 40000 prob 65 mat1 30045 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 152 cost 70000 prob 60 mat1 30055 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 153 cost 120000 prob 55 mat1 30047 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 154 cost 1200 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 155 cost 2500 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 156 cost 5000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 157 cost 10000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 158 cost 20000 prob 75 mat1 30059 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 159 cost 30000 prob 70 mat1 30080 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 160 cost 45000 prob 65 mat1 30085 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 161 cost 90000 prob 60 mat1 30014 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 162 cost 150000 prob 55 mat1 30042 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 163 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 164 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 165 cost 2500 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 166 cost 5000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 167 cost 10000 prob 60 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 168 cost 20000 prob 55 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 169 cost 30000 prob 50 mat1 30010 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 170 cost 45000 prob 45 mat1 30031 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 171 cost 75000 prob 40 mat1 30032 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 172 cost 1000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 173 cost 2000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 174 cost 4000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 175 cost 8000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 176 cost 13000 prob 75 mat1 30021 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 177 cost 20000 prob 70 mat1 30008 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 178 cost 40000 prob 65 mat1 30057 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 179 cost 70000 prob 60 mat1 30006 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 180 cost 120000 prob 55 mat1 30022 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 181 cost 1200 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 182 cost 2500 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 183 cost 5000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 184 cost 10000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 185 cost 20000 prob 75 mat1 30082 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 186 cost 30000 prob 70 mat1 30079 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 187 cost 45000 prob 65 mat1 30087 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 188 cost 90000 prob 60 mat1 30086 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 189 cost 150000 prob 55 mat1 30050 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 190 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 191 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 192 cost 2500 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 193 cost 5000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 194 cost 10000 prob 75 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 195 cost 20000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 196 cost 30000 prob 65 mat1 30038 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 197 cost 45000 prob 60 mat1 30011 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 198 cost 75000 prob 55 mat1 30074 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 199 cost 1000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 200 cost 2000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 201 cost 4000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 202 cost 8000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 203 cost 13000 prob 75 mat1 30007 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 204 cost 20000 prob 70 mat1 30046 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 205 cost 40000 prob 65 mat1 30045 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 206 cost 70000 prob 60 mat1 30055 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 207 cost 120000 prob 55 mat1 30058 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 208 cost 1200 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 209 cost 2500 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 210 cost 5000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 211 cost 10000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 212 cost 20000 prob 75 mat1 30059 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 213 cost 30000 prob 70 mat1 30060 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 214 cost 45000 prob 65 mat1 30061 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 215 cost 90000 prob 60 mat1 30014 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 216 cost 150000 prob 55 mat1 30042 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 217 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 218 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 219 cost 2500 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 220 cost 5000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 221 cost 10000 prob 75 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 222 cost 20000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 223 cost 30000 prob 65 mat1 30071 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 224 cost 45000 prob 60 mat1 30023 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 225 cost 75000 prob 55 mat1 30074 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 226 cost 1000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 227 cost 2000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 228 cost 4000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 229 cost 8000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 230 cost 13000 prob 75 mat1 30005 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 231 cost 20000 prob 70 mat1 30078 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 232 cost 40000 prob 65 mat1 30051 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 233 cost 70000 prob 60 mat1 30055 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 234 cost 120000 prob 55 mat1 30047 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 235 cost 1200 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 236 cost 2500 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 237 cost 5000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 238 cost 10000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 239 cost 20000 prob 75 mat1 30059 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 240 cost 30000 prob 70 mat1 30080 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 241 cost 45000 prob 65 mat1 30085 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 242 cost 90000 prob 60 mat1 30049 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 243 cost 150000 prob 55 mat1 30042 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 244 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 245 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 246 cost 2500 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 247 cost 5000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 248 cost 10000 prob 75 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 249 cost 20000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 250 cost 30000 prob 65 mat1 30070 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 251 cost 45000 prob 60 mat1 30018 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 252 cost 75000 prob 55 mat1 30017 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 253 cost 1000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 254 cost 2000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 255 cost 4000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 256 cost 8000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 257 cost 13000 prob 75 mat1 30041 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 258 cost 20000 prob 70 mat1 30076 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 259 cost 40000 prob 65 mat1 30051 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 260 cost 70000 prob 60 mat1 30081 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 261 cost 120000 prob 55 mat1 30077 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 262 cost 1200 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 263 cost 2500 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 264 cost 5000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 265 cost 10000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 266 cost 20000 prob 75 mat1 30009 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 267 cost 30000 prob 70 mat1 30039 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 268 cost 45000 prob 65 mat1 30040 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 269 cost 90000 prob 60 mat1 30048 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 270 cost 150000 prob 55 mat1 30090 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 271 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 272 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 273 cost 2500 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 274 cost 5000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 275 cost 10000 prob 75 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 276 cost 20000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 277 cost 30000 prob 65 mat1 30010 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 278 cost 45000 prob 60 mat1 30072 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 279 cost 75000 prob 55 mat1 30032 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 280 cost 1000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 281 cost 2000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 282 cost 4000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 283 cost 8000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 284 cost 13000 prob 75 mat1 30021 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 285 cost 20000 prob 70 mat1 30008 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 286 cost 40000 prob 65 mat1 30057 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 287 cost 70000 prob 60 mat1 30006 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 288 cost 120000 prob 55 mat1 30077 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 289 cost 1200 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 290 cost 2500 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 291 cost 5000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 292 cost 10000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 293 cost 20000 prob 75 mat1 30082 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 294 cost 30000 prob 70 mat1 30039 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 295 cost 45000 prob 65 mat1 30087 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 296 cost 90000 prob 60 mat1 30086 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 297 cost 150000 prob 55 mat1 30050 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 298 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 299 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 300 cost 2500 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 301 cost 5000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 302 cost 10000 prob 75 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 303 cost 20000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 304 cost 30000 prob 65 mat1 30053 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 305 cost 45000 prob 60 mat1 30073 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 306 cost 75000 prob 55 mat1 30035 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 307 cost 1000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 308 cost 2000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 309 cost 4000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 310 cost 8000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 311 cost 13000 prob 75 mat1 30030 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 312 cost 20000 prob 70 mat1 30075 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 313 cost 40000 prob 65 mat1 30056 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 314 cost 70000 prob 60 mat1 30025 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 315 cost 120000 prob 55 mat1 30067 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 316 cost 1200 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 317 cost 2500 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 318 cost 5000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 319 cost 10000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 320 cost 20000 prob 75 mat1 30083 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 321 cost 30000 prob 70 mat1 30015 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 322 cost 45000 prob 65 mat1 30016 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 323 cost 90000 prob 60 mat1 30089 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 324 cost 150000 prob 55 mat1 30019 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 325 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 326 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 327 cost 2500 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 328 cost 5000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 329 cost 10000 prob 75 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 330 cost 20000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 331 cost 30000 prob 65 mat1 30034 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 332 cost 45000 prob 60 mat1 30073 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 333 cost 75000 prob 55 mat1 30035 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 334 cost 1000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 335 cost 2000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 336 cost 4000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 337 cost 8000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 338 cost 13000 prob 75 mat1 30052 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 339 cost 20000 prob 70 mat1 30046 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 340 cost 40000 prob 65 mat1 30056 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 341 cost 70000 prob 60 mat1 30025 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 342 cost 120000 prob 55 mat1 30058 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 343 cost 7500 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 344 cost 15000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 345 cost 25000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 346 cost 40000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 347 cost 65000 prob 75 mat1 30083 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 348 cost 90000 prob 70 mat1 30060 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 349 cost 120000 prob 65 mat1 30061 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 350 cost 150000 prob 60 mat1 30088 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 351 cost 200000 prob 55 mat1 30019 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 352 cost 3000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 353 cost 6000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 354 cost 12000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 355 cost 25000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 356 cost 40000 prob 60 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 357 cost 60000 prob 55 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 358 cost 90000 prob 50 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 359 cost 120000 prob 55 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 360 cost 150000 prob 55 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 400 cost 20000 prob 49 mat1 30194 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 401 cost 30000 prob 38 mat1 30192 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 501 cost 50000000 prob 100 mat1 70253 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 502 cost 120000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 503 cost 140000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 504 cost 170000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 505 cost 200000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 506 cost 240000 prob 75 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 507 cost 290000 prob 70 mat1 30050 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 508 cost 340000 prob 65 mat1 30083 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 509 cost 410000 prob 60 mat1 30040 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 510 cost 500000 prob 55 mat1 30089 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 512 cost 50000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 513 cost 150000 prob 70 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 514 cost 250000 prob 60 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 515 cost 500000 prob 45 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 531 cost 7500 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 532 cost 15000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 533 cost 25000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 534 cost 40000 prob 80 mat1 30196 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 535 cost 65000 prob 75 mat1 30090 cnt1 3
+Apr 17 23:35:51 :: REFINE: id 536 cost 90000 prob 70 mat1 30195 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 537 cost 120000 prob 65 mat1 27992 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 538 cost 150000 prob 60 mat1 27993 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 539 cost 200000 prob 55 mat1 27994 cnt1 1
+Apr 17 23:35:51 :: REFINE: id 601 cost 100000 prob 100 mat1 51001 cnt1 10
+Apr 17 23:35:51 :: REFINE: id 602 cost 125000 prob 90 mat1 51001 cnt1 15
+Apr 17 23:35:51 :: REFINE: id 603 cost 150000 prob 80 mat1 51001 cnt1 20
+Apr 17 23:35:51 :: REFINE: id 604 cost 180000 prob 70 mat1 51001 cnt1 30
+Apr 17 23:35:51 :: REFINE: id 605 cost 180000 prob 60 mat1 51001 cnt1 45
+Apr 17 23:35:51 :: REFINE: id 606 cost 270000 prob 55 mat1 51001 cnt1 65
+Apr 17 23:35:51 :: REFINE: id 607 cost 320000 prob 50 mat1 51001 cnt1 95
+Apr 17 23:35:51 :: REFINE: id 608 cost 400000 prob 45 mat1 51001 cnt1 145
+Apr 17 23:35:51 :: REFINE: id 609 cost 500000 prob 40 mat1 51001 cnt1 200
+Apr 17 23:35:51 :: REFINE: id 610 cost 50000000 prob 100 mat1 70251 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 703 cost 10000000 prob 100 mat1 70031 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 704 cost 25000000 prob 100 mat1 70031 cnt1 4
+Apr 17 23:35:51 :: REFINE: id 705 cost 10000000 prob 100 mat1 70031 cnt1 6
+Apr 17 23:35:51 :: REFINE: id 706 cost 10000000 prob 100 mat1 30509 cnt1 20
+Apr 17 23:35:51 :: REFINE: id 711 cost 120000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 712 cost 140000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 713 cost 170000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 714 cost 200000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 715 cost 240000 prob 75 mat1 30083 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 716 cost 290000 prob 70 mat1 30060 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 717 cost 340000 prob 65 mat1 30061 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 718 cost 410000 prob 60 mat1 30088 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 719 cost 500000 prob 55 mat1 30019 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 721 cost 120000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 722 cost 140000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 723 cost 170000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 724 cost 200000 prob 80 mat1 30196 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 725 cost 240000 prob 75 mat1 30192 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 726 cost 290000 prob 70 mat1 30195 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 727 cost 340000 prob 65 mat1 30197 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 728 cost 410000 prob 60 mat1 30198 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 729 cost 500000 prob 55 mat1 30199 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 530 cost 50000000 prob 100 mat1 71123 cnt1 4
+Apr 17 23:35:51 :: REFINE: id 731 cost 120000 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 732 cost 140000 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 733 cost 170000 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 734 cost 200000 prob 80 mat1 30196 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 735 cost 240000 prob 75 mat1 30194 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 736 cost 290000 prob 70 mat1 30195 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 737 cost 340000 prob 65 mat1 30197 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 738 cost 410000 prob 60 mat1 30198 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 739 cost 500000 prob 55 mat1 30199 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 771 cost 600 prob 100 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 772 cost 1200 prob 90 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 773 cost 2500 prob 85 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 774 cost 5000 prob 80 mat1 0 cnt1 0
+Apr 17 23:35:51 :: REFINE: id 775 cost 10000 prob 75 mat1 30083 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 776 cost 20000 prob 70 mat1 30060 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 777 cost 30000 prob 65 mat1 30061 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 778 cost 45000 prob 60 mat1 30088 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 779 cost 75000 prob 55 mat1 30019 cnt1 2
+Apr 17 23:35:51 :: REFINE: id 801 cost 50000000 prob 100 mat1 30500 cnt1 20
+Apr 17 23:35:51 :: REFINE: id 802 cost 50000000 prob 100 mat1 30502 cnt1 20
+Apr 17 23:35:51 :: REFINE: id 803 cost 50000000 prob 100 mat1 30506 cnt1 20
+Apr 17 23:35:51 :: REFINE: id 804 cost 50000000 prob 100 mat1 30501 cnt1 20
+Apr 17 23:35:51 :: REFINE: id 805 cost 50000000 prob 100 mat1 30504 cnt1 20
+Apr 17 23:35:51 :: REFINE: id 806 cost 50000000 prob 100 mat1 30507 cnt1 20
+Apr 17 23:35:51 :: REFINE: id 807 cost 50000000 prob 100 mat1 30508 cnt1 20
+Apr 17 23:35:51 :: REFINE: id 808 cost 50000000 prob 100 mat1 70251 cnt1 4
+Apr 17 23:35:51 :: REFINE: id 901 cost 100000 prob 100 mat1 51001 cnt1 10
+Apr 17 23:35:51 :: REFINE: id 902 cost 125000 prob 90 mat1 51001 cnt1 15
+Apr 17 23:35:51 :: REFINE: id 903 cost 150000 prob 85 mat1 51001 cnt1 20
+Apr 17 23:35:51 :: REFINE: id 904 cost 180000 prob 80 mat1 51001 cnt1 30
+Apr 17 23:35:51 :: REFINE: id 905 cost 180000 prob 75 mat1 51001 cnt1 45
+Apr 17 23:35:51 :: REFINE: id 906 cost 270000 prob 70 mat1 51001 cnt1 65
+Apr 17 23:35:51 :: REFINE: id 907 cost 320000 prob 65 mat1 51001 cnt1 95
+Apr 17 23:35:51 :: REFINE: id 908 cost 400000 prob 60 mat1 51001 cnt1 145
+Apr 17 23:35:51 :: REFINE: id 909 cost 500000 prob 55 mat1 51001 cnt1 200
+Apr 17 23:35:51 :: REFINE: id 809 cost 50000000 prob 100 mat1 30508 cnt1 20
+Apr 17 23:35:51 :: REFINE: id 910 cost 50000000 prob 100 mat1 70251 cnt1 4
+Apr 17 23:35:51 :: REFINE: id 911 cost 50000000 prob 100 mat1 70251 cnt1 4
+Apr 17 23:35:51 :: ITEM_ATTR: MAX_HP                100 { 5000 5000 5000 5000 5000 } { 0 5 5 5 5 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: CON                     1 {  12  12  12  12  12 } { 5 0 0 0 0 0 5 }
+Apr 17 23:35:51 :: ITEM_ATTR: INT                     1 {  12  12  12  12  12 } { 5 0 0 0 0 0 5 }
+Apr 17 23:35:51 :: ITEM_ATTR: STR                     1 {  12  12  12  12  12 } { 5 0 0 0 0 0 5 }
+Apr 17 23:35:51 :: ITEM_ATTR: DEX                     1 {  12  12  12  12  12 } { 5 0 0 0 0 0 5 }
+Apr 17 23:35:51 :: ITEM_ATTR: ATT_SPEED               1 {   8   8   8   8   8 } { 0 0 0 5 0 5 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: MOV_SPEED               1 {  20  20  20  20  20 } { 0 0 0 5 0 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: CAST_SPEED              1 {  20  20  20  20  20 } { 5 5 0 0 0 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: HP_REGEN                1 {  30  30  30  30  30 } { 0 0 0 0 5 5 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: POISON_PCT              1 {  10  10  10  10  10 } { 5 0 0 0 0 5 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: STUN_PCT                1 {   8   8   8   8   8 } { 5 0 0 5 5 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: SLOW_PCT                1 {   8   8   8   8   8 } { 5 0 0 5 0 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: CRITICAL_PCT            1 {  15  15  15  15  15 } { 5 0 0 5 5 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: PENETRATE_PCT           1 {  15  15  15  15  15 } { 5 0 5 0 5 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: ATTBONUS_HUMAN        100 {  15  15  15  15  15 } { 5 0 5 0 0 5 5 }
+Apr 17 23:35:51 :: ITEM_ATTR: ATTBONUS_UNDEAD         1 {  20  20  20  20  20 } { 5 0 5 0 0 5 5 }
+Apr 17 23:35:51 :: ITEM_ATTR: STEAL_HP                1 {  15  15  15  15  15 } { 0 5 5 0 0 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: MANA_BURN_PCT           1 {  15  15  15  15  15 } { 0 0 5 0 0 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: BLOCK                   1 {  15  15  15  15  15 } { 0 0 0 0 0 0 5 }
+Apr 17 23:35:51 :: ITEM_ATTR: DODGE                   1 {  15  15  15  15  15 } { 0 0 0 5 0 5 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: RESIST_SWORD            1 {  15  15  15  15  15 } { 0 5 0 5 5 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: RESIST_TWOHAND          1 {  15  15  15  15  15 } { 0 5 0 5 5 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: RESIST_DAGGER           1 {  15  15  15  15  15 } { 0 5 0 5 5 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: RESIST_BELL             1 {  15  15  15  15  15 } { 0 5 0 5 5 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: RESIST_FAN              1 {  15  15  15  15  15 } { 0 5 0 5 5 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: RESIST_BOW              1 {  15  15  15  15  15 } { 0 5 0 5 5 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: RESIST_FIRE             1 {  15  15  15  15  15 } { 0 5 5 0 0 5 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: RESIST_ELEC             1 {  15  15  15  15  15 } { 0 5 5 0 0 5 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: RESIST_MAGIC            1 {  15  15  15  15  15 } { 0 5 5 0 0 5 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: RESIST_WIND             1 {  15  15  15  15  15 } { 0 5 5 0 0 5 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: REFLECT_MELEE           1 {  15  15  15  15  15 } { 0 5 0 0 0 0 5 }
+Apr 17 23:35:51 :: ITEM_ATTR: POISON_REDUCE           1 {  15  15  15  15  15 } { 0 0 0 0 0 0 0 }
+Apr 17 23:35:51 :: ITEM_ATTR: IMMUNE_STUN             1 {   1   1   1   1   1 } { 0 0 0 0 0 0 1 }
+Apr 17 23:35:51 :: ITEM_ATTR: IMMUNE_SLOW             1 {   1   1   1   1   1 } { 0 0 0 0 0 0 1 }
+Apr 17 23:35:51 :: ITEM_ATTR: ATT_GRADE_BONUS         1 {  50  50  50  50  50 } { 0 5 0 0 0 0 0 }
+Apr 17 23:35:51 :: ITEM_RARE: MAX_HP                  1 { 5000 5000 5000 5000 5000 } { 5 5 5 5 5 5 5 }
+Apr 17 23:35:51 :: ITEM_RARE: CON                     1 {   2   2   2   2   2 } { 5 5 5 5 5 5 5 }
+Apr 17 23:35:51 :: ITEM_RARE: INT                     1 {   2   2   2   2   2 } { 5 5 5 5 5 5 5 }
+Apr 17 23:35:51 :: ITEM_RARE: STR                     1 {   2   2   2   2   2 } { 5 5 5 5 5 5 5 }
+Apr 17 23:35:51 :: ITEM_RARE: DEX                     1 {   2   2   2   2   2 } { 5 5 5 5 5 5 5 }
+Apr 17 23:35:51 :: ITEM_RARE: HP_REGEN                1 {  20  20  20  20  20 } { 5 5 5 5 5 5 5 }
+Apr 17 23:35:51 :: ITEM_RARE: CRITICAL_PCT            1 {   5   5   5   5   5 } { 5 5 5 5 5 5 5 }
+Apr 17 23:35:51 :: ITEM_RARE: PENETRATE_PCT           1 {   5   5   5   5   5 } { 5 5 5 5 5 5 5 }
+Apr 17 23:35:51 :: ITEM_RARE: ATTBONUS_HUMAN          1 {   2   2   2   2   2 } { 5 5 5 5 5 5 5 }
+Apr 17 23:35:51 :: ITEM_RARE: ATT_GRADE_BONUS         1 {  15  15  15  15  15 } { 5 5 5 5 5 5 5 }
+Apr 17 23:35:51 :: ITEM_RARE: MAGIC_ATT_GRADE         1 {  15  15  15  15  15 } { 5 5 5 5 5 5 5 }
+Apr 17 23:35:51 :: ITEM_RARE: ATT_BONUS_TO_MONSTER    1 {   5   5   5   5   5 } { 5 5 5 5 5 5 5 }
+Apr 17 23:35:51 :: BANWORD: total 114
+Apr 17 23:35:51 :: LAND: 1 map 1      20200x10000   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 2 map 1      23500x13600   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 3 map 1      27600x10900   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 4 map 1      55600x9600    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 5 map 1      57100x3800    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 6 map 1      60900x5200    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 7 map 1      66100x7900    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 8 map 1      81400x16800   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 9 map 1      90700x20400   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 10 map 1      94300x23700   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 11 map 1      10800x108500  w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 12 map 1       5900x108500  w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 13 map 1       7700x104300  w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 14 map 1      23400x46200   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 15 map 1      17200x44400   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 16 map 1      20000x40100   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 17 map 1      25800x36900   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 18 map 1      16900x35800   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 75 map 4       9600x13100   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 76 map 4      16100x15600   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 77 map 4       9100x19500   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 78 map 4      14900x19500   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 79 map 4      27700x19500   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 80 map 4      23600x23000   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 81 map 4      31800x24200   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 82 map 4      27900x27300   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 83 map 4      35500x35400   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 84 map 4      32800x39300   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 85 map 4      39700x39600   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 86 map 4      36100x42700   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 87 map 4      24400x39000   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 88 map 4      19900x41600   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 89 map 4      14400x41700   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 90 map 4      10200x39100   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 91 map 4       7700x34600   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 92 map 4       8400x29500   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 101 map 21     29400x11400   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 102 map 21     33600x12700   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 103 map 21     36300x16300   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 104 map 21     55900x17200   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 105 map 21     72800x8500    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 106 map 21     76300x5400    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 107 map 21     77600x10200   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 108 map 21     84200x47200   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 109 map 21     87800x61000   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 110 map 21     32100x113800  w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 111 map 21     28800x117200  w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 112 map 21     24400x118700  w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 113 map 21     22600x114400  w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 114 map 21     34800x92300   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 115 map 21     37500x89000   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 116 map 21     35100x73600   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 117 map 21     35400x69200   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 118 map 21     35400x55600   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 175 map 24      7100x5200    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 176 map 24     12800x4800    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 177 map 24      9700x9900    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 178 map 24     14500x13300   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 179 map 24     36900x26000   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 180 map 24     38600x29800   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 181 map 24     36500x33900   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 182 map 24     33600x38600   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 183 map 24     30900x33500   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 184 map 24     25700x33500   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 185 map 24     25600x37800   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 186 map 24     20900x37800   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 187 map 24     20900x33700   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 188 map 24     14200x33700   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 189 map 24     10000x37100   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 190 map 24      5800x34800   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 191 map 24      8800x29800   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 192 map 24     10500x26100   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 201 map 41     66100x9400    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 202 map 41     70300x7900    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 203 map 41     73600x11500   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 204 map 41     70900x15100   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 205 map 41     71800x61900   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 206 map 41     77000x64100   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 207 map 41     60700x66800   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 208 map 41     74500x68200   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 209 map 41     67900x110800  w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 210 map 41     67900x115700  w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 211 map 41     62800x114800  w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 212 map 41     16600x95300   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 213 map 41      5400x94100   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 214 map 41     18600x89300   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 215 map 41      4600x89800   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 216 map 41     11200x36000   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 217 map 41      8200x31800   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 218 map 41     12000x29200   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 275 map 44      5400x7700    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 276 map 44      9700x7300    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 277 map 44      5500x11500   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 278 map 44      5100x15500   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 279 map 44      8900x17900   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 280 map 44     22200x15600   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 281 map 44     43000x3700    w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 282 map 44     38900x27200   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 283 map 44     30200x29900   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 284 map 44     40000x34500   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 285 map 44     32800x37000   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 286 map 44     40600x39300   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 287 map 44     35600x40600   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 288 map 44     18500x33600   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 289 map 44     17300x38500   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 290 map 44     13500x39400   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 291 map 44      9100x38700   w 3000 h 3000
+Apr 17 23:35:51 :: LAND: 292 map 44      5000x36300   w 3000 h 3000
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14013 price 20000000 mat 90010 20
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14014 price 20000000 mat 90010 20
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14015 price 20000000 mat 90010 20
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14043 price 20000000 mat 90010 15
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14045 price 20000000 mat 90010 15
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14046 price 20000000 mat 90010 15
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14047 price 20000000 mat 90010 15
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14048 price 20000000 mat 90010 15
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14049 price 20000000 mat 90010 15
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14050 price 20000000 mat 90010 15
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14051 price 20000000 mat 90010 15
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14052 price 20000000 mat 90010 15
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14053 price 20000000 mat 90010 15
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14054 price 20000000 mat 90010 15
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14055 price 20000000 mat 90010 15
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14061 price 25000000 mat 90010 25
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14062 price 500000000 mat 90010 50
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14063 price 750000000 mat 90010 75
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14100 price 20000000 mat 90010 20
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14110 price 20000000 mat 90010 20
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14120 price 20000000 mat 90010 20
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14200 price 3000000 mat 90011 5
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14300 price 300000 mat 90010 5
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14301 price 300000 mat 90010 5
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14302 price 300000 mat 90010 7
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14303 price 300000 mat 90010 7
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14304 price 300000 mat 90010 7
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14305 price 300000 mat 90010 8
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14306 price 300000 mat 90010 8
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14307 price 300000 mat 90010 8
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14308 price 300000 mat 90010 9
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14309 price 300000 mat 90010 9
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14400 price 2000000 mat 90011 5
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14401 price 2000000 mat 90011 5
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14402 price 2000000 mat 90011 7
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14403 price 2000000 mat 90011 7
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14404 price 2000000 mat 90011 7
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14405 price 2000000 mat 90011 9
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14406 price 2000000 mat 90011 9
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14407 price 2000000 mat 90011 9
+Apr 17 23:35:51 :: OBJ_PROTO: vnum 14408 price 2000000 mat 90011 9
+Apr 17 23:35:51 :: SYSTEM: BINDING TCP PORT ON [15000] (fd 19)
+Apr 17 23:35:51 :: ACCEPT_HANDLE: 19
+Apr 17 23:35:51 :: PLAYER_DELETE_LEVEL_LIMIT set to 65
+Apr 17 23:35:51 :: PLAYER_DELETE_LEVEL_LIMIT_LOWER set to 0
+Apr 17 23:35:51 :: CHINA_EVENT_SERVER false
+Apr 17 23:35:51 :: EventFlag Load 3yolkirmizi 0
+Apr 17 23:35:51 :: EventFlag Load 3yolmavi 0
+Apr 17 23:35:51 :: EventFlag Load 3yolsari 0
+Apr 17 23:35:51 :: EventFlag Load 3yolsinir 0
+Apr 17 23:35:51 :: EventFlag Load dragon_lair_alive 0
+Apr 17 23:35:51 :: EventFlag Load dragon_lair_password 256
+Apr 17 23:35:51 :: EventFlag Load dragon_lair_time 1447631965
+Apr 17 23:35:51 :: EventFlag Load event_ayisigi_drop 1
+Apr 17 23:35:51 :: EventFlag Load event_map_active 0
+Apr 17 23:35:51 :: EventFlag Load event_map_choice 0
+Apr 17 23:35:51 :: EventFlag Load event_map_empire 0
+Apr 17 23:35:51 :: EventFlag Load event_map_level_max 0
+Apr 17 23:35:51 :: EventFlag Load event_map_level_min 0
+Apr 17 23:35:51 :: EventFlag Load event_map_login_counter 0
+Apr 17 23:35:51 :: EventFlag Load event_map_player_max 0
+Apr 17 23:35:51 :: EventFlag Load gemisavasi 0
+Apr 17 23:35:51 :: EventFlag Load gemisavasilimit 0
+Apr 17 23:35:51 :: EventFlag Load girisleracik 0
+Apr 17 23:35:51 :: EventFlag Load halloween_hair 0
+Apr 17 23:35:51 :: EventFlag Load harvest_festival 0
+Apr 17 23:35:51 :: EventFlag Load netmarlis1 0
+Apr 17 23:35:51 :: EventFlag Load netmarlis2 0
+Apr 17 23:35:51 :: EventFlag Load netmarlis3 0
+Apr 17 23:35:51 :: EventFlag Load oxevent_status 0
+Apr 17 23:35:51 :: EventFlag Load vs_ac 0
+Apr 17 23:35:51 :: EventFlag Load warship 1
+Apr 17 23:35:51 :: EventFlag Load warshiplimit 100
+Apr 17 23:35:51 :: EventFlag Load xmas_boom 2
+Apr 17 23:35:51 ::    OK
+Apr 17 23:35:51 :: GuildWar: [KL]Frozen               ladder 0     win 0   draw 0   loss 0  
+Apr 17 23:35:51 :: POWER_POLY: 
+Apr 17 23:35:51 :: HANDICAP_POLY: 
+Apr 17 23:35:51 :: MarriageList(size=0)
+Apr 17 23:35:51 :: BLOCKED_IP : 0 - 0
+Apr 17 23:35:51 :: BLOCK_EXCEPTION = 100
+Apr 17 23:35:51 :: ItemIDRange: Build: 10000001 ~ 20000000 start:10001721
+Apr 17 23:35:51 :: ItemIDRange: Build: 20000001 ~ 30000000 start:20000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 30000001 ~ 40000000 start:30000046
+Apr 17 23:35:51 :: ItemIDRange: Build: 40000001 ~ 50000000 start:40000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 50000001 ~ 60000000 start:50000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 60000001 ~ 70000000 start:60000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 70000001 ~ 80000000 start:70000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 80000001 ~ 90000000 start:80000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 90000001 ~ 100000000 start:90000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 100000001 ~ 110000000 start:100000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 110000001 ~ 120000000 start:110000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 120000001 ~ 130000000 start:120000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 130000001 ~ 140000000 start:130000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 140000001 ~ 150000000 start:140000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 150000001 ~ 160000000 start:150000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 160000001 ~ 170000000 start:160000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 170000001 ~ 180000000 start:170000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 180000001 ~ 190000000 start:180000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 190000001 ~ 200000000 start:190000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 200000001 ~ 210000000 start:200000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 210000001 ~ 220000000 start:210000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 220000001 ~ 230000000 start:220000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 230000001 ~ 240000000 start:230000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 240000001 ~ 250000000 start:240000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 250000001 ~ 260000000 start:250000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 260000001 ~ 270000000 start:260000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 270000001 ~ 280000000 start:270000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 280000001 ~ 290000000 start:280000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 290000001 ~ 300000000 start:290000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 300000001 ~ 310000000 start:300000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 310000001 ~ 320000000 start:310000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 320000001 ~ 330000000 start:320000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 330000001 ~ 340000000 start:330000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 340000001 ~ 350000000 start:340000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 350000001 ~ 360000000 start:350000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 360000001 ~ 370000000 start:360000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 370000001 ~ 380000000 start:370000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 380000001 ~ 390000000 start:380000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 390000001 ~ 400000000 start:390000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 400000001 ~ 410000000 start:400000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 410000001 ~ 420000000 start:410000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 420000001 ~ 430000000 start:420000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 430000001 ~ 440000000 start:430000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 440000001 ~ 450000000 start:440000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 450000001 ~ 460000000 start:450000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 460000001 ~ 470000000 start:460000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 470000001 ~ 480000000 start:470000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 480000001 ~ 490000000 start:480000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 490000001 ~ 500000000 start:490000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 500000001 ~ 510000000 start:500000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 510000001 ~ 520000000 start:510000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 520000001 ~ 530000000 start:520000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 530000001 ~ 540000000 start:530000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 540000001 ~ 550000000 start:540000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 550000001 ~ 560000000 start:550000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 560000001 ~ 570000000 start:560000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 570000001 ~ 580000000 start:570000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 580000001 ~ 590000000 start:580000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 590000001 ~ 600000000 start:590000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 600000001 ~ 610000000 start:600000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 610000001 ~ 620000000 start:610000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 620000001 ~ 630000000 start:620000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 630000001 ~ 640000000 start:630000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 640000001 ~ 650000000 start:640000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 650000001 ~ 660000000 start:650000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 660000001 ~ 670000000 start:660000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 670000001 ~ 680000000 start:670000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 680000001 ~ 690000000 start:680000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 690000001 ~ 700000000 start:690000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 700000001 ~ 710000000 start:700000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 710000001 ~ 720000000 start:710000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 720000001 ~ 730000000 start:720000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 730000001 ~ 740000000 start:730000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 740000001 ~ 750000000 start:740000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 750000001 ~ 760000000 start:750000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 760000001 ~ 770000000 start:760000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 770000001 ~ 780000000 start:770000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 780000001 ~ 790000000 start:780000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 790000001 ~ 800000000 start:790000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 800000001 ~ 810000000 start:800000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 810000001 ~ 820000000 start:810000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 820000001 ~ 830000000 start:820000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 830000001 ~ 840000000 start:830000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 840000001 ~ 850000000 start:840000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 850000001 ~ 860000000 start:850000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 860000001 ~ 870000000 start:860000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 870000001 ~ 880000000 start:870000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 880000001 ~ 890000000 start:880000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 890000001 ~ 900000000 start:890000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 900000001 ~ 910000000 start:900000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 910000001 ~ 920000000 start:910000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 920000001 ~ 930000000 start:920000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 930000001 ~ 940000000 start:930000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 940000001 ~ 950000000 start:940000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 950000001 ~ 960000000 start:950000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 960000001 ~ 970000000 start:960000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 970000001 ~ 980000000 start:970000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 980000001 ~ 990000000 start:980000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 990000001 ~ 1000000000 start:990000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1000000001 ~ 1010000000 start:1000000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1010000001 ~ 1020000000 start:1010000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1020000001 ~ 1030000000 start:1020000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1030000001 ~ 1040000000 start:1030000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1040000001 ~ 1050000000 start:1040000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1050000001 ~ 1060000000 start:1050000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1060000001 ~ 1070000000 start:1060000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1070000001 ~ 1080000000 start:1070000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1080000001 ~ 1090000000 start:1080000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1090000001 ~ 1100000000 start:1090000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1100000001 ~ 1110000000 start:1100000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1110000001 ~ 1120000000 start:1110000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1120000001 ~ 1130000000 start:1120000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1130000001 ~ 1140000000 start:1130000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1140000001 ~ 1150000000 start:1140000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1150000001 ~ 1160000000 start:1150000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1160000001 ~ 1170000000 start:1160000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1170000001 ~ 1180000000 start:1170000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1180000001 ~ 1190000000 start:1180000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1190000001 ~ 1200000000 start:1190000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1200000001 ~ 1210000000 start:1200000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1210000001 ~ 1220000000 start:1210000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1220000001 ~ 1230000000 start:1220000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1230000001 ~ 1240000000 start:1230000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1240000001 ~ 1250000000 start:1240000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1250000001 ~ 1260000000 start:1250000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1260000001 ~ 1270000000 start:1260000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1270000001 ~ 1280000000 start:1270000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1280000001 ~ 1290000000 start:1280000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1290000001 ~ 1300000000 start:1290000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1300000001 ~ 1310000000 start:1300000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1310000001 ~ 1320000000 start:1310000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1320000001 ~ 1330000000 start:1320000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1330000001 ~ 1340000000 start:1330000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1340000001 ~ 1350000000 start:1340000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1350000001 ~ 1360000000 start:1350000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1360000001 ~ 1370000000 start:1360000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1370000001 ~ 1380000000 start:1370000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1380000001 ~ 1390000000 start:1380000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1390000001 ~ 1400000000 start:1390000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1400000001 ~ 1410000000 start:1400000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1410000001 ~ 1420000000 start:1410000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1420000001 ~ 1430000000 start:1420000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1430000001 ~ 1440000000 start:1430000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1440000001 ~ 1450000000 start:1440000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1450000001 ~ 1460000000 start:1450000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1460000001 ~ 1470000000 start:1460000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1470000001 ~ 1480000000 start:1470000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1480000001 ~ 1490000000 start:1480000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1490000001 ~ 1500000000 start:1490000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1500000001 ~ 1510000000 start:1500000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1510000001 ~ 1520000000 start:1510000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1520000001 ~ 1530000000 start:1520000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1530000001 ~ 1540000000 start:1530000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1540000001 ~ 1550000000 start:1540000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1550000001 ~ 1560000000 start:1550000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1560000001 ~ 1570000000 start:1560000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1570000001 ~ 1580000000 start:1570000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1580000001 ~ 1590000000 start:1580000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1590000001 ~ 1600000000 start:1590000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1600000001 ~ 1610000000 start:1600000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1610000001 ~ 1620000000 start:1610000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1620000001 ~ 1630000000 start:1620000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1630000001 ~ 1640000000 start:1630000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1640000001 ~ 1650000000 start:1640000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1650000001 ~ 1660000000 start:1650000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1660000001 ~ 1670000000 start:1660000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1670000001 ~ 1680000000 start:1670000001
+Apr 17 23:35:51 :: ItemIDRange: Build: 1680000001 ~ 1690000000 start:1680000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1690000001 ~ 1700000000 start:1690000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1700000001 ~ 1710000000 start:1700000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1710000001 ~ 1720000000 start:1710000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1720000001 ~ 1730000000 start:1720000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1730000001 ~ 1740000000 start:1730000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1740000001 ~ 1750000000 start:1740000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1750000001 ~ 1760000000 start:1750000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1760000001 ~ 1770000000 start:1760000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1770000001 ~ 1780000000 start:1770000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1780000001 ~ 1790000000 start:1780000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1790000001 ~ 1800000000 start:1790000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1800000001 ~ 1810000000 start:1800000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1810000001 ~ 1820000000 start:1810000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1820000001 ~ 1830000000 start:1820000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1830000001 ~ 1840000000 start:1830000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1840000001 ~ 1850000000 start:1840000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1850000001 ~ 1860000000 start:1850000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1860000001 ~ 1870000000 start:1860000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1870000001 ~ 1880000000 start:1870000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1880000001 ~ 1890000000 start:1880000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1890000001 ~ 1900000000 start:1890000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1900000001 ~ 1910000000 start:1900000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1910000001 ~ 1920000000 start:1910000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1920000001 ~ 1930000000 start:1920000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1930000001 ~ 1940000000 start:1930000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1940000001 ~ 1950000000 start:1940000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1950000001 ~ 1960000000 start:1950000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1960000001 ~ 1970000000 start:1960000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1970000001 ~ 1980000000 start:1970000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1980000001 ~ 1990000000 start:1980000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 1990000001 ~ 2000000000 start:1990000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2100000001 ~ 2110000000 start:2100000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2110000001 ~ 2120000000 start:2110000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2120000001 ~ 2130000000 start:2120000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2130000001 ~ 2140000000 start:2130000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2140000001 ~ 2150000000 start:2140000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2150000001 ~ 2160000000 start:2150000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2160000001 ~ 2170000000 start:2160000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2170000001 ~ 2180000000 start:2170000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2180000001 ~ 2190000000 start:2180000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2190000001 ~ 2200000000 start:2190000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2200000001 ~ 2210000000 start:2200000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2210000001 ~ 2220000000 start:2210000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2220000001 ~ 2230000000 start:2220000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2230000001 ~ 2240000000 start:2230000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2240000001 ~ 2250000000 start:2240000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2250000001 ~ 2260000000 start:2250000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2260000001 ~ 2270000000 start:2260000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2270000001 ~ 2280000000 start:2270000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2280000001 ~ 2290000000 start:2280000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2290000001 ~ 2300000000 start:2290000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2300000001 ~ 2310000000 start:2300000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2310000001 ~ 2320000000 start:2310000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2320000001 ~ 2330000000 start:2320000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2330000001 ~ 2340000000 start:2330000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2340000001 ~ 2350000000 start:2340000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2350000001 ~ 2360000000 start:2350000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2360000001 ~ 2370000000 start:2360000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2370000001 ~ 2380000000 start:2370000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2380000001 ~ 2390000000 start:2380000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2390000001 ~ 2400000000 start:2390000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2400000001 ~ 2410000000 start:2400000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2410000001 ~ 2420000000 start:2410000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2420000001 ~ 2430000000 start:2420000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2430000001 ~ 2440000000 start:2430000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2440000001 ~ 2450000000 start:2440000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2450000001 ~ 2460000000 start:2450000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2460000001 ~ 2470000000 start:2460000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2470000001 ~ 2480000000 start:2470000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2480000001 ~ 2490000000 start:2480000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2490000001 ~ 2500000000 start:2490000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2500000001 ~ 2510000000 start:2500000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2510000001 ~ 2520000000 start:2510000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2520000001 ~ 2530000000 start:2520000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2530000001 ~ 2540000000 start:2530000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2540000001 ~ 2550000000 start:2540000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2550000001 ~ 2560000000 start:2550000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2560000001 ~ 2570000000 start:2560000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2570000001 ~ 2580000000 start:2570000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2580000001 ~ 2590000000 start:2580000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2590000001 ~ 2600000000 start:2590000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2600000001 ~ 2610000000 start:2600000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2610000001 ~ 2620000000 start:2610000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2620000001 ~ 2630000000 start:2620000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2630000001 ~ 2640000000 start:2630000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2640000001 ~ 2650000000 start:2640000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2650000001 ~ 2660000000 start:2650000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2660000001 ~ 2670000000 start:2660000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2670000001 ~ 2680000000 start:2670000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2680000001 ~ 2690000000 start:2680000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2690000001 ~ 2700000000 start:2690000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2700000001 ~ 2710000000 start:2700000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2710000001 ~ 2720000000 start:2710000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2720000001 ~ 2730000000 start:2720000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2730000001 ~ 2740000000 start:2730000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2740000001 ~ 2750000000 start:2740000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2750000001 ~ 2760000000 start:2750000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2760000001 ~ 2770000000 start:2760000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2770000001 ~ 2780000000 start:2770000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2780000001 ~ 2790000000 start:2780000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2790000001 ~ 2800000000 start:2790000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2800000001 ~ 2810000000 start:2800000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2810000001 ~ 2820000000 start:2810000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2820000001 ~ 2830000000 start:2820000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2830000001 ~ 2840000000 start:2830000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2840000001 ~ 2850000000 start:2840000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2850000001 ~ 2860000000 start:2850000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2860000001 ~ 2870000000 start:2860000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2870000001 ~ 2880000000 start:2870000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2880000001 ~ 2890000000 start:2880000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2890000001 ~ 2900000000 start:2890000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2900000001 ~ 2910000000 start:2900000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2910000001 ~ 2920000000 start:2910000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2920000001 ~ 2930000000 start:2920000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2930000001 ~ 2940000000 start:2930000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2940000001 ~ 2950000000 start:2940000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2950000001 ~ 2960000000 start:2950000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2960000001 ~ 2970000000 start:2960000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2970000001 ~ 2980000000 start:2970000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2980000001 ~ 2990000000 start:2980000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 2990000001 ~ 3000000000 start:2990000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3000000001 ~ 3010000000 start:3000000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3010000001 ~ 3020000000 start:3010000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3020000001 ~ 3030000000 start:3020000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3030000001 ~ 3040000000 start:3030000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3040000001 ~ 3050000000 start:3040000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3050000001 ~ 3060000000 start:3050000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3060000001 ~ 3070000000 start:3060000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3070000001 ~ 3080000000 start:3070000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3080000001 ~ 3090000000 start:3080000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3090000001 ~ 3100000000 start:3090000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3100000001 ~ 3110000000 start:3100000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3110000001 ~ 3120000000 start:3110000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3120000001 ~ 3130000000 start:3120000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3130000001 ~ 3140000000 start:3130000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3140000001 ~ 3150000000 start:3140000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3150000001 ~ 3160000000 start:3150000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3160000001 ~ 3170000000 start:3160000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3170000001 ~ 3180000000 start:3170000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3180000001 ~ 3190000000 start:3180000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3190000001 ~ 3200000000 start:3190000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3200000001 ~ 3210000000 start:3200000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3210000001 ~ 3220000000 start:3210000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3220000001 ~ 3230000000 start:3220000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3230000001 ~ 3240000000 start:3230000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3240000001 ~ 3250000000 start:3240000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3250000001 ~ 3260000000 start:3250000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3260000001 ~ 3270000000 start:3260000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3270000001 ~ 3280000000 start:3270000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3280000001 ~ 3290000000 start:3280000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3290000001 ~ 3300000000 start:3290000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3300000001 ~ 3310000000 start:3300000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3310000001 ~ 3320000000 start:3310000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3320000001 ~ 3330000000 start:3320000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3330000001 ~ 3340000000 start:3330000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3340000001 ~ 3350000000 start:3340000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3350000001 ~ 3360000000 start:3350000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3360000001 ~ 3370000000 start:3360000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3370000001 ~ 3380000000 start:3370000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3380000001 ~ 3390000000 start:3380000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3390000001 ~ 3400000000 start:3390000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3400000001 ~ 3410000000 start:3400000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3410000001 ~ 3420000000 start:3410000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3420000001 ~ 3430000000 start:3420000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3430000001 ~ 3440000000 start:3430000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3440000001 ~ 3450000000 start:3440000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3450000001 ~ 3460000000 start:3450000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3460000001 ~ 3470000000 start:3460000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3470000001 ~ 3480000000 start:3470000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3480000001 ~ 3490000000 start:3480000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3490000001 ~ 3500000000 start:3490000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3500000001 ~ 3510000000 start:3500000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3510000001 ~ 3520000000 start:3510000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3520000001 ~ 3530000000 start:3520000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3530000001 ~ 3540000000 start:3530000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3540000001 ~ 3550000000 start:3540000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3550000001 ~ 3560000000 start:3550000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3560000001 ~ 3570000000 start:3560000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3570000001 ~ 3580000000 start:3570000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3580000001 ~ 3590000000 start:3580000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3590000001 ~ 3600000000 start:3590000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3600000001 ~ 3610000000 start:3600000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3610000001 ~ 3620000000 start:3610000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3620000001 ~ 3630000000 start:3620000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3630000001 ~ 3640000000 start:3630000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3640000001 ~ 3650000000 start:3640000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3650000001 ~ 3660000000 start:3650000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3660000001 ~ 3670000000 start:3660000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3670000001 ~ 3680000000 start:3670000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3680000001 ~ 3690000000 start:3680000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3690000001 ~ 3700000000 start:3690000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3700000001 ~ 3710000000 start:3700000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3710000001 ~ 3720000000 start:3710000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3720000001 ~ 3730000000 start:3720000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3730000001 ~ 3740000000 start:3730000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3740000001 ~ 3750000000 start:3740000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3750000001 ~ 3760000000 start:3750000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3760000001 ~ 3770000000 start:3760000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3770000001 ~ 3780000000 start:3770000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3780000001 ~ 3790000000 start:3780000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3790000001 ~ 3800000000 start:3790000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3800000001 ~ 3810000000 start:3800000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3810000001 ~ 3820000000 start:3810000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3820000001 ~ 3830000000 start:3820000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3830000001 ~ 3840000000 start:3830000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3840000001 ~ 3850000000 start:3840000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3850000001 ~ 3860000000 start:3850000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3860000001 ~ 3870000000 start:3860000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3870000001 ~ 3880000000 start:3870000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3880000001 ~ 3890000000 start:3880000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3890000001 ~ 3900000000 start:3890000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3900000001 ~ 3910000000 start:3900000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3910000001 ~ 3920000000 start:3910000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3920000001 ~ 3930000000 start:3920000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3930000001 ~ 3940000000 start:3930000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3940000001 ~ 3950000000 start:3940000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3950000001 ~ 3960000000 start:3950000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3960000001 ~ 3970000000 start:3960000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3970000001 ~ 3980000000 start:3970000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3980000001 ~ 3990000000 start:3980000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 3990000001 ~ 4000000000 start:3990000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4000000001 ~ 4010000000 start:4000000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4010000001 ~ 4020000000 start:4010000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4020000001 ~ 4030000000 start:4020000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4030000001 ~ 4040000000 start:4030000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4040000001 ~ 4050000000 start:4040000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4050000001 ~ 4060000000 start:4050000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4060000001 ~ 4070000000 start:4060000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4070000001 ~ 4080000000 start:4070000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4080000001 ~ 4090000000 start:4080000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4090000001 ~ 4100000000 start:4090000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4100000001 ~ 4110000000 start:4100000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4110000001 ~ 4120000000 start:4110000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4120000001 ~ 4130000000 start:4120000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4130000001 ~ 4140000000 start:4130000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4140000001 ~ 4150000000 start:4140000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4150000001 ~ 4160000000 start:4150000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4160000001 ~ 4170000000 start:4160000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4170000001 ~ 4180000000 start:4170000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4180000001 ~ 4190000000 start:4180000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4190000001 ~ 4200000000 start:4190000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4200000001 ~ 4210000000 start:4200000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4210000001 ~ 4220000000 start:4210000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4220000001 ~ 4230000000 start:4220000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4230000001 ~ 4240000000 start:4230000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4240000001 ~ 4250000000 start:4240000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4250000001 ~ 4260000000 start:4250000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4260000001 ~ 4270000000 start:4260000001
+Apr 17 23:35:52 :: ItemIDRange: Build: 4270000001 ~ 4280000000 start:4270000001
+Apr 17 23:35:52 :: Metin2DBCacheServer Start
+
+Apr 17 23:35:52 :: ClientManager pointer is 0xbfbfd41c
+Apr 17 23:35:52 :: GUILD_RANK: [KL]Frozen                1 0
+SYSERR: Apr 17 23:35:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+Apr 17 23:35:56 :: Connection accepted. (host: 127.0.0.1 handle: 1 fd: 20)
+Apr 17 23:35:56 :: ACCEPT FROM 127.0.0.1
+Apr 17 23:35:56 :: AUTH_PEER ptr 0x28ff7180
+Apr 17 23:35:56 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(oxevent_status 0) 
+SYSERR: Apr 17 23:36:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+Apr 17 23:36:01 :: Connection accepted. (host: 127.0.0.1 handle: 2 fd: 21)
+Apr 17 23:36:01 :: ACCEPT FROM 127.0.0.1
+Apr 17 23:36:02 :: GM: PID 121 Login metin2 Character [Frozen] ContactIP  ServerIP ALL Authority 5[IMPLEMENTOR]
+Apr 17 23:36:02 :: BOOT: PACKET: 4229965
+Apr 17 23:36:02 :: BOOT: VERSION: 6
+Apr 17 23:36:02 :: sizeof(TMobTable) = 255
+Apr 17 23:36:02 :: sizeof(TItemTable) = 172
+Apr 17 23:36:02 :: sizeof(TShopTable) = 1049
+Apr 17 23:36:02 :: sizeof(TSkillTable) = 1475
+Apr 17 23:36:02 :: sizeof(TRefineTable) = 53
+Apr 17 23:36:02 :: sizeof(TItemAttrTable) = 69
+Apr 17 23:36:02 :: sizeof(TItemRareTable) = 69
+Apr 17 23:36:02 :: sizeof(TBanwordTable) = 25
+Apr 17 23:36:02 :: sizeof(TLand) = 36
+Apr 17 23:36:02 :: sizeof(TObjectProto) = 96
+Apr 17 23:36:02 :: sizeof(TObject) = 40
+Apr 17 23:36:02 :: sizeof(tAdminInfo) = 104 * 4229965 
+Apr 17 23:36:02 :: sizeof(TMonarchInfo) = 304 * 4229965
+Apr 17 23:36:02 :: reallocating buffer to 8388608, current 2097152
+Apr 17 23:36:02 :: ItemIDRange: SET  10000001 ~ 20000000 start: 10001721
+Apr 17 23:36:02 :: ItemIDRange: SPARE SET  20000001 ~ 30000000 start: 20000001
+Apr 17 23:36:02 :: Admin name [Frozen] ConntactIP 
+Apr 17 23:36:02 :: SETUP: channel 1 listen 13002 p2p 14000 count 1
+Apr 17 23:36:02 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(oxevent_status 0) 
+SYSERR: Apr 17 23:36:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+Apr 17 23:36:06 :: Connection accepted. (host: 127.0.0.1 handle: 3 fd: 22)
+Apr 17 23:36:06 :: ACCEPT FROM 127.0.0.1
+Apr 17 23:36:07 :: GM: PID 121 Login metin2 Character [Frozen] ContactIP  ServerIP ALL Authority 5[IMPLEMENTOR]
+Apr 17 23:36:07 :: BOOT: PACKET: 4229965
+Apr 17 23:36:07 :: BOOT: VERSION: 6
+Apr 17 23:36:07 :: sizeof(TMobTable) = 255
+Apr 17 23:36:07 :: sizeof(TItemTable) = 172
+Apr 17 23:36:07 :: sizeof(TShopTable) = 1049
+Apr 17 23:36:07 :: sizeof(TSkillTable) = 1475
+Apr 17 23:36:07 :: sizeof(TRefineTable) = 53
+Apr 17 23:36:07 :: sizeof(TItemAttrTable) = 69
+Apr 17 23:36:07 :: sizeof(TItemRareTable) = 69
+Apr 17 23:36:07 :: sizeof(TBanwordTable) = 25
+Apr 17 23:36:07 :: sizeof(TLand) = 36
+Apr 17 23:36:07 :: sizeof(TObjectProto) = 96
+Apr 17 23:36:07 :: sizeof(TObject) = 40
+Apr 17 23:36:07 :: sizeof(tAdminInfo) = 104 * 4229965 
+Apr 17 23:36:07 :: sizeof(TMonarchInfo) = 304 * 4229965
+Apr 17 23:36:07 :: reallocating buffer to 8388608, current 2097152
+Apr 17 23:36:07 :: ItemIDRange: SET  30000001 ~ 40000000 start: 30000046
+Apr 17 23:36:07 :: ItemIDRange: SPARE SET  40000001 ~ 50000000 start: 40000001
+Apr 17 23:36:07 :: Admin name [Frozen] ConntactIP 
+Apr 17 23:36:07 :: SETUP: channel 99 listen 13099 p2p 14099 count 2
+Apr 17 23:36:07 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(oxevent_status 0) 
+SYSERR: Apr 17 23:36:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:36:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:36:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+Apr 17 23:36:23 :: recved : HEADER_GD_BLOCK_COUNTRY_IP
+Apr 17 23:36:23 :: HEADER_GD_BLOCK_COUNTRY_IP received
+Apr 17 23:36:23 :: SendBlockedCountryIp start
+Apr 17 23:36:23 :: [DONE] CBlockCountry::SendBlockedCountryIp() : count = 1
+Apr 17 23:36:23 :: SendBlockedCountryIp end
+Apr 17 23:36:23 :: recved : HEADER_GD_BLOCK_COUNTRY_IP
+Apr 17 23:36:23 :: HEADER_GD_BLOCK_COUNTRY_IP received
+Apr 17 23:36:23 :: SendBlockedCountryIp start
+Apr 17 23:36:23 :: [DONE] CBlockCountry::SendBlockedCountryIp() : count = 1
+Apr 17 23:36:23 :: SendBlockedCountryIp end
+Apr 17 23:36:25 :: AUTH_LOGIN id(101) login(metin2) social_id(1234567) login_key(235827222), client_key(1443912789 1277033623 1152533643 330441961)
+Apr 17 23:36:26 :: LOGIN_BY_KEY success metin2 235827222 192.168.2.7
+SYSERR: Apr 17 23:36:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+Apr 17 23:36:26 :: RESULT_LOGIN: login success metin2 rows: 1
+Apr 17 23:36:26 :: [Frozen] 768000 1408000 hair 0
+Apr 17 23:36:31 :: LOGIN_BY_KEY success metin2 235827222 192.168.2.7
+SYSERR: Apr 17 23:36:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+Apr 17 23:36:31 :: RESULT_LOGIN: login success metin2 rows: 1
+Apr 17 23:36:31 :: [Frozen] 768000 1408000 hair 0
+Apr 17 23:36:32 :: [PLAYER_LOAD] Load from PlayerDB pid[121]
+Apr 17 23:36:32 :: QID_PLAYER 2 121
+Apr 17 23:36:32 :: SetPlay on 235827222 metin2
+Apr 17 23:36:32 :: QID_ITEM 2
+Apr 17 23:36:32 :: ITEM_LOAD: count 5 pid 121
+Apr 17 23:36:32 :: QID_QUEST 2
+Apr 17 23:36:32 :: QUEST_LOAD: count 26 PID 121
+Apr 17 23:36:32 :: info of pLoginData1 before call ItemAwardfunction 675550080
+Apr 17 23:36:32 :: QID_AFFECT 2
+Apr 17 23:36:32 :: AFFECT_LOAD: count 1 PID 121
+Apr 17 23:36:35 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolkirmizi 0) 
+Apr 17 23:36:35 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolsari 0) 
+Apr 17 23:36:35 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolmavi 0) 
+Apr 17 23:36:35 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolsinir 0) 
+Apr 17 23:36:35 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(vs_ac 0) 
+SYSERR: Apr 17 23:36:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:36:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:36:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:36:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+Apr 17 23:36:53 :: SetPlay off 235827222 metin2
+Apr 17 23:36:54 :: LOGIN_BY_KEY success metin2 235827222 192.168.2.7
+Apr 17 23:36:54 :: RESULT_LOGIN: login success metin2 rows: 1
+Apr 17 23:36:54 :: [Frozen] 808700 1447100 hair 0
+Apr 17 23:36:54 :: SetPlay on 235827222 metin2
+Apr 17 23:36:54 :: [PLAYER_LOAD] ID [Frozen] pid 121 gold 331387915 
+Apr 17 23:36:55 :: QID_QUEST 3
+Apr 17 23:36:55 :: QUEST_LOAD: count 26 PID 121
+Apr 17 23:36:55 :: info of pLoginData1 before call ItemAwardfunction 675550080
+Apr 17 23:36:55 :: QID_AFFECT 3
+Apr 17 23:36:55 :: AFFECT_LOAD: count 1 PID 121
+SYSERR: Apr 17 23:36:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+Apr 17 23:36:58 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolkirmizi 0) 
+Apr 17 23:36:58 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolsari 0) 
+Apr 17 23:36:58 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolmavi 0) 
+Apr 17 23:36:58 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolsinir 0) 
+Apr 17 23:36:58 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(vs_ac 0) 
+SYSERR: Apr 17 23:37:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:37:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:37:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+Apr 17 23:37:16 :: SetPlay off 235827222 metin2
+SYSERR: Apr 17 23:37:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+Apr 17 23:37:16 :: LOGIN_BY_KEY success metin2 235827222 192.168.2.7
+Apr 17 23:37:17 :: RESULT_LOGIN: login success metin2 rows: 1
+Apr 17 23:37:17 :: [Frozen] 808700 1447100 hair 0
+Apr 17 23:37:17 :: SetPlay on 235827222 metin2
+Apr 17 23:37:17 :: [PLAYER_LOAD] ID [Frozen] pid 121 gold 331387915 
+Apr 17 23:37:17 :: QID_QUEST 4
+Apr 17 23:37:17 :: QUEST_LOAD: count 26 PID 121
+Apr 17 23:37:17 :: info of pLoginData1 before call ItemAwardfunction 675550080
+Apr 17 23:37:17 :: QID_AFFECT 4
+Apr 17 23:37:19 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolkirmizi 0) 
+Apr 17 23:37:19 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolsari 0) 
+Apr 17 23:37:19 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolmavi 0) 
+Apr 17 23:37:19 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolsinir 0) 
+Apr 17 23:37:19 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(vs_ac 0) 
+SYSERR: Apr 17 23:37:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:37:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+Apr 17 23:37:31 :: SetPlay off 235827222 metin2
+Apr 17 23:37:31 :: LOGIN_BY_KEY success metin2 235827222 192.168.2.7
+SYSERR: Apr 17 23:37:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+Apr 17 23:37:31 :: RESULT_LOGIN: login success metin2 rows: 1
+Apr 17 23:37:31 :: [Frozen] 969600 278400 hair 0
+Apr 17 23:37:32 :: SetPlay on 235827222 metin2
+Apr 17 23:37:32 :: [PLAYER_LOAD] ID [Frozen] pid 121 gold 331387915 
+Apr 17 23:37:32 :: QID_QUEST 6
+Apr 17 23:37:32 :: QUEST_LOAD: count 26 PID 121
+Apr 17 23:37:32 :: info of pLoginData1 before call ItemAwardfunction 675550080
+Apr 17 23:37:32 :: QID_AFFECT 6
+Apr 17 23:37:32 :: AFFECT_LOAD: count 1 PID 121
+Apr 17 23:37:34 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolkirmizi 0) 
+Apr 17 23:37:34 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolsari 0) 
+Apr 17 23:37:34 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolmavi 0) 
+Apr 17 23:37:34 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(3yolsinir 0) 
+Apr 17 23:37:34 :: HEADER_GD_SET_EVENT_FLAG : No Changed CClientmanager::SetEventFlag(vs_ac 0) 
+SYSERR: Apr 17 23:37:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:37:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:37:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:37:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:37:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:38:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:38:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:38:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:38:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:38:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:38:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:38:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:38:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:38:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:38:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:38:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:38:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:39:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:39:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:39:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:39:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:39:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:39:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:39:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:39:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:39:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:39:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:39:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:39:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:40:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:40:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:40:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:40:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:40:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:40:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:40:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:40:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:40:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:40:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:40:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:40:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:41:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:41:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:41:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:41:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:41:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:41:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:41:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:41:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:41:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:41:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:41:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:41:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:42:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:42:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:42:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:42:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:42:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:42:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:42:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:42:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:42:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:42:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:42:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:42:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:43:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:43:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:43:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:43:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:43:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:43:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:43:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:43:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:43:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:43:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:43:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:43:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:44:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:44:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:44:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:44:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:44:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:44:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:44:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:44:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:44:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:44:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:44:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:44:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:45:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:45:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:45:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:45:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:45:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:45:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:45:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:45:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:45:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:45:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:45:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:45:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:46:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:46:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:46:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:46:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:46:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:46:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:46:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:46:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:46:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:46:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:46:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:46:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:47:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:47:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:47:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:47:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:47:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:47:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:47:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:47:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:47:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:47:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:47:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:47:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:48:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:48:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:48:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:48:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:48:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:48:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:48:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:48:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:48:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:48:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:48:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:48:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:49:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:49:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:49:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:49:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:49:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:49:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:49:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:49:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:49:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:49:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:49:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:49:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:50:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:50:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:50:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:50:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:50:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:50:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:50:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:50:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:50:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:50:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:50:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:50:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:51:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:51:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:51:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:51:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:51:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:51:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:51:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:51:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:51:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:51:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:51:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:51:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:52:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:52:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:52:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:52:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:52:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:52:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:52:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:52:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:52:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:52:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:52:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:52:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:53:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:53:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:53:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:53:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:53:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:53:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:53:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:53:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:53:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:53:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:53:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:53:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:54:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:54:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:54:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:54:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:54:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:54:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:54:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:54:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:54:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:54:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:54:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:54:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:55:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:55:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:55:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:55:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:55:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:55:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:55:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:55:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:55:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:55:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:55:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:55:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:56:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:56:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:56:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:56:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:56:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:56:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:56:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:56:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:56:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:56:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:56:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:56:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:57:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:57:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:57:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:57:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:57:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:57:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:57:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:57:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:57:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:57:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:57:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:57:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:58:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:58:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:58:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:58:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:58:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:58:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:58:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:58:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:58:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:58:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:58:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:58:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:59:01 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:59:06 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:59:11 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:59:16 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:59:21 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:59:26 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:59:31 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:59:36 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:59:41 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:59:46 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:59:51 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+SYSERR: Apr 17 23:59:56 :: ChildLoop: AsyncSQL: query failed: Unknown column 'socket3' in 'field list' (query: SELECT id,login,vnum,count,socket0,socket1,socket2,socket3,socket4,socket5,mall,why FROM item_award WHERE taken_time IS NULL and id > 0 errno: 1054)
+Apr 18 00:00:00 :: SYSTEM_CMD: rm -rf ./log/20160415
+Apr 18 00:00:00 :: SYSTEM: LOG ROTATE (2016-04-18 23)

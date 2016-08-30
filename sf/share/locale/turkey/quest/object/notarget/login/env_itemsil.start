@@ -1,0 +1,1 @@
+cmdchat ( "ItemSil_Index " .. q . getcurrentquestindex ( ) ) 

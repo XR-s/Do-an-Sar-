@@ -1,0 +1,7 @@
+if npc . get_race ( ) == 1001 or npc . get_race ( ) == 1002 or npc . get_race ( ) == 1003 or npc . get_race ( ) == 1004 then 
+local s = number ( 1 , 300 ) 
+if s == 1 then 
+pc . give_item2 ( 30222 , 1 ) 
+send_letter ( "Sagyinin Ruh Taþý'ný kazandýn." ) 
+end 
+end 

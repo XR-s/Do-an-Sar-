@@ -1,0 +1,8 @@
+if game . get_event_flag ( "football_drop" ) == 1 and not npc . is_pc ( ) then if npc . get_level ( ) > pc . get_level ( ) - 10 then 
+local s = number ( 1 , 250 ) 
+if s == 1 then 
+game . drop_item_with_ownership ( "50096" , 1 ) 
+return 
+end 
+end 
+ return end 

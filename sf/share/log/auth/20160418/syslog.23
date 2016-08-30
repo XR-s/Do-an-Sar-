@@ -1,0 +1,84 @@
+SYSERR: Apr 17 23:35:56 :: pid_init: 
+Start of pid: 901
+
+Apr 17 23:35:56 :: SYSTEM: BINDING TCP PORT ON [11006] (fd 12)
+Apr 17 23:35:56 :: SYSTEM: BINDING TCP PORT ON [11016] (fd 13)
+Apr 17 23:35:56 :: SYSTEM: Trying to connect to localhost:15000
+Apr 17 23:35:56 :: SYSTEM: connected to server (fd 14, ptr 0x295c7700)
+Apr 17 23:35:56 :: Initializing Guild
+Apr 17 23:35:56 :: 	No need for auth server
+Apr 17 23:35:56 :: FISH: ²Î                       vnum     0 prob 3000 3000 2100 2000 len 0 0 0
+Apr 17 23:35:56 :: FISH: ±Ý¹ÝÁö                   vnum 50002 prob   50   50  200  200 len 0 0 0
+Apr 17 23:35:56 :: FISH: ÇÇ¶ó¹Ì                   vnum 27802 prob 2000 1800  800 2200 len 500 550 600
+Apr 17 23:35:56 :: FISH: ºØ¾î                     vnum 27803 prob 1950 1600  800  700 len 1000 2500 2800
+Apr 17 23:35:56 :: FISH: ½î°¡¸®                   vnum 27804 prob  900  800  700  600 len 2000 3500 3800
+Apr 17 23:35:56 :: FISH: ¿ùÃ´ºØ¾î                 vnum 27805 prob  700  700  700  600 len 3030 3500 4300
+Apr 17 23:35:56 :: FISH: À×¾î                     vnum 27806 prob  200  300  600  800 len 4000 6000 10000
+Apr 17 23:35:56 :: FISH: ¿¬¾î                     vnum 27807 prob  200  200  500  600 len 6000 8000 10000
+Apr 17 23:35:56 :: FISH: Çâ¾î                     vnum 27808 prob  100  100  250  200 len 1500 3000 3800
+Apr 17 23:35:56 :: FISH: ¼Û¾î                     vnum 27809 prob  100  100  250  350 len 5000 7000 8000
+Apr 17 23:35:56 :: FISH: ¹Î¹°Àå¾î                 vnum 27810 prob    0  100  250  200 len 4000 5000 6000
+Apr 17 23:35:56 :: FISH: ¹«Áö°³¼Û¾î               vnum 27811 prob    0  100  250  150 len 5000 7000 8000
+Apr 17 23:35:56 :: FISH: °­¼Û¾î                   vnum 27812 prob    0  100  250  150 len 4000 6000 7000
+Apr 17 23:35:56 :: FISH: ·¯µå                     vnum 27813 prob    0  100  200  100 len 4000 6000 10000
+Apr 17 23:35:56 :: FISH: ÆÛÄ¡                     vnum 27814 prob    0  100  200  100 len 3000 4000 5000
+Apr 17 23:35:56 :: FISH: ÅÙÄ¡                     vnum 27815 prob    0   50  200  100 len 3500 5500 8000
+Apr 17 23:35:56 :: FISH: ¸Þ±â                     vnum 27816 prob   50   50  200  100 len 3000 5000 10000
+Apr 17 23:35:56 :: FISH: ¹Ì²Ù¶óÁö                 vnum 27817 prob    0    0    0    0 len 1800 2200 3000
+Apr 17 23:35:56 :: FISH: ¹é·Ã                     vnum 27818 prob   50   50  200  100 len 5000 8000 10000
+Apr 17 23:35:56 :: FISH: Àº¾î                     vnum 27819 prob    0    0    0    0 len 1500 3000 3800
+Apr 17 23:35:56 :: FISH: ºù¾î                     vnum 27820 prob    0    0    0    0 len 1500 3000 3800
+Apr 17 23:35:56 :: FISH: ½¬¸®                     vnum 27821 prob    0    0    0    0 len 1000 1500 2000
+Apr 17 23:35:56 :: FISH: ºñ´ÃÀ×¾î                 vnum 27822 prob    0    0    0    0 len 4000 6000 10000
+Apr 17 23:35:56 :: FISH: È²±ÝºØ¾î                 vnum 27823 prob    0    0    0    0 len 1000 3000 3500
+Apr 17 23:35:56 :: FISH: Å»»ö¾à                   vnum 70201 prob  100  100    0    0 len 0 0 0
+Apr 17 23:35:56 :: FISH: ¿°»ö¾à(Èò»ö)             vnum 70202 prob   85   85    0    0 len 0 0 0
+Apr 17 23:35:56 :: FISH: ¿°»ö¾à(±Ý»ö)             vnum 70203 prob   85   85    0    0 len 0 0 0
+Apr 17 23:35:56 :: FISH: ¿°»ö¾à(»¡°£»ö)           vnum 70204 prob   85   85    0    0 len 0 0 0
+Apr 17 23:35:56 :: FISH: ¿°»ö¾à(°¥»ö)             vnum 70205 prob   85   85    0    0 len 0 0 0
+Apr 17 23:35:56 :: FISH: ¿°»ö¾à(°ËÀº»ö)           vnum 70206 prob   85   85    0    0 len 0 0 0
+Apr 17 23:35:56 :: FISH: ÀºµÐÀÚÀÇ ¸ÁÅä            vnum 70048 prob   25   25  200  100 len 0 0 0
+Apr 17 23:35:56 :: FISH: Çà¿îÀÇ ¹ÝÁö              vnum 70049 prob   25   25  200  100 len 0 0 0
+Apr 17 23:35:56 :: FISH: ¼±¿ÕÀÇ ÁõÇ¥              vnum 70050 prob   25   25  200  100 len 0 0 0
+Apr 17 23:35:56 :: FISH: ¼±¿ÕÀÇ Àå°©              vnum 70051 prob   25   25  200  100 len 0 0 0
+Apr 17 23:35:56 :: FISH: ±Ýµ¢¾î¸®                 vnum 80008 prob   25   25  100  100 len 0 0 0
+Apr 17 23:35:56 :: FISH: Àº¿­¼è                   vnum 50009 prob    0    0  150  100 len 0 0 0
+Apr 17 23:35:56 :: FISH: ±Ý¿­¼è                   vnum 50008 prob    0    0  100   50 len 0 0 0
+Apr 17 23:35:56 :: FISH: prob table 0 9950
+Apr 17 23:35:56 :: FISH: prob table 1 9950
+Apr 17 23:35:56 :: FISH: prob table 2 9800
+Apr 17 23:35:56 :: FISH: prob table 3 9900
+Apr 17 23:35:56 :: Cube_Init locale/turkey/cube.txt
+Apr 17 23:35:56 :: Blend_Item_init locale/turkey/blend.txt 
+Apr 17 23:36:25 :: SYSTEM: new connection from [192.168.2.7] fd: 15 handshake 1002070377 output input_len 0, ptr 0x28d0d000
+Apr 17 23:36:25 :: Handshake: lower than zero -10
+Apr 17 23:36:25 :: Handshake: client_time 0 server_time 29610
+Apr 17 23:36:25 :: AUTH_PHASE 0x28d0d000
+Apr 17 23:36:25 :: InputAuth::Login : metin2(6) desc 0x28d0d000
+Apr 17 23:36:25 :: SetLoginKey 235827222
+Apr 17 23:36:25 :: InputAuth::Login : key 235827222:0x4303b0b6 login metin2
+Apr 17 23:36:25 :: QID_AUTH_LOGIN: START 235827222 0x28d0d000
+Apr 17 23:36:25 :: Create_Time 0 19700101
+Apr 17 23:36:25 :: Block Time -2 
+Apr 17 23:36:25 :: SetRemainSecs metin2 0 type 2
+Apr 17 23:36:25 :: SendAuthLogin metin2 key 101
+Apr 17 23:36:26 :: AuthLogin result 1 key 235827222
+Apr 17 23:36:26 :: SYSTEM: closing socket. DESC #15
+Apr 17 23:36:32 :: BILLING: ON metin2 key 235827222 ptr 0x28d7f160
+Apr 17 23:36:53 :: SetRemainSecs metin2 0 type 2
+Apr 17 23:36:53 :: BILLING: PUSH metin2 21 type 2
+Apr 17 23:36:53 :: BILLING: OFF metin2 key 235827222 ptr 0x28d7f160
+Apr 17 23:36:54 :: FLUSH_USE_TIME: count 1
+Apr 17 23:36:55 :: BILLING: ON metin2 key 235827222 ptr 0x28d7f160
+Apr 17 23:37:16 :: SetRemainSecs metin2 0 type 2
+Apr 17 23:37:16 :: BILLING: PUSH metin2 21 type 2
+Apr 17 23:37:16 :: BILLING: OFF metin2 key 235827222 ptr 0x28d7f160
+Apr 17 23:37:16 :: FLUSH_USE_TIME: count 1
+Apr 17 23:37:17 :: BILLING: ON metin2 key 235827222 ptr 0x28d7f160
+Apr 17 23:37:31 :: SetRemainSecs metin2 0 type 2
+Apr 17 23:37:31 :: BILLING: PUSH metin2 13 type 2
+Apr 17 23:37:31 :: BILLING: OFF metin2 key 235827222 ptr 0x28d7f160
+Apr 17 23:37:31 :: FLUSH_USE_TIME: count 1
+Apr 17 23:37:32 :: BILLING: ON metin2 key 235827222 ptr 0x28d7f160
+Apr 18 00:00:00 :: SYSTEM_CMD: rm -rf ./log/20160415
+Apr 18 00:00:00 :: SYSTEM: LOG ROTATE (2016-04-18 23)

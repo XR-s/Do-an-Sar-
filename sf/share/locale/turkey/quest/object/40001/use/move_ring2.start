@@ -1,0 +1,43 @@
+say_title ( "Dikkat Oku" ) 
+say ( "Karakter Degisimi" ) 
+say ( "Lutfen Giyili Olan Zirh,Kask ve Silahinizi" ) 
+say ( "Envantere Ýndiriniz." ) 
+say ( "Yuzugü Kullandiktan Sonra " ) 
+say ( "Karakter Atmayi Unutmayiniz." ) 
+local s = select ( "Savasci" , "Ninja" , "Sura" , "Saman" , "" ) 
+if s == 1 then 
+say_reward ( "Savasci mý Tercih Ediyorsun?" ) 
+pc . polymorph ( 4 , 3600 ) 
+setskin ( NOWINDOW ) 
+pc . change_sex ( ) 
+pc . polymorph ( "20032" ) 
+pc . remove_item ( 60003 ) 
+command ( "logout" ) 
+end 
+if s == 2 then 
+say_reward ( "Ninja mi Tercih Ediyorsun?" ) 
+pc . polymorph ( 5 , 3600 ) 
+setskin ( NOWINDOW ) 
+pc . change_sex ( ) 
+pc . polymorph ( "20032" ) 
+pc . remove_item ( 60003 ) 
+command ( "logout" ) 
+end 
+if s == 3 then 
+say_reward ( "Sura mi Tercih Ediyorsun?" ) 
+pc . polymorph ( 6 , 3600 ) 
+setskin ( NOWINDOW ) 
+pc . change_sex ( ) 
+pc . polymorph ( "20032" ) 
+pc . remove_item ( 60003 ) 
+command ( "logout" ) 
+end 
+if s == 4 then 
+say_reward ( "Saman mi Tercih Ediyorsun?" ) 
+pc . polymorph ( 7 , 3600 ) 
+setskin ( NOWINDOW ) 
+pc . change_sex ( ) 
+pc . polymorph ( "20032" ) 
+pc . remove_item ( 60003 ) 
+command ( "logout" ) 
+end 

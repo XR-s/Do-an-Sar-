@@ -1,0 +1,10 @@
+quest event_ayisigi_2014 begin
+	state start begin
+		when kill with game.get_event_flag("event_ayisigi_drop") == 1 and not npc.is_pc() begin
+		local s = number(1, 300)
+			if s == 1 then
+			game.drop_item_with_ownership("50011",1)
+			end
+		end
+	end
+end

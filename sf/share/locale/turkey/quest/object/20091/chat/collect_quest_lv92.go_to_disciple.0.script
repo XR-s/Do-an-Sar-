@@ -1,0 +1,86 @@
+if get_time ( ) > pc . getqf ( "duration" ) then 
+if pc . count_item ( 30251 ) > 0 then 
+say_title ( "Seon-Pyeong:" ) 
+say ( "Bir mücevher mi buldun? Harikasýn! Bir dakika" ) 
+say ( "bekle, bundan emin olmam lazým..." ) 
+say ( "" ) 
+pc . remove_item ( 30251 , 1 ) 
+if pc . is_gm ( ) then 
+pc . setqf ( "duration" , get_time ( ) + 2 ) 
+else 
+if game . get_event_flag ( "iade" ) == 1 then 
+pc . setqf ( "duration" , get_time ( ) + 60 * 59 * 2 ) 
+else 
+pc . setqf ( "duration" , get_time ( ) + 60 * 59 * 2 ) 
+end 
+end 
+wait ( ) 
+local pass_percent 
+if pc . is_gm ( ) then 
+pass_percent = 100 
+else 
+if pc . setf ( "collect_quest_luck" , "drink_drug" ) == 0 then 
+pass_percent = 25 
+else 
+pass_percent = 50 
+end 
+end 
+local s = number ( 1 , 100 ) 
+if s <= pass_percent then 
+if pc . getqf ( "collect_count" ) < 9 and not pc . is_gm ( ) then 
+local index = pc . getqf ( "collect_count" ) + 1 
+pc . setqf ( "collect_count" , index ) 
+say_title ( "Seon-Pyeong:" ) 
+say ( "Harika! Bu mücevher tam istediðim gibi." ) 
+say ( "Þimdi bana " .. 10 - pc . getqf ( "collect_count" ) .. " tane daha getirmelisin." ) 
+say ( "Bol þanslar!" ) 
+say ( "" ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+return 
+end 
+say_title ( "Seon-Pyeong:" ) 
+say ( "Bu en sonuncu mücevherdi, 10 tanesini de" ) 
+say ( "getirdin. Sana teþekkürü borç bilirim. Ödülünü " ) 
+say ( "vermede pinti davranmayacaðým. Dilediðini seç!" ) 
+pc . setqf ( "collect_count" , 10 ) 
+local s = select ( "Hayat Puaný +1000" , "Savunma +120" , "Saldýrý +50" ) 
+if 1 == s then 
+affect . add_collect ( apply . MAX_HP , 1000 , 60 * 60 * 24 * 365 * 60 ) 
+pc . setqf ( "92hp" , 1 ) 
+elseif 2 == s then 
+affect . add_collect ( apply . DEF_GRADE_BONUS , 120 , 60 * 60 * 24 * 365 * 60 ) 
+pc . setqf ( "92def" , 1 ) 
+elseif 3 == s then 
+affect . remove_collect ( apply . ATT_GRADE_BONUS , 50 , 60 * 60 * 24 * 365 * 60 ) 
+affect . add_collect ( apply . ATT_GRADE_BONUS , 100 , 60 * 60 * 24 * 365 * 60 ) 
+pc . setqf ( "92sd" , 1 ) 
+end 
+pc . delqf ( "collect_count" ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+pc . setqf ( "duration" , 0 ) 
+clear_letter ( ) 
+set_quest_state ( "collect_quest_lv94" , "run" ) 
+set_state ( "__complete" ) 
+return 
+else 
+say_title ( "Seon-Pyeong:" ) 
+say ( "Üzgünüm. Bu mücevher iþe yaramaz." ) 
+say ( "Baþka bir tane bulduðun da" ) 
+say ( "tekrar gel." ) 
+pc . setf ( "collect_quest_luck" , "drink_drug" , 0 ) 
+return 
+end 
+else 
+say ( "Chaegirab:" ) 
+say ( "" .. item_name ( 30251 ) .. " bulduðunda tekrar gel." ) 
+return 
+end 
+else 
+say_title ( "Seon-Pyeong:" ) 
+say ( "Üzgünüm." ) 
+say ( "Son getirdiðin mücevherin analizi " ) 
+say ( "henüz bitmedi. Sonra tekrar gelsen" ) 
+say ( "olur mu?" ) 
+say ( "" ) 
+return 
+end 

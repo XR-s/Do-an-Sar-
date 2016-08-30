@@ -1,0 +1,14 @@
+if pc . is_polymorphed ( ) then 
+say ( "" ) 
+say ( "Dönüþmüþ haldeyken binek kullanamazsýn." ) 
+say ( "" ) 
+elseif false == pc . is_riding ( ) then 
+if true == horse . is_summon ( ) then 
+horse . unsummon ( ) 
+end 
+ride . Ride ( item . vnum , 0 ) 
+else 
+say ( "" ) 
+say ( "Zaten bir binek kullanýyorsun." ) 
+say ( "" ) 
+end 

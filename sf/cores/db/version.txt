@@ -1,0 +1,2 @@
+Metin2 db perforce revision: 50050
+root@:/usr/src/GameBuild/db/src

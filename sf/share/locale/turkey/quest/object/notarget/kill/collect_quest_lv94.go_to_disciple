@@ -1,0 +1,7 @@
+if npc . get_race ( ) == 2412 or npc . get_race ( ) == 2413 then 
+local a = number ( 1 , 200 ) 
+if a <= 5 and pc . count_item ( 30252 ) == 0 then 
+pc . give_item2 ( 30252 , 1 ) 
+send_letter ( "Bir mücevher buldun" ) 
+end 
+end 

@@ -1,0 +1,35 @@
+target . delete ( "__TARGET__" ) 
+if pc . count_item ( 30228 ) > 0 then 
+say_title ( "Seon-Pyeong:" ) 
+say ( "Bu...Ýnanýlmaz bir þey! Ejderha'nýn Ruh Taþý!" ) 
+say ( "Senin bu yeteneðine son derece saygý duyuyorum." ) 
+say ( "Araþtýrmalarýmý yapmak için hiçbir engel yok" ) 
+say ( "artýk. Sana da hak ettiðin ödülü vereceðim. Ýþte" ) 
+say ( "seç!" ) 
+pc . remove_item ( 30228 , 1 ) 
+local s = select ( "Hayat Puaný +1100" , "Savunma +140" , "Saldýrý +60" ) 
+if s == 3 then 
+affect . add_collect ( apply . ATT_GRADE_BONUS , 60 , 60 * 60 * 24 * 365 * 60 ) 
+pc . setqf ( "94sd" , 1 ) 
+pc . delqf ( "collect_count" ) 
+set_state ( "__complete" ) 
+clear_letter ( ) 
+elseif s == 2 then 
+affect . add_collect ( apply . DEF_GRADE_BONUS , 140 , 60 * 60 * 24 * 365 * 60 ) 
+pc . setqf ( "94def" , 1 ) 
+pc . delqf ( "collect_count" ) 
+set_state ( "__complete" ) 
+clear_letter ( ) 
+elseif s == 1 then 
+affect . add_collect ( apply . MAX_HP , 1100 , 60 * 60 * 24 * 365 * 60 ) 
+pc . setqf ( "94hp" , 1 ) 
+pc . delqf ( "collect_count" ) 
+set_state ( "__complete" ) 
+clear_letter ( ) 
+end 
+else 
+say ( "Seon-Pyeong" ) 
+say ( "" .. item_name ( 30228 ) .. " bulduðunda tekrar gel!" ) 
+say ( "" ) 
+return 
+end 

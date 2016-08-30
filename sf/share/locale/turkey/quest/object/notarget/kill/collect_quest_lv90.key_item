@@ -1,0 +1,7 @@
+if npc . get_race ( ) == 1092 or npc . get_race ( ) == 1093 or npc . get_race ( ) == 1304 or npc . get_race ( ) == 2206 or npc . get_race ( ) == 2091 or npc . get_race ( ) == 1901 then 
+local s = number ( 1 , 100 ) 
+if s <= 60 and pc . count_item ( 30227 ) == 0 then 
+pc . give_item2 ( 30227 , 1 ) 
+send_letter ( "Liderlerin Ruh Taþý'ný buldun" ) 
+end 
+end 

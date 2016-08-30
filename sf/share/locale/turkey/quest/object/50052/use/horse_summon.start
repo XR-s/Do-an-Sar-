@@ -1,0 +1,47 @@
+if horse . get_grade ( ) == 0 then say_title ( "Bilgi:" ) 
+say ( "" ) 
+say_reward ( "Orta seviyedeki atı çağırman için" ) 
+say_reward ( "acemi at görevini" ) 
+say_reward ( "yapman lazım." ) 
+say ( "" ) 
+ return end if horse . get_grade ( ) == 1 then say_title ( "Bilgi:" ) 
+say ( "" ) 
+say_reward ( "Acemi atı çağırman için," ) 
+say_reward ( "at resmi lazım." ) 
+ return end if horse . get_grade ( ) == 2 then if pc . get_map_index ( ) == 113 then 
+say_title ( "Bilgi:" ) 
+say ( "" ) 
+say_reward ( "O-X yarışmasında bulunduğun sırada" ) 
+say_reward ( "atını çağıramazsın." ) 
+say ( "" ) 
+else 
+if pc . getsp ( ) >= 200 then 
+if number ( 1 , 100 ) <= horse_summon . get_horse_summon_prob_pct ( ) then 
+say_title ( "Bilgi:" ) 
+say ( "" ) 
+say_reward ( "İleri seviyedeki at çağırıldı." ) 
+say ( "" ) 
+horse . summon ( ) 
+else 
+say_title ( "Bilgi:" ) 
+say ( "" ) 
+say_reward ( "Olmadı - Zırhlı at çağırma başarısız. At Çağırma" ) 
+say_reward ( "yeteneğini geliştirerek çağırma şansını " ) 
+say_reward ( "arttırabilirsin." ) 
+end 
+pc . change_sp ( - 200 ) 
+else 
+say_title ( "Bilgi:" ) 
+say ( "" ) 
+say_reward ( "Zihinsel gücün az. Zırhlı atı çağırabilmen için" ) 
+say_reward ( "en az 200 Mana Puanına sahip olman gerekir." ) 
+say ( "" ) 
+end 
+end 
+ return end if horse . get_grade ( ) == 3 then say_title ( "Bilgi:" ) 
+say ( "" ) 
+say_reward ( "Asker atı çağırman için" ) 
+say_reward ( "sana Asker At Kitabı " ) 
+say_reward ( "lazım." ) 
+say ( "" ) 
+ return end 

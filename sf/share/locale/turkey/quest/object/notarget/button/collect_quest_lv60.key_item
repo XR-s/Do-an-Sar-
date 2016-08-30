@@ -1,0 +1,13 @@
+if pc . count_item ( 30223 ) > 0 then 
+say_title ( "Aurtumryunun Ruh Taþý " ) 
+say ( "Sonunda Aurtumryunun Ruh Taþýný buldun! Onu " ) 
+say ( "biyolog Chaegirab'a götür. Seni bekliyor." ) 
+return 
+end 
+say_title ( "Aurtumryunun Ruh Taþý" ) 
+say ( "Uriel'in öðrencisi Chaegirab'in incelemesi için" ) 
+say ( "ona Buz daðýndan 20 tane buz topu getirdin." ) 
+say ( "Son olarak Aurtumryunun Ruh Taþý lazým." ) 
+say_item_vnum ( 30223 ) 
+say ( "Batýdaki buz daðýna gidip, Onu Chaegirab'a" ) 
+say ( "getirmelisin." ) 

@@ -1,0 +1,4 @@
+local kirmizipuan = game . get_event_flag ( "3yolkirmizi" ) 
+local saripuan = game . get_event_flag ( "3yolsari" ) 
+local mavipuan = game . get_event_flag ( "3yolmavi" ) 
+notice_all ( " Shinsoo: " .. kirmizipuan .. " Chunjo: " .. saripuan .. " Jinno: " .. mavipuan .. " " ) 

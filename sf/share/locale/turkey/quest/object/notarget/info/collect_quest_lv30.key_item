@@ -1,0 +1,17 @@
+if pc . count_item ( 30220 ) > 0 then 
+say_title ( "Jinunggy'nin Ruh Taþý " ) 
+say ( "Sonunda Jinunggy'nin Ruh Taþý'ný buldun! Onu" ) 
+say ( "biyolog Chaegirab'a götür. Seni bekliyor." ) 
+return 
+end 
+say_title ( "Jinunggy'nin Ruh Taþý " ) 
+say ( "" ) 
+say ( "Araþtýrmasý için ona " ) 
+say ( "10 ork azý diþi bulduktan sonra," ) 
+say ( "Jinunggy'nin ruh taþý lazým." ) 
+say_item_vnum ( 30220 ) 
+say ( "Taþý Biyolog Chaegirab'a götür." ) 
+say ( "Ruh Taþýný " .. mob_name ( 635 ) .. " , " ) 
+say ( "" .. mob_name ( 636 ) .. " ve " .. mob_name ( 637 ) .. "" ) 
+say ( "den alabilirsin." ) 
+say ( "" ) 

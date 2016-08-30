@@ -1,0 +1,2 @@
+if pc . get_map_index ( ) == 356 and game . get_event_flag ( "girisleracik" ) == 0 and not pc . is_gm ( ) then warp_to_village ( ) 
+ return end 

@@ -1,0 +1,54 @@
+if npc . is_pc ( ) then if forked . isforkedmapindex ( pc . get_map_index ( ) ) == true then 
+if npc . empire ~= pc . empire then 
+if pc . get_empire ( ) == 1 then 
+if game . get_event_flag ( "3yolsinir" ) > game . get_event_flag ( "3yolkirmizi" ) then 
+local kirmiziflag = game . get_event_flag ( "3yolkirmizi" ) 
+game . set_event_flag ( "3yolkirmizi" , kirmiziflag + 1 ) 
+server_timer ( "puanduyur" , 5 ) 
+chat ( " Tebrikler.. " ) 
+chat ( " Sayende krallýðýn bir puan daha kazandý. " ) 
+elseif game . get_event_flag ( "3yolsinir" ) == game . get_event_flag ( "3yolkirmizi" ) then 
+notice_all ( " Ýmparatorluk savaþýný, Shinsoo Krallýðý kazandý. " ) 
+game . set_event_flag ( "threeway_war" , 0 ) 
+forked . purge_all_monsters ( ) 
+warp_all_to_village ( forked . getsungzimapindex ( ) , 1 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 1 ) , 1 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 2 ) , 1 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 3 ) , 1 ) 
+end 
+elseif pc . get_empire ( ) == 2 then 
+if game . get_event_flag ( "3yolsinir" ) > game . get_event_flag ( "3yolsari" ) then 
+local sariflag = game . get_event_flag ( "3yolsari" ) 
+game . set_event_flag ( "3yolsari" , sariflag + 1 ) 
+server_timer ( "puanduyur" , 15 ) 
+chat ( " Tebrikler.. " ) 
+chat ( " Sayende krallýðýn bir puan daha kazandý. " ) 
+elseif game . get_event_flag ( "3yolsinir" ) == game . get_event_flag ( "3yolsari" ) then 
+notice_all ( " 3 Yol Savaþýný Chunjo Krallýðý Kazandý. " ) 
+game . set_event_flag ( "threeway_war" , 0 ) 
+forked . purge_all_monsters ( ) 
+warp_all_to_village ( forked . getsungzimapindex ( ) , 1 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 1 ) , 1 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 2 ) , 1 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 3 ) , 1 ) 
+end 
+elseif pc . get_empire ( ) == 3 then 
+if game . get_event_flag ( "3yolsinir" ) > game . get_event_flag ( "3yolmavi" ) then 
+local maviflag = game . get_event_flag ( "3yolmavi" ) 
+game . set_event_flag ( "3yolmavi" , maviflag + 1 ) 
+server_timer ( "puanduyur" , 15 ) 
+chat ( " Tebrikler.. " ) 
+chat ( " Sayende krallýðýn bir puan daha kazandý. " ) 
+elseif game . get_event_flag ( "3yolsinir" ) == game . get_event_flag ( "3yolmavi" ) then 
+notice_all ( " Ýmparatorluk savaþýný, Jinno Krallýðý kazandý. " ) 
+game . set_event_flag ( "threeway_war" , 0 ) 
+forked . purge_all_monsters ( ) 
+warp_all_to_village ( forked . getsungzimapindex ( ) , 1 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 1 ) , 1 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 2 ) , 1 ) 
+warp_all_to_village ( forked . getpassmapindexbyempire ( 3 ) , 1 ) 
+end 
+end 
+end 
+end 
+ return end 
