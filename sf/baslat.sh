@@ -21,21 +21,21 @@ case $chs in
 	
 	clear
 	echo -e "\033[32m \nLOGLAR TEMIZLENIYOR ..\033[0m"
-	cd /usr/game && sh temizle.sh
+	cd /usr/gamer && sh temizle.sh
 	sleep 2
 	clear
 	echo -e "\033[32m \nDB ACILIYOR ..\033[0m"
-	cd /usr/game/cores/db/
+	cd /usr/gamer/cores/db/
 	./db &
 	sleep 5
 	clear
 	echo -e "\033[32m \nGIRISLER ACILIYOR ..\033[0m"
-	cd /usr/game/cores/auth/
+	cd /usr/gamer/cores/auth/
 	./game &
 	sleep 5
 	clear
 	echo -e "\033[32m \nKANAL1 ACILIYOR ..\033[0m"
-	cd /usr/game/cores/channel1/
+	cd /usr/game/cores/channel11/
 	./game &
 	sleep 5
 	clear
