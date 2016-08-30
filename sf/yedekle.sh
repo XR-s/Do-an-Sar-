@@ -1,6 +1,6 @@
 clear
 echo
-echo -e "\033[32mMETIN2! \033[0m"
+echo -e "\033[32mLion2Online! \033[0m"
 echo
 echo -e "\033[32m
 ISLEMINIZ GERCEKLESTIRILIYOR. \n
